@@ -16,6 +16,7 @@ setup_event_loop_policy()
 
 from fastapi import FastAPI  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
+from fastapi.middleware.gzip import GZipMiddleware  # noqa: E402
 from fastapi.responses import FileResponse  # noqa: E402
 from fastapi.staticfiles import StaticFiles  # noqa: E402
 
@@ -67,6 +68,11 @@ app.add_middleware(
     allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
+
+# 出口压缩：免费穿透隧道（cpolar 免费档 1Mbps 共享带宽）下首屏要传 2.5MB 未压缩
+# 静态资源，gzip 后约 0.6MB，传输时间降到 1/4。compresslevel=6 兼顾压缩率与 CPU
+# （多观众并发时压缩在服务端线程池执行，等级太高会拖慢响应）。
+app.add_middleware(GZipMiddleware, minimum_size=500, compresslevel=6)
 
 app.include_router(api_router, prefix=settings.api_prefix)
 
