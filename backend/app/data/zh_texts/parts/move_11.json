@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 11,
+ "_count": 80,
+ "items": {
+  "struggle": {
+   "effect": "Inflicts typeless regular damage.  User takes 1/4 its max HP in recoil.  Ignores accuracy and evasion modifiers.\n\nThis move is used automatically when a Pokémon cannot use any other move legally, e.g., due to having no PP remaining or being under the effect of both Encore and Torment at the same time.\n\nThis move’s recoil is not treated as recoil for the purposes of anything that affects recoil, such as the ability Rock Head.  It also is not prevented by Magic Guard.\n\nThis move cannot be copied by Mimic, Mirror Move, or Sketch, nor selected by Assist or Metronome, nor forced by Encore.",
+   "flavor": "This attack is used in desperation only if the user\nhas no PP. It also damages the user a little."
+  },
+  "struggle-bug": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+   "flavor": "The user attacks by struggling against opposing Pokémon. This also lowers their Sp. Atk stats."
+  },
+  "stuff-cheeks": {
+   "effect": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect.",
+   "flavor": "The user eats its held Berry, then sharply boosts its Defense stat."
+  },
+  "stun-spore": {
+   "effect": "Paralyzes the target.",
+   "flavor": "The user scatters a cloud of numbing powder that paralyzes the target."
+  },
+  "submission": {
+   "effect": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+   "flavor": "The user grabs the target and recklessly dives for\nthe ground. This also damages the user a little."
+  },
+  "substitute": {
+   "effect": "Transfers 1/4 the user’s max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user’s stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user’s HP still do so; the doll’s HP does not influence any move.\n\nThe doll will block major status effects, confusion, and flinching.  The effects of Smelling Salts and Wake-Up Slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like Wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., Avalanche, Counter, or a Rowap Berry.  Magic Coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like Absorb are healed as normal.\n\nIt will also block Acupressure, Block, the curse effect of Curse, Dream Eater, Embargo, Flatter, Gastro Acid, Grudge, Heal Block, Leech Seed, Lock-On, Mean Look, Mimic, Mind Reader, Nightmare, Pain Split, Psycho Shift, Spider Web, Sketch, Swagger, Switcheroo, Trick, Worry Seed, and Yawn.  A Pokémon affected by Yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks Intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as Volt Absorb absorbing Thunder Wave), such moves will not be blocked.\n\nLife Orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by Pursuit or Spikes; however, the doll will block the poison effect of Toxic Spikes.\n\nThe doll is passed on by Baton Pass.  It keeps its existing HP, but uses the replacement Pokémon’s stats and types for damage calculation.\n\nAll other effects work as normal.",
+   "flavor": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy."
+  },
+  "subzero-slammer--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "subzero-slammer--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "sucker-punch": {
+   "effect": "Inflicts regular damage.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will fail.\n\nThis move is not affected by Iron Fist.",
+   "flavor": "This move enables the user to attack first. This move fails if the target is not readying an attack."
+  },
+  "sunny-day": {
+   "effect": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage.\n\nIf the user is holding Heat Rock, this effect lasts for eight turns.\n\nPokémon cannot become frozen.\n\nThunder has 50% accuracy.\n\nSolar Beam skips its charge turn.\n\nMoonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP.\n\nPokémon with Chlorophyll have doubled original Speed.\n\nPokémon with Forecast become Fire.\n\nPokémon with Leaf Guard are not affected by major status effects.\n\nPokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%.\n\nPokémon with Dry Skin lose 1/8 max HP at the end of each turn.\n\nPokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+   "flavor": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks."
+  },
+  "sunsteel-strike": {
+   "effect": "Inflicts regular damage.  Other Pokémon’s abilities cannot activate in response to this move.  In particular, it hits through Disguise",
+   "flavor": "The user slams into the target with the force of a meteor. This move can be used on the target regardless of its Ability."
+  },
+  "super-fang": {
+   "effect": "Inflicts typeless damage equal to half the target’s remaining HP.",
+   "flavor": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half."
+  },
+  "supercell-slam": {
+   "effect": "",
+   "flavor": "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead."
+  },
+  "superpower": {
+   "effect": "Inflicts regular damage, then lowers the user’s Attack and Defense by one stage each.",
+   "flavor": "The user attacks the target with great power. This also lowers the user's Attack and Defense stats."
+  },
+  "supersonic": {
+   "effect": "Confuses the target.",
+   "flavor": "The user generates odd sound waves from its body that confuse the target."
+  },
+  "supersonic-skystrike--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "supersonic-skystrike--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "surf": {
+   "effect": "Inflicts regular damage.\n\nIf the target is in the first turn of Dive, this move will hit with double power.",
+   "flavor": "The user attacks everything around it by swamping its surroundings with a giant wave."
+  },
+  "surging-strikes": {
+   "effect": "Hits three times. Always scores a critical hit.",
+   "flavor": "The user, having mastered the Water style, strikes the target with a flowing motion three times in a row. This move always lands a critical hit."
+  },
+  "swagger": {
+   "effect": "Raises the target’s Attack by two stages, then confuses it.  If the target’s Attack cannot be raised by two stages, the confusion is not applied.",
+   "flavor": "The user enrages and confuses the target. However, this also sharply boosts the target's Attack stat."
+  },
+  "swallow": {
+   "effect": "Heals the user depending on the amount of energy stored by Stockpile: 1/4 its max HP after one use, 1/2 its max HP after two uses, or fully after three uses.  Stored energy is consumed, and the user’s Defense and Special Defense are reset to what they would be if Stockpile had not been used.  If the user has no energy stored, this move will fail.",
+   "flavor": "The power stored using the move Stockpile is absorbed by the user to restore its own HP. The more power is stored, the more HP is restored."
+  },
+  "sweet-kiss": {
+   "effect": "Confuses the target.",
+   "flavor": "The user kisses the target with a sweet, angelic cuteness that causes confusion."
+  },
+  "sweet-scent": {
+   "effect": "Lowers the target’s evasion by one stage.",
+   "flavor": "The user releases a scent that harshly lowers opposing Pokémon's evasiveness."
+  },
+  "swift": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "Star-shaped rays are shot at opposing Pokémon. This attack never misses."
+  },
+  "switcheroo": {
+   "effect": "User and target permanently swap held items.  Works even if one of the Pokémon isn’t holding anything.  If either Pokémon is holding mail, this move will fail.\n\nIf either Pokémon has Multitype or Sticky Hold, this move will fail.\n\nIf this move results in a Pokémon obtaining Choice Band, Choice Scarf, or Choice Specs, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn.\n\nNeither the user nor the target can recover its item with Recycle.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "The user trades held items with the target faster than the eye can follow."
+  },
+  "swords-dance": {
+   "effect": "Raises the user’s Attack by two stages.",
+   "flavor": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat."
+  },
+  "synchronoise": {
+   "effect": "Inflicts regular damage.  Only Pokémon that share a type with the user will take damage from this move.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "synthesis": {
+   "effect": "Heals the user for half its max HP.\n\nDuring Sunny Day, the healing is increased to 2/3 max HP.\n\nDuring Hail, Rain Dance, or Sandstorm, the healing is decreased to 1/4 max HP.",
+   "flavor": "The user restores its own HP. The amount of HP regained varies with the weather."
+  },
+  "syrup-bomb": {
+   "effect": "",
+   "flavor": "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target's Speed stat to drop each turn for three turns."
+  },
+  "tachyon-cutter": {
+   "effect": "",
+   "flavor": "The user attacks by launching particle blades at the target twice in a row. This attack never misses."
+  },
+  "tackle": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "A physical attack in which the user charges and slams into the target with its whole body."
+  },
+  "tail-glow": {
+   "effect": "Raises the user’s Special Attack by three stages.",
+   "flavor": "The user stares at flashing lights to focus its mind, drastically boosting its Sp. Atk stat."
+  },
+  "tail-slap": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "The user attacks by striking the target with its hard tail. This move hits two to five times in a row."
+  },
+  "tail-whip": {
+   "effect": "Lowers the target’s Defense by one stage.",
+   "flavor": "The user wags its tail cutely, making opposing Pokémon less wary. This lowers their Defense stats."
+  },
+  "tailwind": {
+   "effect": "For the next three turns, all Pokémon on the user’s side of the field have their original Speed doubled.  This effect remains if the user leaves the field.",
+   "flavor": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns."
+  },
+  "take-down": {
+   "effect": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+   "flavor": "A reckless full-body charge attack for slamming into the target. This also damages the user a little."
+  },
+  "take-heart": {
+   "effect": "",
+   "flavor": "The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats."
+  },
+  "tar-shot": {
+   "effect": "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
+   "flavor": "The user pours sticky tar over the target, lowering the target's Speed stat. The target becomes weaker to Fire-type moves."
+  },
+  "taunt": {
+   "effect": "Target is forced to only use damaging moves for the next 3–5 turns, selected at random.  Moves that select other moves not known in advance do not count as damaging.\n\nAssist, Copycat, Me First, Metronome, Mirror Move, and Sleep Talk do not directly inflict damage and thus may not be used.\n\nBide, Counter, Endeavor, Metal Burst, and Mirror Coat are allowed.",
+   "flavor": "The target is taunted into a rage that allows it to use only attack moves for three turns."
+  },
+  "tearful-look": {
+   "effect": "Lowers the target’s Attack and Special Attack by one stage each.",
+   "flavor": "The user gets teary-eyed to make the target lose its combative spirit. This lowers the target's Attack and Sp. Atk stats."
+  },
+  "teatime": {
+   "effect": "All Pokemon on the field consume their held berries. This effect is not prevented by Substitute, Embargo, Magic Room, Klutz, or Unnerve. Fails if no active Pokemon is holding a berry.",
+   "flavor": "The user has teatime with all the Pokémon currently in the battle. Each Pokémon eats its held Berry."
+  },
+  "techno-blast": {
+   "effect": "Inflicts regular damage.  If the user is holding a plate or a drive, this move’s type is the type corresponding to that item.\n\nNote: This effect is technically shared by both Techno Blast and Judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+   "flavor": "The user fires a beam of light at its target. The\nmove’s type changes depending on the Drive the\nuser holds."
+  },
+  "tectonic-rage--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "tectonic-rage--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "teeter-dance": {
+   "effect": "Confuses all targets.",
+   "flavor": "The user performs a wobbly dance that confuses every Pokémon around it."
+  },
+  "telekinesis": {
+   "effect": "For three turns (including this one), moves used against the target have 100% accuracy, but the target is immune to Ground damage.  Accuracy of one-hit KO moves is exempt from this effect.\n\nThis effect is removed by Gravity.  If Gravity is already in effect, this move will fail.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "teleport": {
+   "effect": "Does nothing.  Wild battles end immediately.",
+   "flavor": "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees."
+  },
+  "temper-flare": {
+   "effect": "",
+   "flavor": "Spurred by desperation, the user attacks the target. This move's power is doubled if the user's previous move failed."
+  },
+  "tera-blast": {
+   "effect": "",
+   "flavor": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+  },
+  "tera-starstorm": {
+   "effect": "",
+   "flavor": "With the power of its crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon."
+  },
+  "terrain-pulse": {
+   "effect": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+   "flavor": "The user utilizes the energy of the terrain to attack. This move’s type and power change depending on the terrain at the time the move is used."
+  },
+  "thief": {
+   "effect": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with Sticky Hold or Multitype are immune to the item theft effect.\n\nThe target cannot recover its item with Recycle.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item."
+  },
+  "thousand-arrows": {
+   "effect": "Inflicts regular damage.  Grounds the target until it leaves battle.  Ignores levitation effects and the immunity of Flying-type Pokémon.",
+   "flavor": "This move also hits opposing Pokémon that are in\nthe air. Those Pokémon are knocked down to\nthe ground."
+  },
+  "thousand-waves": {
+   "effect": "Inflicts regular damage.  Traps the target.",
+   "flavor": "The user attacks with a wave that crawls along\nthe ground. Those it hits can’t flee from battle."
+  },
+  "thrash": {
+   "effect": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nSafeguard does not protect against the confusion from this move.",
+   "flavor": "The user rampages and attacks for two to three turns. The user then becomes confused."
+  },
+  "throat-chop": {
+   "effect": "Inflicts regular damage.  Silences the target for two turns, preventing it from using any sound-based moves.",
+   "flavor": "The user attacks the target's throat, and the resultant suffering prevents the target from using sound-based moves for two turns."
+  },
+  "thunder": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.\n\nDuring Rain Dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.\n\nDuring Sunny Day, this move has 50% accuracy.",
+   "flavor": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
+  },
+  "thunder-cage": {
+   "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+   "flavor": "The user traps the target inside a cage of sparking electricity that inflicts damage for four to five turns."
+  },
+  "thunder-fang": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target and a separate chance to make the target flinch.",
+   "flavor": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis."
+  },
+  "thunder-punch": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The target is attacked with an electrified punch. This may also leave the target with paralysis."
+  },
+  "thunder-shock": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The user attacks the target with a jolt of electricity. This may also leave the target with paralysis."
+  },
+  "thunder-wave": {
+   "effect": "Paralyzes the target.",
+   "flavor": "The user launches a weak jolt of electricity that paralyzes the target."
+  },
+  "thunderbolt": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis."
+  },
+  "thunderclap": {
+   "effect": "",
+   "flavor": "This move enables the user to attack first with a jolt of electricity. This move fails if the target is not readying an attack."
+  },
+  "thunderous-kick": {
+   "effect": "Inflicts regular damage.  Lowers the target’s Defense by one stage.",
+   "flavor": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target's Defense stat."
+  },
+  "tickle": {
+   "effect": "Lowers the target’s Attack and Defense by one stage.",
+   "flavor": "The user tickles the target into laughing, lowering its Attack and Defense stats."
+  },
+  "tidy-up": {
+   "effect": "",
+   "flavor": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user’s Attack and Speed stats."
+  },
+  "topsy-turvy": {
+   "effect": "Inverts the target’s stat modifiers.",
+   "flavor": "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were."
+  },
+  "torch-song": {
+   "effect": "",
+   "flavor": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat."
+  },
+  "torment": {
+   "effect": "Prevents the target from attempting to use the same move twice in a row.  When the target leaves the field, this effect ends.\n\nIf the target is forced to attempt a repeated move due to Choice Band, Choice Scarf, Choice Specs, Disable, Encore, Taunt, only having PP remaining for one move, or any other effect, the target will use Struggle instead.  The target is then free to use the forced move next turn, as it didn’t use that move this turn.",
+   "flavor": "The user torments and enrages the target, making it incapable of using the same move twice in a row."
+  },
+  "toxic": {
+   "effect": "Badly poisons the target.  Never misses when used by a Poison-type Pokémon.",
+   "flavor": "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
+  },
+  "toxic-spikes": {
+   "effect": "Scatters poisoned spikes around the opposing field, which poison opposing Pokémon that enter the field.  A second layer of these spikes may be laid down, in which case Pokémon will be badly poisoned instead.  Pokémon immune to either Ground moves or being poisoned are immune to this effect.  Pokémon otherwise immune to Ground moves are affected during Gravity.\n\nIf a Poison Pokémon not immune to Ground moves enters a field covered with poisoned spikes, the spikes are removed.\n\nRapid Spin will remove this effect from its user’s side of the field.  Defog will remove this effect from its target’s side of the field.\n\nThis move does not trigger Synchronize, unless the Pokémon with Synchronize was forced to enter the field by another effect such as Roar.\n\nPokémon entering the field due to Baton Pass are not affected by this effect.",
+   "flavor": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle."
+  },
+  "toxic-thread": {
+   "effect": "Poisons the target and lowers its Speed by one stage.",
+   "flavor": "The user shoots poisonous threads to poison the target and lower the target's Speed stat."
+  },
+  "trailblaze": {
+   "effect": "",
+   "flavor": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
+  },
+  "transform": {
+   "effect": "User copies the target’s species, weight, type, ability, calculated stats (except HP), and moves.  Copied moves will all have 5 PP remaining.  IVs are copied for the purposes of Hidden Power, but stats are not recalculated.\n\nChoice Band, Choice Scarf, and Choice Specs stay in effect, and the user must select a new move.\n\nThis move cannot be copied by Mirror Move, nor forced by Encore.",
+   "flavor": "The user transforms into a copy of the target, right down to having the same move set."
+  },
+  "tri-attack": {
+   "effect": "Inflicts regular damage.  Has a chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
+   "flavor": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target."
+  },
+  "trick": {
+   "effect": "User and target permanently swap held items.  Works even if one of the Pokémon isn’t holding anything.  If either Pokémon is holding mail, this move will fail.\n\nIf either Pokémon has Multitype or Sticky Hold, this move will fail.\n\nIf this move results in a Pokémon obtaining Choice Band, Choice Scarf, or Choice Specs, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn.\n\nNeither the user nor the target can recover its item with Recycle.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "The user catches the target off guard and swaps the target's held item with its own."
+  },
+  "trick-or-treat": {
+   "effect": "Adds Ghost to the target’s types.",
+   "flavor": "The user takes the target trick-or-treating.\nThis adds Ghost type to the target’s type."
+  },
+  "trick-room": {
+   "effect": "For five turns (including this one), slower Pokémon will act before faster Pokémon.  Move priority is not affected.  Using this move when its effect is already active will end the effect.\n\nPokémon holding Full Incense, Lagging Tail, or Quick Claw and Pokémon with Stall ignore this effect.",
+   "flavor": "The user creates a bizarre area in which slower Pokémon get to move first for five turns."
+  },
+  "triple-arrows": {
+   "effect": "",
+   "flavor": "The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target’s Defense stat or make it flinch."
+  }
+ }
+}

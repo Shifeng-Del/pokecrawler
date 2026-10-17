@@ -1,0 +1,327 @@
+{
+ "_kind": "ability",
+ "_batch": 1,
+ "_count": 80,
+ "items": {
+  "adaptability": {
+   "effect": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
+   "flavor": "Powers up moves of the same type as the Pokémon."
+  },
+  "aerilate": {
+   "effect": "Turns the bearer's Normal-type moves into Flying-type moves.  Moves changed by this ability have 1.3× their power.",
+   "flavor": "Normal-type moves become Flying-type moves.\nThe power of those moves is boosted a little."
+  },
+  "aftermath": {
+   "effect": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage.",
+   "flavor": "Damages the attacker if it knocks out the Pokémon with a move that makes direct contact."
+  },
+  "air-lock": {
+   "effect": "While this Pokémon is in battle, weather can still be in play, but will not have any of its effects.\n\nThis ability functions identically to Cloud Nine.",
+   "flavor": "Eliminates the effects of weather."
+  },
+  "analytic": {
+   "effect": "This Pokémon's moves have 1.3× their power when it moves last in a turn.\n\nFuture Sight and Doom Desire are unaffected.",
+   "flavor": "Boosts the power of the Pokémon's move if it is the last to act that turn."
+  },
+  "anger-point": {
+   "effect": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages.\n\nThis ability will still take effect if the critical hit is received by a Substitute.",
+   "flavor": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+  },
+  "anger-shell": {
+   "effect": "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats.",
+   "flavor": "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."
+  },
+  "anticipation": {
+   "effect": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability.",
+   "flavor": "The Pokémon can sense an opposing Pokémon's dangerous moves."
+  },
+  "aqua-boost": {
+   "effect": "",
+   "flavor": ""
+  },
+  "arena-trap": {
+   "effect": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out.  Flying-type Pokémon and Pokémon in the air, e.g. due to Levitate or Magnet Rise, are unaffected.\n\nPokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+   "flavor": "Prevents opposing Pokémon from fleeing from battle."
+  },
+  "armor-tail": {
+   "effect": "The mysterious tail covering the Pokémon’s head makes opponents unable to use priority moves against the Pokémon or its allies.",
+   "flavor": "The mysterious tail covering the Pokémon's head makes opponents unable to use priority moves against the Pokémon or its allies."
+  },
+  "aroma-veil": {
+   "effect": "Protects allies against moves that affect their mental state.",
+   "flavor": "Protects the Pokémon and its allies from effects that prevent the use of moves."
+  },
+  "as-one-glastrier": {
+   "effect": "This Pokémon has the combined effects of Unnerve and Chilling Neigh.\n\nOpposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.\n\nWhen this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+   "flavor": "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability."
+  },
+  "as-one-spectrier": {
+   "effect": "This Pokémon has the combined effects of Unnerve and Grim Neigh.\n\nOpposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.\n\nWhen this Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
+   "flavor": "This Ability combines the effects of both Calyrex's Unnerve Ability and Spectrier's Grim Neigh Ability."
+  },
+  "aura-break": {
+   "effect": "While this Pokémon is on the field, Dark Aura and Fairy Aura weaken moves of their respective types to 2/3 their power, rather than strengthening them.",
+   "flavor": "The effects of “Aura” Abilities are reversed\nto lower the power of affected moves."
+  },
+  "aura-guard": {
+   "effect": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage.",
+   "flavor": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage."
+  },
+  "bad-dreams": {
+   "effect": "Opposing Pokémon take 1/8 of their maximum HP in damage after each turn while they are asleep.",
+   "flavor": "Damages opposing Pokémon that are asleep."
+  },
+  "ball-fetch": {
+   "effect": "At any time after the first Poké Ball is thrown and fails to catch a Pokémon, at the end of a turn, if a Pokémon with Ball Fetch is on the field and not holding another item, it will pick up the same type of ball as the first one thrown.",
+   "flavor": "If the Pokémon is not holding an item, it will fetch\nthe Poké Ball from the first failed throw\nof the battle."
+  },
+  "battery": {
+   "effect": "Ally Pokémon's moves have their power increased to 1.3×.",
+   "flavor": "Powers up ally Pokémon's special moves."
+  },
+  "battle-armor": {
+   "effect": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Shell Armor.",
+   "flavor": "Hard armor protects the Pokémon from critical hits."
+  },
+  "battle-bond": {
+   "effect": "Transforms this Pokémon into Ash-Greninja after fainting an opponent.  Water Shuriken's power is 20 and always hits three times.\n\nThis ability cannot be copied or replaced.  This ability only takes effect for Greninja.",
+   "flavor": "When the Pokémon knocks out a target, its bond with its Trainer is strengthened, and its Attack, Sp. Atk, and Speed stats are boosted."
+  },
+  "beads-of-ruin": {
+   "effect": "The power of the Pokémon’s ruinous beads lowers the Sp. Def stats of all Pokémon except itself.",
+   "flavor": "The power of the Pokémon's ruinous beads lowers the Sp. Def stats of all Pokémon except itself."
+  },
+  "beast-boost": {
+   "effect": "Raises this Pokémon's highest stat by one stage when it faints another Pokémon.",
+   "flavor": "The Pokémon boosts its most proficient stat each\ntime it knocks out a Pokémon."
+  },
+  "berserk": {
+   "effect": "Whenever this Pokémon takes damage from a move that causes its HP to drop below 50%, its Special Attack rises by one stage.",
+   "flavor": "Boosts the Pokémon's Sp. Atk stat when it takes a hit that causes its HP to drop to half or less."
+  },
+  "big-pecks": {
+   "effect": "This Pokémon's Defense cannot be lowered by other Pokémon.\n\nThis Pokémon can still be passed negative Defense modifiers through Heart Swap or Guard Swap.",
+   "flavor": "Prevents the Pokémon from having its Defense stat lowered."
+  },
+  "black-hole": {
+   "effect": "",
+   "flavor": ""
+  },
+  "blaze": {
+   "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Fire-type moves inflict 1.5× as much regular damage.",
+   "flavor": "Powers up Fire-type moves when the Pokémon's HP is low."
+  },
+  "bodyguard": {
+   "effect": "",
+   "flavor": ""
+  },
+  "bonanza": {
+   "effect": "",
+   "flavor": ""
+  },
+  "bulletproof": {
+   "effect": "Protects against bullet, ball, and bomb-based moves.",
+   "flavor": "Protects the Pokémon from ball and bomb moves."
+  },
+  "calming": {
+   "effect": "",
+   "flavor": ""
+  },
+  "celebrate": {
+   "effect": "",
+   "flavor": ""
+  },
+  "cheek-pouch": {
+   "effect": "Restores HP upon eating a Berry, in addition to the Berry's effect.",
+   "flavor": "The Pokémon's HP is restored when it eats any Berry, in addition to the Berry's usual effect."
+  },
+  "chilling-neigh": {
+   "effect": "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+   "flavor": "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat."
+  },
+  "chlorophyll": {
+   "effect": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier.",
+   "flavor": "Boosts the Pokémon's Speed stat in harsh sunlight."
+  },
+  "clear-body": {
+   "effect": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to White Smoke in battle.",
+   "flavor": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats."
+  },
+  "climber": {
+   "effect": "",
+   "flavor": ""
+  },
+  "cloud-nine": {
+   "effect": "While this Pokémon is in battle, weather can still be in play, but will not have any of its effects.\n\nThis ability functions identically to Air Lock.",
+   "flavor": "Eliminates the effects of weather."
+  },
+  "color-change": {
+   "effect": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move.\n\nIf the Pokémon has two types, both are overridden.  The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes.\n\nThis ability takes effect on only the last hit of a multiple-hit attack.\n\nIn Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves.",
+   "flavor": "The Pokémon’s type becomes the type of the move\nused on it."
+  },
+  "comatose": {
+   "effect": "This Pokémon always acts as though it were Asleep.  It cannot be given another status ailment; it's unaffected by Yawn; it can use Sleep Talk; and so on.",
+   "flavor": "The Pokémon is always drowsing and will never wake up. It can attack while in its sleeping state."
+  },
+  "commander": {
+   "effect": "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there.",
+   "flavor": "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there."
+  },
+  "competitive": {
+   "effect": "Raises Special Attack by two stages upon having any stat lowered.",
+   "flavor": "Boosts the Pokémon's Sp. Atk stat sharply when its stats are lowered by an opposing Pokémon."
+  },
+  "compound-eyes": {
+   "effect": "This Pokémon's moves have 1.3× their accuracy.\n\nThis ability has no effect on the one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold).\n\nOverworld: If the first Pokémon in the party has this ability, the chance of a wild Pokémon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively.",
+   "flavor": "The Pokémon's compound eyes boost its accuracy."
+  },
+  "confidence": {
+   "effect": "",
+   "flavor": ""
+  },
+  "conqueror": {
+   "effect": "",
+   "flavor": ""
+  },
+  "contrary": {
+   "effect": "Whenever this Pokémon's stats would be raised, they are instead lowered by the same amount, and vice versa.",
+   "flavor": "Reverses any stat changes affecting the Pokémon so that attempts to boost its stats instead lower them—and attempts to lower its stats will boost them."
+  },
+  "corrosion": {
+   "effect": "This Pokémon's moves and item ignore the usual immunity of Poison and Steel Pokémon when attempting to inflict poison.",
+   "flavor": "The Pokémon can poison the target even if it's a Steel or Poison type."
+  },
+  "costar": {
+   "effect": "When the Pokémon enters a battle, it copies an ally’s stat changes.",
+   "flavor": "When the Pokémon enters a battle, it copies an ally's stat changes."
+  },
+  "cotton-down": {
+   "effect": "When the Pokémon is hit by an attack, it scatters cotton fluff around and lowers the Speed stats of all Pokémon except itself.",
+   "flavor": "When the Pokémon is hit by an attack, it scatters\ncotton fluff around and lowers the Speed stat of\nall Pokémon except itself."
+  },
+  "cud-chew": {
+   "effect": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.",
+   "flavor": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time."
+  },
+  "curious-medicine": {
+   "effect": "When the Pokémon enters a battle, it scatters medicine from its shell, which removes all stat changes from allies.",
+   "flavor": "When the Pokémon enters a battle, it scatters medicine from its shell, which removes all stat changes from allies."
+  },
+  "cursed-body": {
+   "effect": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward.",
+   "flavor": "May disable a move that has dealt damage to the Pokémon."
+  },
+  "cute-charm": {
+   "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being infatuated.\n\nOverworld: If the first Pokémon in the party has this ability, any wild Pokémon whose species can be either gender has a 2/3 chance of being set to the opposite gender, and a 1/3 chance of having a random gender as usual.",
+   "flavor": "The Pokémon may infatuate attackers that make direct contact with it."
+  },
+  "damp": {
+   "effect": "While this Pokémon is in battle, Self-Destruct and Explosion will fail and Aftermath will not take effect.",
+   "flavor": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct."
+  },
+  "dancer": {
+   "effect": "Whenever another Pokémon uses a dance move, this Pokémon will use the same move immediately afterwards.",
+   "flavor": "Whenever a dance move is used in battle, the Pokémon will copy the user to immediately perform that dance move itself."
+  },
+  "dark-aura": {
+   "effect": "Strengthens Dark moves for all friendly and opposing Pokémon.",
+   "flavor": "Powers up each Pokémon’s Dark-type moves."
+  },
+  "dauntless-shield": {
+   "effect": "Boosts the Pokémon’s Defense stat the first time the Pokémon enters a battle.",
+   "flavor": "Boosts the Pokémon’s Defense stat the first time the Pokémon enters a battle."
+  },
+  "daze": {
+   "effect": "",
+   "flavor": ""
+  },
+  "dazzling": {
+   "effect": "When an opposing Pokémon attempts to use a move that targets this Pokémon or an ally, and that move has priority, it will fail.",
+   "flavor": "The Pokémon dazzles its opponents, making them unable to use priority moves against the Pokémon or its allies."
+  },
+  "decoy": {
+   "effect": "",
+   "flavor": ""
+  },
+  "deep-sleep": {
+   "effect": "",
+   "flavor": ""
+  },
+  "defeatist": {
+   "effect": "This Pokémon's Attack and Special Attack are halved when it has half its HP or less.",
+   "flavor": "Halves the Pokémon’s Attack and Sp. Atk stats\nwhen its HP becomes half or less."
+  },
+  "defiant": {
+   "effect": "When any of this Pokémon's stats are lowered, its Attack rises by two stages.\n\nIf multiple stats are lowered at once, this ability takes effect with each stat lowered.",
+   "flavor": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply."
+  },
+  "delta-stream": {
+   "effect": "When this Pokémon enters battle or gains this ability, the weather becomes a mysterious air current.  A mysterious air current causes moves to not be super effective against Flying; they do neutral damage instead.  Anticipation and Stealth Rock are not affected.\n\nThe mysterious air current ends when this Pokémon leaves battle or loses this ability, or when this ability is nullified.  The weather cannot otherwise be changed except by the effects of Desolate Land and Primordial Sea.\n\nAir Lock and Cloud Nine will prevent the effect of a mysterious air current, but will not allow the weather to be changed.",
+   "flavor": "The Pokémon changes the weather to eliminate all\nof the Flying type’s weaknesses."
+  },
+  "desolate-land": {
+   "effect": "When this Pokémon enters battle or gains this ability, the weather becomes extremely harsh sunlight.  Extremely harsh sunlight has all the properties of Sunny Day and also causes damaging Water moves to fail.\n\nExtremely harsh sunlight ends when this Pokémon leaves battle or loses this ability, or when this ability is nullified.  The weather cannot otherwise be changed except by the effects of Delta Stream and Primordial Sea.\n\nAir Lock and Cloud Nine will prevent the effects of extremely harsh sunlight, including allowing Water moves to work, but will not allow the weather to be changed.",
+   "flavor": "The Pokémon changes the weather to nullify\nWater-type attacks."
+  },
+  "disguise": {
+   "effect": "If this Pokémon is in its Disguised Form and takes damage from a move, it switches to its Busted Form and the damage is prevented.  Other effects are not prevented.\n\nThis ability cannot be copied or replaced.  This ability only takes effect for Mimikyu.",
+   "flavor": "Once per battle, the shroud that covers the Pokémon can protect it from an attack."
+  },
+  "disgust": {
+   "effect": "",
+   "flavor": ""
+  },
+  "dodge": {
+   "effect": "",
+   "flavor": ""
+  },
+  "download": {
+   "effect": "When this Pokémon enters battle, its Attack or Special Attack, whichever corresponds to its opponents' weaker total defensive stat, rises one stage.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle.",
+   "flavor": "The Pokémon compares an opposing Pokémon's Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective."
+  },
+  "dragonize": {
+   "effect": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.",
+   "flavor": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%."
+  },
+  "dragons-maw": {
+   "effect": "Increases the power of Dragon-type moves used by this Pokémon by 50%.",
+   "flavor": "Powers up Dragon-type moves."
+  },
+  "drizzle": {
+   "effect": "The weather changes to rain when this Pokémon enters battle and does not end unless replaced by another weather condition.\n\nIf multiple Pokémon with this ability, Drought, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+   "flavor": "The Pokémon makes it rain when it enters a battle."
+  },
+  "drought": {
+   "effect": "The weather changes to strong sunlight when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+   "flavor": "Turns the sunlight harsh when the Pokémon enters a battle."
+  },
+  "dry-skin": {
+   "effect": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead.",
+   "flavor": "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves."
+  },
+  "early-bird": {
+   "effect": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up.",
+   "flavor": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+  },
+  "earth-eater": {
+   "effect": "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.",
+   "flavor": "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage."
+  },
+  "eelevate": {
+   "effect": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as the Spikes, Toxic Spikes, and Sticky Web statuses. When the Pokémon knocks out a target with an attack, its highest stat is boosted by 1 stage.",
+   "flavor": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as the Spikes, Toxic Spikes, and Sticky Web statuses. When the Pokémon knocks out a target with an attack, its highest stat is boosted by 1 stage."
+  },
+  "effect-spore": {
+   "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected.",
+   "flavor": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+  },
+  "electric-surge": {
+   "effect": "When this Pokémon enters battle, it changes the terrain to Electric Terrain.",
+   "flavor": "Turns the ground into Electric Terrain when the Pokémon enters a battle."
+  },
+  "electromorphosis": {
+   "effect": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses.",
+   "flavor": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses."
+  }
+ }
+}

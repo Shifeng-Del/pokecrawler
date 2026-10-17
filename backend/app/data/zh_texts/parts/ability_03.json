@@ -1,0 +1,327 @@
+{
+ "_kind": "ability",
+ "_batch": 3,
+ "_count": 80,
+ "items": {
+  "limber": {
+   "effect": "This Pokémon cannot be paralyzed.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle.",
+   "flavor": "The Pokémon's limber body prevents it from being paralyzed."
+  },
+  "lingering-aroma": {
+   "effect": "Contact with the Pokémon changes the attacker’s Ability to Lingering Aroma.",
+   "flavor": "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma."
+  },
+  "liquid-ooze": {
+   "effect": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like Absorb, it instead loses as many HP as it would usually gain.\n\nDream Eater is unaffected.",
+   "flavor": "The strong stench of the Pokémon's oozed liquid damages attackers that use HP-draining moves."
+  },
+  "liquid-voice": {
+   "effect": "When this Pokémon uses a move that is sound-based, that move's type is Water.",
+   "flavor": "Sound-based moves become Water-type moves."
+  },
+  "long-reach": {
+   "effect": "A move used by this Pokémon will not make contact.",
+   "flavor": "The Pokémon uses its moves without making contact with the target."
+  },
+  "lullaby": {
+   "effect": "",
+   "flavor": ""
+  },
+  "lunchbox": {
+   "effect": "",
+   "flavor": ""
+  },
+  "magic-bounce": {
+   "effect": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user.\n\nAll reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable.\n\nA move reflected by this ability or Magic Coat cannot be reflected back.",
+   "flavor": "The Pokémon reflects status moves instead of getting hit by them."
+  },
+  "magic-guard": {
+   "effect": "This Pokémon is immune to damage not directly caused by a move.\n\nFor example, this Pokémon takes no damage from from weather, recoil, status ailments, or Spikes, but it still suffers from the Attack cut when burned, and a Life Orb will still power up this Pokémon's moves without damaging it.  Anything that directly depends on such damage will also not happen; for example, Leech Seed will neither hurt this Pokémon nor heal the opponent, and Pokémon with a Jaboca Berry or Rowap Berry will not consume the berry when hit by this Pokémon.\n\nThe following are unaffected: Struggle, Pain Split (whether used by or against this Pokémon), Belly Drum, Substitute, Curse, moves that knock the user out, and damage from confusion.\n\nThis Pokémon will neither lose nor regain HP if it drains HP from a Pokémon with Liquid Ooze.\n\nIf this Pokémon is badly poisoned, the poison counter is still increased each turn; if the Pokémon loses this ability, it will begin taking as much damage as it would be if it had been taking increasing damage each turn.",
+   "flavor": "The Pokémon only takes damage from attacks."
+  },
+  "magician": {
+   "effect": "Steals the target's held item when the bearer uses a damaging move.",
+   "flavor": "The Pokémon steals the held item from any target it hits with a move."
+  },
+  "magma-armor": {
+   "effect": "This Pokémon cannot be frozen.\n\nIf a Pokémon is frozen and acquires this ability, it will immediately thaw out; this includes when regaining a lost ability upon leaving battle.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Flame Body.",
+   "flavor": "The Pokémon’s hot magma coating prevents it from being frozen."
+  },
+  "magnet-pull": {
+   "effect": "While this Pokémon is in battle, opposing Steel-type Pokémon cannot flee or switch out.\n\nPokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokémon has this ability, Steel-type Pokémon have a higher encounter rate.",
+   "flavor": "Prevents Steel-type Pokémon from fleeing by pulling them in with magnetism."
+  },
+  "marvel-scale": {
+   "effect": "Whenever this Pokémon has a major status ailment, it has 1.5× its Defense.\n\nThis bonus does not count as a stat modifier.",
+   "flavor": "The Pokémon's marvelous scales boost its Defense stat if it has a status condition."
+  },
+  "medic": {
+   "effect": "",
+   "flavor": ""
+  },
+  "mega-launcher": {
+   "effect": "Strengthens aura and pulse moves to 1.5× their power.",
+   "flavor": "Powers up pulse moves."
+  },
+  "mega-sol": {
+   "effect": "Even when the sunlight has not turned harsh, the Pokémon can use its moves as if the weather were harsh sunlight.",
+   "flavor": "Even when the sunlight has not turned harsh, the Pokémon can use its moves as if the weather were harsh sunlight."
+  },
+  "melee": {
+   "effect": "",
+   "flavor": ""
+  },
+  "merciless": {
+   "effect": "This Pokémon's moves critical hit against poisoned targets.",
+   "flavor": "The Pokémon's attacks become critical hits if the target is poisoned."
+  },
+  "mimicry": {
+   "effect": "Changes the Pokémon’s type depending on the terrain.",
+   "flavor": "Changes the Pokémon’s type depending on the terrain."
+  },
+  "minds-eye": {
+   "effect": "Mind's Eye enables the Pokémon with this Ability to hit Ghost-type Pokémon with damage-dealing Normal- and Fighting-type moves. It also prevents other Pokémon from lowering the Pokémon's accuracy and ignores changes to the opponents' evasion.",
+   "flavor": "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal-type and Fighting-type moves"
+  },
+  "minus": {
+   "effect": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus.\n\nThis bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect.",
+   "flavor": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle."
+  },
+  "mirror-armor": {
+   "effect": "Bounces back only the stat-lowering effects that the Pokémon receives.",
+   "flavor": "Bounces back only the stat-lowering effects that the Pokémon receives."
+  },
+  "misty-surge": {
+   "effect": "When this Pokémon enters battle, it changes the terrain to Misty Terrain.",
+   "flavor": "Turns the ground into Misty Terrain when the Pokémon enters a battle."
+  },
+  "mold-breaker": {
+   "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat.  If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle.  This ability cannot ignore Multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed.\n\nWhen this Pokémon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to Teravolt and Turboblaze.",
+   "flavor": "The Pokémon's moves are unimpeded by the Ability of the target."
+  },
+  "mood-maker": {
+   "effect": "",
+   "flavor": ""
+  },
+  "moody": {
+   "effect": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively.",
+   "flavor": "Every turn, one of the Pokémon's stats will be boosted sharply but another stat will be lowered."
+  },
+  "motor-drive": {
+   "effect": "Whenever an Electric-type move hits this Pokémon, its Speed rises one stage, negating any other effect on it.\n\nThis ability will not take effect if this Pokémon is immune to Electric moves.  Electric moves will ignore this Pokémon's Substitute.\n\nThis effect includes non-damaging moves, i.e. Thunder Wave.",
+   "flavor": "The Pokémon takes no damage when hit by Electric-type moves. Instead, its Speed stat is boosted."
+  },
+  "mountaineer": {
+   "effect": "",
+   "flavor": ""
+  },
+  "moxie": {
+   "effect": "This Pokémon's Attack rises one stage upon knocking out another Pokémon, even a friendly Pokémon.\n\nThis ability does not take effect when the Pokémon indirectly causes another Pokémon to faint, e.g. through poison or Spikes.\n\nIf this Pokémon knocks out a Pokémon with Mummy, the former's ability will change without taking effect.",
+   "flavor": "When the Pokémon knocks out a target, it shows moxie, which boosts its Attack stat."
+  },
+  "multiscale": {
+   "effect": "This Pokémon takes half as much damage when it is hit having full HP.",
+   "flavor": "Reduces the amount of damage the Pokémon takes while its HP is full."
+  },
+  "multitype": {
+   "effect": "If this Pokémon is holding an elemental Plate, its type and form change to match the Plate.\n\nThis Pokémon's held item, whether or not it is a Plate, cannot be taken by Covet or Thief, nor removed by Knock Off, nor traded by Switcheroo or Trick.  Covet, Thief, and Knock Off still inflict damage against this Pokémon.  Unlike with Sticky Hold, this Pokémon cannot use Fling, Switcheroo, or Trick to lose its item itself, nor gain an item through Switcheroo or Trick if it does not have one.\n\nThis ability has no effect for any Pokémon other than Arceus.  This ability cannot be traded with Skill Swap, nor copied with Role Play or Trace, nor disabled with Gastro Acid, nor changed with Worry Seed.  This Pokémon cannot use Skill Swap or Role Play to lose its ability itself.  Mold Breaker cannot ignore this ability.\n\nIf a Pokémon Transforms into an Arceus with this ability, it will Transform into Arceus's default, Normal-type form.  If the Transforming Pokémon is holding a Plate, this ability will then activate and change the Pokémon into the corresponding form.",
+   "flavor": "Changes the Pokémon's type to match the plate it holds."
+  },
+  "mummy": {
+   "effect": "Whenever a contact move hits this Pokémon, the attacking Pokémon's ability changes to Mummy.\n\nMultitype is unaffected.  If a Pokémon with Moxie knocks this Pokémon out, the former's ability will change without taking effect.",
+   "flavor": "Contact with the Pokémon changes the attacker’s\nAbility to Mummy."
+  },
+  "mycelium-might": {
+   "effect": "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target.",
+   "flavor": "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target."
+  },
+  "natural-cure": {
+   "effect": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon.\n\nIf this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability.",
+   "flavor": "The Pokémon's status conditions are cured when it switches out."
+  },
+  "neuroforce": {
+   "effect": "Increases super-effective damage dealt to 1.25×.",
+   "flavor": "Powers up moves that are super effective."
+  },
+  "neutralizing-gas": {
+   "effect": "While the Pokémon is in the battle, the effects of all other Pokémon’s Abilities will be nullified or will not be triggered.",
+   "flavor": "While the Pokémon is in the battle, the effects of all other Pokémon's Abilities will be nullified or will not be triggered."
+  },
+  "no-guard": {
+   "effect": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+   "flavor": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+  },
+  "nomad": {
+   "effect": "",
+   "flavor": ""
+  },
+  "normalize": {
+   "effect": "This Pokémon's moves all act as if they were Normal-type.\n\nMoves that inflict typeless damage do so as usual.  Moves of variable type, such as Hidden Power, are affected.  They otherwise work as usual, however; Weather Ball, for example, is always forced to be Normal, but it still has doubled power and looks different during weather.\n\nAs Thunder Wave is prevented by immunities, unlike most non-damaging moves, it does not affect Ghost-type Pokémon under the effect of this ability.",
+   "flavor": "All the Pokémon’s moves become Normal type.\nThe power of those moves is boosted a little."
+  },
+  "nurse": {
+   "effect": "",
+   "flavor": ""
+  },
+  "oblivious": {
+   "effect": "This Pokémon cannot be infatuated and is immune to Captivate.\n\nIf a Pokémon is infatuated and acquires this ability, its infatuation is cleared.",
+   "flavor": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate."
+  },
+  "omnipotent": {
+   "effect": "",
+   "flavor": ""
+  },
+  "opportunist": {
+   "effect": "If an opponent’s stat is boosted, the Pokémon seizes the opportunity to boost the same stat for itself.",
+   "flavor": "If an opponent's stat is boosted, the Pokémon seizes the opportunity to boost the same stat for itself."
+  },
+  "orichalcum-pulse": {
+   "effect": "Turns the sunlight harsh when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat in harsh sunlight.",
+   "flavor": "Turns the sunlight harsh when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat in harsh sunlight."
+  },
+  "overcoat": {
+   "effect": "This Pokémon does not take damage from weather.",
+   "flavor": "The Pokémon takes no damage from sandstorms. It is also protected from the effects of powders and spores."
+  },
+  "overgrow": {
+   "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Grass-type moves inflict 1.5× as much regular damage.",
+   "flavor": "Powers up Grass-type moves when the Pokémon's HP is low."
+  },
+  "own-tempo": {
+   "effect": "This Pokémon cannot be confused.\n\nIf a Pokémon is confused and acquires this ability, its confusion will immediately be healed.",
+   "flavor": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+  },
+  "parental-bond": {
+   "effect": "Lets the bearer hit twice with damaging moves.  The second hit has half power.",
+   "flavor": "Parent and child each attacks."
+  },
+  "parry": {
+   "effect": "",
+   "flavor": ""
+  },
+  "pastel-veil": {
+   "effect": "Prevents the Pokémon and its teammates from being poisoned. It also cures teammates of poisoning when it enters the battlefield.",
+   "flavor": "Protects the Pokémon and its ally Pokémon from\nbeing poisoned."
+  },
+  "perception": {
+   "effect": "",
+   "flavor": ""
+  },
+  "perish-body": {
+   "effect": "When the Pokémon with Perish Body is hit with a contact move, both the attacker and the Pokémon with Perish Body will faint in three turns.",
+   "flavor": "When hit by a move that makes direct contact,\nthe Pokémon and the attacker will faint after three turns\nunless they switch out of battle."
+  },
+  "pickpocket": {
+   "effect": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item.\n\nThis Pokémon cannot steal upon being knocked out.  It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit.  If a move hits multiple times, only the last hit triggers this ability.  If this Pokémon is wild, it cannot steal from a trained Pokémon.",
+   "flavor": "The Pokémon steals the held item from attackers that made direct contact with it."
+  },
+  "pickup": {
+   "effect": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one.\n\nThe Air Balloon and Eject Button cannot be picked up.\n\nThe items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+   "flavor": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too."
+  },
+  "piercing-drill": {
+   "effect": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing 1/4 of the damage that the move would otherwise deal. Everything aside from the target's protective effects is still triggered.",
+   "flavor": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing 1/4 of the damage that the move would otherwise deal. Everything aside from the target's protective effects is still triggered."
+  },
+  "pixilate": {
+   "effect": "Turns the bearer's Normal-type moves into Fairy moves.  Moves changed by this ability have 1.3× their power.",
+   "flavor": "Normal-type moves become Fairy-type moves. The power of those moves is boosted a little."
+  },
+  "plus": {
+   "effect": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus.\n\nThis bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect.",
+   "flavor": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle."
+  },
+  "poison-heal": {
+   "effect": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage.  This includes bad poison.",
+   "flavor": "If poisoned, the Pokémon has its HP restored instead of taking damage."
+  },
+  "poison-point": {
+   "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned.",
+   "flavor": "Contact with the Pokémon may poison the attacker."
+  },
+  "poison-puppeteer": {
+   "effect": "When a Pokémon is poisoned by any of Pecharunt's moves, it will also become confused.",
+   "flavor": "Pokémon poisoned by Pecharunt's moves will also become confused."
+  },
+  "poison-touch": {
+   "effect": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit.\n\nThis counts as an extra effect for the purposes of Shield Dust.  This ability takes effect before Mummy.",
+   "flavor": "May poison a target when the Pokémon makes contact."
+  },
+  "power-construct": {
+   "effect": "Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%.\n\nThis ability cannot be copied or replaced.  This ability only takes effect for Zygarde.",
+   "flavor": "Other Cells gather to aid when its HP becomes\nhalf or less. Then the Pokémon changes\nits form to Complete Forme."
+  },
+  "power-nap": {
+   "effect": "",
+   "flavor": ""
+  },
+  "power-of-alchemy": {
+   "effect": "When an ally faints, this Pokémon gains its Ability.",
+   "flavor": "The Pokémon copies the Ability of a defeated ally."
+  },
+  "power-spot": {
+   "effect": " \"The power of moves used by the allies of the Pokémon with Power Spot is increased by 30%.\"",
+   "flavor": "Just being next to the Pokémon powers up moves."
+  },
+  "prankster": {
+   "effect": "This Pokémon's non-damaging moves have their priority increased by one stage.",
+   "flavor": "Gives priority to the Pokémon's status moves."
+  },
+  "pressure": {
+   "effect": "Moves targetting this Pokémon use one extra PP.\n\nThis ability stacks if multiple targets have it.  This ability still affects moves that fail or miss.  This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field.  If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP.\n\nWhen this Pokémon enters battle, all participating trainers are notified that it has this ability.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+   "flavor": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+  },
+  "pride": {
+   "effect": "",
+   "flavor": ""
+  },
+  "primordial-sea": {
+   "effect": "When this Pokémon enters battle or gains this ability, the weather becomes heavy rain.  Heavy rain has all the properties of Rain Dance and also causes damaging Fire moves to fail.\n\nHeavy rain ends when this Pokémon leaves battle or loses this ability, or when this ability is nullified.  The weather cannot otherwise be changed except by the effects of Delta Stream and Desolate Land.\n\nAir Lock and Cloud Nine will prevent the effects of heavy rain, including allowing Fire moves to work, but will not allow the weather to be changed.",
+   "flavor": "The Pokémon changes the weather to nullify\nFire-type attacks."
+  },
+  "prism-armor": {
+   "effect": "Super-effective damage this Pokémon takes is reduced to 0.75×.\n\nThis Ability is not bypassed by Mold Breaker, Teravolt, or Turboblaze.",
+   "flavor": "Reduces the power of supereffective attacks taken."
+  },
+  "propeller-tail": {
+   "effect": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.",
+   "flavor": "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves."
+  },
+  "protean": {
+   "effect": "Changes the bearer's type to match each move it uses.\n\nThe type change takes place just before the move is used.",
+   "flavor": "Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle."
+  },
+  "protosynthesis": {
+   "effect": "Boosts the Pokémon’s most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.",
+   "flavor": "Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy."
+  },
+  "psychic-surge": {
+   "effect": "When this Pokémon enters battle, it changes the terrain to Psychic Terrain.",
+   "flavor": "Turns the ground into Psychic Terrain when the Pokémon enters a battle."
+  },
+  "punk-rock": {
+   "effect": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves.",
+   "flavor": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves."
+  },
+  "pure-power": {
+   "effect": "This Pokémon's Attack is doubled in battle.\n\nThis bonus does not count as a stat modifier.\n\nThis ability functions identically to Huge Power.",
+   "flavor": "Using its pure power, the Pokémon doubles its Attack stat."
+  },
+  "purifying-salt": {
+   "effect": "The Pokémon’s pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
+   "flavor": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves."
+  },
+  "quark-drive": {
+   "effect": "Boosts the Pokémon’s most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.",
+   "flavor": "Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy."
+  },
+  "queenly-majesty": {
+   "effect": "When an opposing Pokémon attempts to use a move that targets this Pokémon or an ally, and that move has priority, it will fail.",
+   "flavor": "When the Pokémon uses Surf or Dive, it will come back with prey. When it takes damage, it will spit out the prey to attack."
+  },
+  "quick-draw": {
+   "effect": "If a Pokémon with this Ability selects a damaging move, it has a 30% chance of going first in its priority bracket.",
+   "flavor": "Enables the Pokémon to move first occasionally."
+  }
+ }
+}

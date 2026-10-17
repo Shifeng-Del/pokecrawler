@@ -1,0 +1,16 @@
+{
+  "_part": "moves-07",
+  "_note": "招式图鉴补丁：非学习表招式（庆祝/牵手等）与皮卡丘系专属招式的官方中文译名；Z 招 / 极巨招式 / 暗影招式无把握确保官方译名准确，按约定保留英文回落，不机造",
+  "moves": {
+    "10-000-000-volt-thunderbolt": "千万伏特",
+    "catastropika": "皮卡皮卡必杀",
+    "celebrate": "庆祝",
+    "happy-hour": "欢乐时刻",
+    "hold-back": "手下留情",
+    "hold-hands": "牵手",
+    "pika-papow": "皮卡皮卡必杀",
+    "stoked-sparksurfer": "驾雷驭电戏冲浪",
+    "struggle": "挣扎",
+    "veevee-volley": "砰砰击破"
+  }
+}

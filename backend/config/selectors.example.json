@@ -1,0 +1,24 @@
+{
+  "_comment": "通用 HTML 适配器示例配置：换站点时只改这里，不改代码。以 books.toscrape.com 为例。",
+  "list": {
+    "url": "https://books.toscrape.com/catalogue/page-{page}.html",
+    "start_page": 1,
+    "max_page": 3,
+    "per_page": 20,
+    "item": "article.product_pod",
+    "fields": {
+      "name": {"sel": "h3 a", "attr": "title"},
+      "url": {"sel": "h3 a", "attr": "href"},
+      "price": {"sel": ".price_color", "attr": "text", "regex": "([\\d.]+)", "type": "float"}
+    }
+  },
+  "detail": {
+    "url": "{url}",
+    "fields": {
+      "name": {"sel": ".product_main h1", "attr": "text"},
+      "price": {"sel": ".price_color", "attr": "text", "regex": "([\\d.]+)", "type": "float"},
+      "stock": {"sel": ".availability", "attr": "text"},
+      "description": {"sel": "#product_description + p", "attr": "text", "default": ""}
+    }
+  }
+}

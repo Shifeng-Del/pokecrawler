@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 3,
+ "_count": 80,
+ "items": {
+  "curse": {
+   "effect": "If the user is a Ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user’s Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by Baton Pass.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "A move that has different effects depending on whether the user is a Ghost type or not."
+  },
+  "cut": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The target is cut with a scythe or claw."
+  },
+  "dark-pulse": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user releases a horrible aura imbued with ill intent. This may also make the target flinch."
+  },
+  "dark-void": {
+   "effect": "Puts the target to sleep.",
+   "flavor": "Opposing Pokémon are dragged into a world of total darkness that puts them to sleep."
+  },
+  "darkest-lariat": {
+   "effect": "Inflicts regular damage.  Damage calculation ignores the target’s stat modifiers, including evasion.",
+   "flavor": "The user swings both arms and hits the target. The target's stat changes don't affect the damage inflicted by this move."
+  },
+  "dazzling-gleam": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user damages opposing Pokémon by emitting a powerful flash."
+  },
+  "decorate": {
+   "effect": "Raise the targets Attack and Special Attack by 2 stages.",
+   "flavor": "The user sharply boosts the target's Attack and Sp. Atk stats by decorating the target."
+  },
+  "defend-order": {
+   "effect": "Raises the user’s Defense and Special Defense by one stage.",
+   "flavor": "The user calls out its underlings to shield its body, boosting its Defense and Sp. Def stats."
+  },
+  "defense-curl": {
+   "effect": "Raises user’s Defense by one stage.\n\nAfter this move is used, the power of Ice Ball and Rollout are doubled until the user leaves the field.",
+   "flavor": "The user curls up and boosts its Defense stat."
+  },
+  "defog": {
+   "effect": "Lowers the target’s evasion by one stage.  Clears away fog.  Removes the effects of Mist, Light Screen, Reflect, Safeguard, Spikes, Stealth Rock, and Toxic Spikes from the target’s side of the field.\n\nIf the target is protected by Mist, it will prevent the evasion change, then be removed by this move.",
+   "flavor": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness."
+  },
+  "destiny-bond": {
+   "effect": "If the user faints before its next move, the Pokémon that fainted it will automatically faint.  End-of-turn damage is ignored.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "If the user is knocked out after using this move, the Pokémon that knocked it out will also faint. This move's chance of failing rises if it is used in succession."
+  },
+  "detect": {
+   "effect": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail.\n\nLock-On, Mind Reader, and No Guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold); those are always blocked by this move.\n\nThunder during Rain Dance and Blizzard during Hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* Acupressure from an ally\n* Curse’s curse effect\n* Delayed damage from Doom Desire and Future Sight; however, these moves will be prevented if they are used this turn\n* Feint, which will also end this move’s protection after it hits\n* Imprison\n* Perish Song\n* Shadow Force\n* Moves that merely copy the user, such as Transform or Psych Up\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
+  },
+  "devastating-drake--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "devastating-drake--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "diamond-storm": {
+   "effect": "Inflicts regular damage.  Has a chance to raise the user’s Defense by two stages for each target hit.",
+   "flavor": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply boost the user's Defense stat."
+  },
+  "dig": {
+   "effect": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, Earthquake, Fissure, and Magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user burrows into the ground on the first turn, then attacks on the next turn."
+  },
+  "dire-claw": {
+   "effect": "",
+   "flavor": "The user lashes out at the target with ruinous claws. This may also leave the target poisoned, paralyzed, or asleep."
+  },
+  "disable": {
+   "effect": "Disables the target’s last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the field.  If the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
+   "flavor": "For four turns, the target will be unable to use whichever move it last used."
+  },
+  "disarming-voice": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion.",
+   "flavor": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses."
+  },
+  "discharge": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The user strikes everything around it by letting loose a flare of electricity. This may also leave those hit by the attack with paralysis."
+  },
+  "dive": {
+   "effect": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, Surf, and Whirlpool still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user dives on the first turn, then floats up and attacks on the next turn."
+  },
+  "dizzy-punch": {
+   "effect": "Inflicts regular damage.  Has a chance to confuse the target.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "doodle": {
+   "effect": "",
+   "flavor": "The user captures the very essence of the target in a sketch. This changes the Abilities of the user and its ally Pokémon to that of the target."
+  },
+  "doom-desire": {
+   "effect": "Inflicts typeless regular damage at the end of the third turn, starting with this one.  This move cannot score a critical hit.  If the target switches out, its replacement will be hit instead.  Damage is calculated at the time this move is used; stat changes and switching out during the delay won’t change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.\n\nThis effect breaks through Wonder Guard.\n\nIf the target is protected by Protect or Detect on the turn this move is used, this move will fail.  However, the damage on the third turn will break through protection.\n\nThe damage is applied at the end of the turn, so it ignores Endure and Focus Sash.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "Two turns after this move is used, a concentrated bundle of light blasts the target."
+  },
+  "double-edge": {
+   "effect": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+   "flavor": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot."
+  },
+  "double-hit": {
+   "effect": "Inflicts regular damage.  Hits twice in one turn.",
+   "flavor": "The user slams the target with a tail or the like. The target is hit twice in a row."
+  },
+  "double-iron-bash": {
+   "effect": "Inflicts regular damage.  Hits twice in one turn.",
+   "flavor": "The user rotates, centering the hex nut in its chest,\nand then strikes with its arms twice in a row. This may\nalso make the target flinch."
+  },
+  "double-kick": {
+   "effect": "Inflicts regular damage.  Hits twice in one turn.",
+   "flavor": "The user attacks by kicking the target twice in a row using two feet."
+  },
+  "double-shock": {
+   "effect": "",
+   "flavor": "The user discharges all the electricity from its body to perform a high-damage attack. After using this move, the user will no longer be Electric type."
+  },
+  "double-slap": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "double-team": {
+   "effect": "Raises the user’s evasion by one stage.",
+   "flavor": "By moving rapidly, the user makes illusory copies of itself to boost its evasiveness."
+  },
+  "draco-meteor": {
+   "effect": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+   "flavor": "Comets are summoned down from the sky onto the target. The recoil from this move harshly lowers the user’s Sp. Atk stat."
+  },
+  "dragon-ascent": {
+   "effect": "Inflicts regular damage, then lowers the user’s Defense and Special Defense by one stage each.",
+   "flavor": "The user attacks the target by dropping out of the sky at high speed. This also lowers the user's Defense and Sp. Def stats."
+  },
+  "dragon-breath": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis."
+  },
+  "dragon-cheer": {
+   "effect": "",
+   "flavor": "The user raises its allies’ morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more."
+  },
+  "dragon-claw": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user slashes the target with huge, sharp claws to inflict damage."
+  },
+  "dragon-dance": {
+   "effect": "Raises the user’s Attack and Speed by one stage each.",
+   "flavor": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats."
+  },
+  "dragon-darts": {
+   "effect": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+   "flavor": "The user attacks twice using Dreepy. If there are two opposing Pokémon, this move hits each of them once."
+  },
+  "dragon-energy": {
+   "effect": "Inflicts regular damage.  Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+   "flavor": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user's HP, the lower the move's power."
+  },
+  "dragon-hammer": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user wields its body like a hammer to attack the target and inflict damage."
+  },
+  "dragon-pulse": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The target is attacked with a shock wave generated by the user's gaping mouth."
+  },
+  "dragon-rage": {
+   "effect": "Inflicts exactly 40 damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "dragon-rush": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch."
+  },
+  "dragon-tail": {
+   "effect": "Inflicts regular damage, then switches the target out for another of its trainer’s Pokémon, selected at random.\n\nIf the target is under the effect of Ingrain or Suction Cups, or it has a Substitute, or its Trainer has no more usable Pokémon, it will not be switched out.  If the target is a wild Pokémon, the battle ends instead.",
+   "flavor": "The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+  },
+  "drain-punch": {
+   "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+   "flavor": "The user attacks with an energy-draining punch. The user's HP is restored by up to half the damage taken by the target."
+  },
+  "draining-kiss": {
+   "effect": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
+   "flavor": "The user steals the target's HP with a kiss. The user's HP is restored by over half the damage taken by the target."
+  },
+  "dream-eater": {
+   "effect": "Fails if not used on a sleeping Pokémon.  Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+   "flavor": "The user eats the dreams of a sleeping target. The user's HP is restored by up to half the damage taken by the target."
+  },
+  "drill-peck": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill."
+  },
+  "drill-run": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user crashes into the target while rotating its body like a drill. This move has a heightened chance of landing a critical hit."
+  },
+  "drum-beating": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+   "flavor": "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat."
+  },
+  "dual-chop": {
+   "effect": "Inflicts regular damage.  Hits twice in one turn.",
+   "flavor": "The user attacks its target by hitting it with brutal\nstrikes. The target is hit twice in a row."
+  },
+  "dual-wingbeat": {
+   "effect": "Inflicts regular damage.  Hits twice in one turn.",
+   "flavor": "The user slams the target with its wings to inflict damage. The target is hit twice in a row."
+  },
+  "dynamax-cannon": {
+   "effect": "This move deals twice the damage if the target is Dynamaxed.",
+   "flavor": "The user condenses energy within its body and unleashes that energy from its core to inflict damage."
+  },
+  "dynamic-punch": {
+   "effect": "Inflicts regular damage.  Has a chance to confuse the target.",
+   "flavor": "The user attacks by punching the target with full concentrated power. This also confuses the target."
+  },
+  "earth-power": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat."
+  },
+  "earthquake": {
+   "effect": "Inflicts regular damage.\n\nIf the target is in the first turn of Dig, this move will hit with double power.",
+   "flavor": "The user sets off an earthquake that strikes every Pokémon around it."
+  },
+  "echoed-voice": {
+   "effect": "Inflicts regular damage.  If any friendly Pokémon used this move earlier this turn or on the previous turn, that use’s power is added to this move’s power, to a maximum of 200.",
+   "flavor": "The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted."
+  },
+  "eerie-impulse": {
+   "effect": "Lowers the target’s Special Attack by two stages.",
+   "flavor": "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat."
+  },
+  "eerie-spell": {
+   "effect": "The target loses 3 PP from the last move it used.",
+   "flavor": "The user attacks with its tremendous psychic power. This also drains 3 PP from the move last used by the target."
+  },
+  "egg-bomb": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "electric-terrain": {
+   "effect": "For five turns, prevents all Pokémon on the ground from sleeping and strengthens their Electric moves to 1.5× their power.\n\nChanges Nature Power to Thunderbolt.",
+   "flavor": "The user turns the ground into Electric Terrain for five turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep."
+  },
+  "electrify": {
+   "effect": "Changes the target’s move’s type to Electric if it hasn’t moved yet this turn.",
+   "flavor": "If the target is electrified before it uses a move\nduring that turn, the target’s move becomes\nElectric type."
+  },
+  "electro-ball": {
+   "effect": "Inflicts regular damage.  The greater the user’s Speed compared to the target’s, the higher power this move has, to a maximum of 150.\n\nUser’s Speed                     | Power\n-------------------------------- | ----:\nUp to 2× the target’s Speed      |    60\nUp to 3× the target’s Speed      |    80\nUp to 4× the target’s Speed      |   120\nMore than 4× the target’s Speed  |   150\n",
+   "flavor": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power."
+  },
+  "electro-drift": {
+   "effect": "",
+   "flavor": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move's power is boosted more than usual if it's a supereffective hit."
+  },
+  "electro-shot": {
+   "effect": "",
+   "flavor": "The user gathers electricity on the first turn, boosting its Sp. Atk stat, then fires a high-voltage shot on the next turn. The shot will be fired immediately in rain."
+  },
+  "electroweb": {
+   "effect": "Lowers the target’s Speed by one stage.",
+   "flavor": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats."
+  },
+  "embargo": {
+   "effect": "Target cannot use its held item for five turns.  If the target leaves the field, this effect ends.\n\nIf a Pokémon under this effect uses Bug Bite or Pluck on a Pokémon holding a berry, the berry is destroyed but not used.  If a Pokémon under this effect uses Fling, it will fail.\n\nThis effect is passed by Baton Pass.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "ember": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The target is attacked with small flames. This may also leave the target with a burn."
+  },
+  "encore": {
+   "effect": "The next 4–8 times (selected at random) the target attempts to move, it is forced to repeat its last used move.  If the selected move allows the trainer to select a target, an opponent will be selected at random each turn.  If the target is prevented from using the selected move by some other effect, Struggle will be used instead.  This effect ends if the selected move runs out of PP.\n\nIf the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed, if it does not know the selected move, or if the selected move has 0 PP remaining, this move will fail.  If the target’s last used move was Encore, Mimic, Mirror Move, Sketch, Struggle, or Transform, this move will fail.",
+   "flavor": "The user compels the target to keep using the move it encored for three turns."
+  },
+  "endeavor": {
+   "effect": "Inflicts exactly enough damage to lower the target’s HP to equal the user’s.  If the target’s HP is not higher than the user’s, this move has no effect.  Type immunity applies, but other type effects are ignored.  This effect counts as damage for moves that respond to damage.",
+   "flavor": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP."
+  },
+  "endure": {
+   "effect": "The user’s HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession."
+  },
+  "energy-ball": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat."
+  },
+  "entrainment": {
+   "effect": "Changes the target’s ability to match the user’s.  This effect ends when the target leaves battle.",
+   "flavor": "The user dances with an odd rhythm that compels the target to mimic it, making the target's Ability the same as the user's."
+  },
+  "eruption": {
+   "effect": "Inflicts regular damage.  Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+   "flavor": "The user attacks opposing Pokémon with explosive fury. The lower the user's HP, the lower the move's power."
+  },
+  "esper-wing": {
+   "effect": "",
+   "flavor": "The user slashes the target with aura-enriched wings. This also boosts the user's Speed stat. This move has a heightened chance of landing a critical hit."
+  },
+  "eternabeam": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "This is Eternatus’s most powerful attack in its original\nform. The user can’t move on the next turn."
+  },
+  "expanding-force": {
+   "effect": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+   "flavor": "The user attacks the target with its psychic power. When the ground is Psychic Terrain, this move's power is boosted and it damages all opposing Pokémon."
+  },
+  "explosion": {
+   "effect": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
+   "flavor": "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move."
+  },
+  "extrasensory": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user attacks with an odd, unseeable power. This may also make the target flinch."
+  },
+  "extreme-evoboost": {
+   "effect": "Raises the user’s Attack, Defense, Special Attack, Special Defense, and Speed by two stages each.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  }
+ }
+}

@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 6,
+ "_count": 80,
+ "items": {
+  "ingrain": {
+   "effect": "Prevents the user from switching out.  User regains 1/16 of its max HP at the end of every turn.  If the user was immune to Ground attacks, it will now take normal damage from them.\n\nRoar and Whirlwind will not affect the user.  The user cannot use Magnet Rise.\n\nThe user may still use U-turn to leave the field.\n\nThis effect can be passed with Baton Pass.",
+   "flavor": "The user lays roots that restore its own HP every turn. Because the user is now rooted, it can't switch out."
+  },
+  "instruct": {
+   "effect": "The target immediately uses its most recently-used move.  This is independent of the target’s normal action for the turn (i.e., it may end up moving twice), but otherwise functions as usual, including deduction of PP.  This effect works for disabled moves and ignores Torment.",
+   "flavor": "The user instructs the target to reuse the move last used by the target."
+  },
+  "ion-deluge": {
+   "effect": "Changes all Pokémon’s Normal moves to Electric moves for the rest of the turn.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "iron-defense": {
+   "effect": "Raises the user’s Defense by two stages.",
+   "flavor": "The user hardens its body's surface like iron, sharply boosting its Defense stat."
+  },
+  "iron-head": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user slams the target with its steel-hard head. This may also make the target flinch."
+  },
+  "iron-tail": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+   "flavor": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat."
+  },
+  "ivy-cudgel": {
+   "effect": "",
+   "flavor": "The user strikes with an ivy-wrapped cudgel. This move's type changes depending on the mask worn by the user, and it has a heightened chance of landing a critical hit."
+  },
+  "jaw-lock": {
+   "effect": "Inflicts damage, then prevents you and the target from switching out. The user or target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. If they do, the effect ends.",
+   "flavor": "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pokémon leaves the field."
+  },
+  "jet-punch": {
+   "effect": "",
+   "flavor": "The user summons a torrent around its fist and punches at blinding speed. This move always goes first."
+  },
+  "judgment": {
+   "effect": "Inflicts regular damage.  If the user is holding a plate or a drive, this move’s type is the type corresponding to that item.\n\nNote: This effect is technically shared by both Techno Blast and Judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+   "flavor": "The user releases countless shots of light at the target. This move's type changes depending on the kind of plate held by the user."
+  },
+  "jump-kick": {
+   "effect": "Inflicts regular damage. If this move misses, is blocked by Protect or Detect, or has no effect, the user takes damage equal to half of its max HP rounded down.\n\nThis move cannot be used while Gravity is in effect.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "jungle-healing": {
+   "effect": "Each Pokemon on the user's side has its status condition healed and restores 1/4 of its maximum HP, rounded up.",
+   "flavor": "The user becomes one with the jungle, restoring HP and curing status conditions for itself and its ally Pokémon currently in the battle."
+  },
+  "karate-chop": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "kinesis": {
+   "effect": "Lowers the target’s accuracy by one stage.",
+   "flavor": "The user distracts the target by bending a spoon.\nThis lowers the target’s accuracy."
+  },
+  "kings-shield": {
+   "effect": "Blocks damaging attacks and lowers attacking Pokémon’s Attack by two stages on contact.  Switches Aegislash to Shield Forme.",
+   "flavor": "The user takes a defensive stance while it protects\nitself from damage. It also lowers the Attack stat of any\nattacker that makes direct contact."
+  },
+  "knock-off": {
+   "effect": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with Recycle.\n\nIf the target has Multitype or Sticky Hold, it will take damage but not lose its item.",
+   "flavor": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item."
+  },
+  "kowtow-cleave": {
+   "effect": "",
+   "flavor": "The user slashes at the target after kowtowing to make the target let down its guard. This attack never misses."
+  },
+  "lands-wrath": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user gathers the energy of the land and focuses\nthat power on opposing Pokémon to damage them."
+  },
+  "laser-focus": {
+   "effect": "The user’s next move will result in a critical hit.",
+   "flavor": "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit."
+  },
+  "lash-out": {
+   "effect": "Power doubles if the user had a stat stage lowered this turn.",
+   "flavor": "The user lashes out to vent its frustration toward the target. This move's power is doubled if the user's stats were lowered during this turn."
+  },
+  "last-resort": {
+   "effect": "Inflicts regular damage.  This move can only be used if each of the user’s other moves has been used at least once since the user entered the field.  If this is the user’s only move, this move will fail.",
+   "flavor": "This move can be used only after the user has used all the other moves it knows in the battle."
+  },
+  "last-respects": {
+   "effect": "",
+   "flavor": "The user attacks to avenge its allies. The more defeated allies there are in the user's party, the greater the move's power."
+  },
+  "lava-plume": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn."
+  },
+  "leaf-blade": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user handles a sharp leaf like a sword and cuts the target to inflict damage. This move has a heightened chance of landing a critical hit."
+  },
+  "leaf-storm": {
+   "effect": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+   "flavor": "The user whips up a storm of leaves around the target. The recoil from this move harshly lowers the user's Sp. Atk stat."
+  },
+  "leaf-tornado": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s accuracy by one stage.",
+   "flavor": "The user attacks its target by encircling it in sharp\nleaves. This attack may also lower the\ntarget’s accuracy."
+  },
+  "leafage": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks by pelting the target with leaves."
+  },
+  "leech-life": {
+   "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+   "flavor": "The user drains the target's blood. The user's HP is restored by up to half the damage taken by the target."
+  },
+  "leech-seed": {
+   "effect": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken.  Has no effect on Grass Pokémon.  The seed remains until the target leaves the field.\n\nThe user takes damage instead of being healed if the target has Liquid Ooze.\n\nRapid Spin will remove this effect.\n\nThis effect is passed on by Baton Pass.",
+   "flavor": "A seed is planted on the target. It steals some HP from the target every turn."
+  },
+  "leer": {
+   "effect": "Lowers the target’s Defense by one stage.",
+   "flavor": "The user gives opposing Pokémon an intimidating leer that lowers their Defense stats."
+  },
+  "lets-snuggle-forever": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "lick": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The user licks the target with a long tongue to inflict damage. This may also leave the target with paralysis."
+  },
+  "life-dew": {
+   "effect": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+   "flavor": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon currently in the battle."
+  },
+  "light-of-ruin": {
+   "effect": "Inflicts regular damage.  User takes 1/2 the damage it inflicts in recoil.",
+   "flavor": "Drawing power from the Eternal Flower, the user\nfires a powerful beam of light. This also damages the\nuser quite a lot."
+  },
+  "light-screen": {
+   "effect": "Erects a barrier around the user’s side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding Light Clay, the barrier lasts for eight turns.\n\nBrick Break or Defog used by an opponent will destroy the barrier.",
+   "flavor": "A wondrous wall of light is put up to reduce damage from special moves for five turns."
+  },
+  "light-that-burns-the-sky": {
+   "effect": "Inflicts damage using either Attack or Special Attack stat, whichever is higher. Determining which stat is used takes into account stat changes but not held items or abilities.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "liquidation": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+   "flavor": "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat."
+  },
+  "lock-on": {
+   "effect": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores accuracy and evasion modifiers.\n\nOne-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as Dig or Fly.\n\nIf the target uses Detect or Protect while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.\n\nThis effect is passed on by Baton Pass.",
+   "flavor": "The user takes sure aim at the target. This ensures the user's next move does not miss that target."
+  },
+  "lovely-kiss": {
+   "effect": "Puts the target to sleep.",
+   "flavor": "With a scary face, the user tries to force a kiss on\nthe target. If it succeeds, the target falls asleep."
+  },
+  "low-kick": {
+   "effect": "Inflicts regular damage.  Power increases with the target’s weight in kilograms, to a maximum of 120.\n\nTarget’s weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
+   "flavor": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power."
+  },
+  "low-sweep": {
+   "effect": "Lowers the target’s Speed by one stage.",
+   "flavor": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat."
+  },
+  "lucky-chant": {
+   "effect": "For five turns, opposing Pokémon cannot score critical hits.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "lumina-crash": {
+   "effect": "",
+   "flavor": "The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat."
+  },
+  "lunar-blessing": {
+   "effect": "",
+   "flavor": "The user receives a blessing from the crescent moon, restoring HP and curing status conditions for itself and its ally Pokémon currently in the battle."
+  },
+  "lunar-dance": {
+   "effect": "User faints.  Its replacement’s HP and PP are fully restored, and any major status effect is removed.",
+   "flavor": "The user faints. In return, the Pokémon taking its place will have its HP and PP restored and its status conditions cured."
+  },
+  "lunge": {
+   "effect": "Inflicts regular damage.  Lowers the target’s Attack by one stage.",
+   "flavor": "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat."
+  },
+  "luster-purge": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat."
+  },
+  "mach-punch": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user throws a punch at blinding speed. This move always goes first."
+  },
+  "magic-coat": {
+   "effect": "The first non-damaging move targeting the user this turn that inflicts major status effects, stat changes, or trapping effects will be reflected at its user.\n\nDefog, Memento, and Teeter Dance are not reflected.\n\nAttract, Flatter, Gastro Acid, Leech Seed, Swagger, Worry Seed, and Yawn are reflected.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "Moves like Leech Seed and moves that inflict status\nconditions are blocked by a barrier and reflected back\nto the user of those moves."
+  },
+  "magic-powder": {
+   "effect": "Causes the target to become a Psychic type. Fails if the target is Arceus, Silvally, or is already only a Psychic type.",
+   "flavor": "The user scatters a cloud of magic powder that changes the target's type to Psychic."
+  },
+  "magic-room": {
+   "effect": "For five turns (including this one), passive effects of held items are ignored, and Pokémon will not use their held items.",
+   "flavor": "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns."
+  },
+  "magical-leaf": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "The user scatters curious leaves that chase the target. This attack never misses."
+  },
+  "magical-torque": {
+   "effect": "",
+   "flavor": ""
+  },
+  "magma-storm": {
+   "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+   "flavor": "The user traps the target inside a maelstrom of fire that inflicts damage for four to five turns."
+  },
+  "magnet-bomb": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "magnet-rise": {
+   "effect": "For five turns, the user is immune to Ground moves.\n\nIf the user is under the effect of Ingrain or has Levitate, this move will fail.\n\nThis effect is temporarily disabled by and cannot be used during Gravity.\n\nThis effect is passed on by Baton Pass.",
+   "flavor": "The user levitates using electrically generated magnetism for five turns."
+  },
+  "magnetic-flux": {
+   "effect": "Raises the Defense and Special Defense of all friendly Pokémon with Plus or Minus by one stage.",
+   "flavor": "The user manipulates magnetic fields, which boosts the Defense and Sp. Def stats of ally Pokémon with the Plus Ability or the Minus Ability."
+  },
+  "magnitude": {
+   "effect": "Inflicts regular damage.  Power is selected at random between 10 and 150, with an average of 71:\n\nMagnitude | Power | Chance\n--------: | ----: | -----:\n        4 |    10 |     5%\n        5 |    30 |    10%\n        6 |    50 |    20%\n        7 |    70 |    30%\n        8 |    90 |    20%\n        9 |   110 |    10%\n       10 |   150 |     5%\n\nThis move has double power against Pokémon currently underground due to Dig.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "make-it-rain": {
+   "effect": "",
+   "flavor": "The user attacks by throwing out a mass of coins. This also lowers the user's Sp. Atk stat. Money is earned after the battle."
+  },
+  "malicious-moonsault": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "malignant-chain": {
+   "effect": "",
+   "flavor": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned."
+  },
+  "mat-block": {
+   "effect": "Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out.",
+   "flavor": "Using a pulled-up mat as a shield, the user protects\nitself and its allies from damaging moves. This does\nnot stop status moves."
+  },
+  "matcha-gotcha": {
+   "effect": "",
+   "flavor": "The user fires a blast of tea that it mixed. The user's HP is restored by up to half the damage taken by the target. This may also leave the target with a burn."
+  },
+  "max-airstream": {
+   "effect": "If this move hits, raise the Speed of the user and its allies' by 1 stage.",
+   "flavor": "This is a Flying-type attack Dynamax Pokémon use.\nThis raises ally Pokémon’s Speed stats."
+  },
+  "max-darkness": {
+   "effect": "If this move hits, lower the Special Defense of all Pokemon on the opposing side by 1 stage.",
+   "flavor": "This is a Dark-type attack Dynamax Pokémon use.\nThis lowers the target’s Sp. Def stat."
+  },
+  "max-flare": {
+   "effect": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage.\n\nIf the user is holding Heat Rock, this effect lasts for eight turns.\n\nPokémon cannot become frozen.\n\nThunder has 50% accuracy.\n\nSolar Beam skips its charge turn.\n\nMoonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP.\n\nPokémon with Chlorophyll have doubled original Speed.\n\nPokémon with Forecast become Fire.\n\nPokémon with Leaf Guard are not affected by major status effects.\n\nPokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%.\n\nPokémon with Dry Skin lose 1/8 max HP at the end of each turn.\n\nPokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+   "flavor": "This is a Fire-type attack Dynamax Pokémon use.\nThe user intensifies the sun for five turns."
+  },
+  "max-flutterby": {
+   "effect": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+   "flavor": "This is a Bug-type attack Dynamax Pokémon use.\nThis lowers the target’s Sp. Atk stat."
+  },
+  "max-geyser": {
+   "effect": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage.\n\nIf the user is holding Damp Rock, this effect lasts for eight turns.\n\nThunder has 100% accuracy.  If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection.\n\nSolar Beam has half power.\n\nMoonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP.\n\nPokémon with Swift Swim have doubled original Speed.\n\nPokémon with Forecast become Water.\n\nPokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+   "flavor": "This is a Water-type attack Dynamax Pokémon use.\nThe user summons a heavy rain that falls for\nfive turns."
+  },
+  "max-guard": {
+   "effect": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail.\n\nLock-On, Mind Reader, and No Guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold); those are always blocked by this move.\n\nThunder during Rain Dance and Blizzard during Hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* Acupressure from an ally\n* Curse’s curse effect\n* Delayed damage from Doom Desire and Future Sight; however, these moves will be prevented if they are used this turn\n* Feint, which will also end this move’s protection after it hits\n* Imprison\n* Perish Song\n* Shadow Force\n* Moves that merely copy the user, such as Transform or Psych Up\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "This move enables the user to protect itself from\nall attacks. Its chance of failing rises if it is used\nin succession."
+  },
+  "max-hailstorm": {
+   "effect": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding Icy Rock, this effect lasts for eight turns.\n\nBlizzard has 100% accuracy.  If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection.\n\nMoonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP.\n\nPokémon with Snow Cloak are exempt from this effect’s damage.",
+   "flavor": "This is an Ice-type attack Dynamax Pokémon use.\nThe user summons a hailstorm lasting five turns."
+  },
+  "max-knuckle": {
+   "effect": "If this move hits, raise the Attack of the user and its allies' by 1 stage.",
+   "flavor": "This is a Fighting-type attack Dynamax Pokémon use.\nThis raises ally Pokémon’s Attack stats."
+  },
+  "max-lightning": {
+   "effect": "For five turns, prevents all Pokémon on the ground from sleeping and strengthens their Electric moves to 1.5× their power.\n\nChanges Nature Power to Thunderbolt.",
+   "flavor": "This is an Electric-type attack Dynamax Pokémon use.\nThe user turns the ground into Electric Terrain for\nfive turns."
+  },
+  "max-mindstorm": {
+   "effect": "Changes the terrain to Psychic Terrain for 5 turns.  Overrides Electric Terrain, Grassy Terrain, and Misty Terrain.\n\nAll Pokémon on the ground are immune to moves with priority greater than 0.  (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.)  Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×.\n\nIf a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+   "flavor": "This is a Psychic-type attack Dynamax Pokémon use.\nThe user turns the ground into Psychic Terrain for\nfive turns."
+  },
+  "max-ooze": {
+   "effect": "If this move hits, raise the Special Attack of the user and its allies' by 1 stage.",
+   "flavor": "This is a Poison-type attack Dynamax Pokémon use.\nThis raises ally Pokémon’s Sp. Atk stats."
+  },
+  "max-overgrowth": {
+   "effect": "For five turns, heals all Pokémon on the ground for 1/16 their max HP each turn and strengthens their Grass moves to 1.5× their power.\n\nChanges Nature Power to Energy Ball.",
+   "flavor": "This is a Grass-type attack Dynamax Pokémon use.\nThe user turns the ground into Grassy Terrain for\nfive turns."
+  },
+  "max-phantasm": {
+   "effect": "If this move hits, lower the Defense of all Pokemon on the opposing side by 1 stage.",
+   "flavor": "This is a Ghost-type attack Dynamax Pokémon use.\nThis lowers the target’s Defense stat."
+  },
+  "max-quake": {
+   "effect": "If this move hits, raise the Special Defense of the user and its allies' by 1 stage.",
+   "flavor": "This is a Ground-type attack Dynamax Pokémon use.\nThis raises ally Pokémon’s Sp. Def stats."
+  },
+  "max-rockfall": {
+   "effect": "Changes the weather to a sandstorm for five turns.  Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn.  Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect.\n\nSolar Beam’s power is halved.\n\nMoonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+   "flavor": "This is a Rock-type attack Dynamax Pokémon use.\nThe user summons a sandstorm lasting five turns."
+  },
+  "max-starfall": {
+   "effect": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power.\n\nChanges Nature Power to Moonblast.",
+   "flavor": "This is a Fairy-type attack Dynamax Pokémon use.\nThe user turns the ground into Misty Terrain for\nfive turns."
+  },
+  "max-steelspike": {
+   "effect": "If this move hits, raise the Defense of the user and its allies' by 1 stage.",
+   "flavor": "This is a Steel-type attack Dynamax Pokémon use.\nThis raises ally Pokémon’s Defense stats."
+  }
+ }
+}

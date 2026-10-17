@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 5,
+ "_count": 80,
+ "items": {
+  "grass-knot": {
+   "effect": "Inflicts regular damage.  Power increases with the target’s weight in kilograms, to a maximum of 120.\n\nTarget’s weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
+   "flavor": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power."
+  },
+  "grass-pledge": {
+   "effect": "Inflicts regular damage.  If a friendly Pokémon used Fire Pledge earlier this turn, all opposing Pokémon will take 1/8 their max HP in damage at the end of every turn for four turns (including this one).",
+   "flavor": "A column of grass hits the target. When used with its water counterpart, this move's power is boosted and a vast swamp appears."
+  },
+  "grass-whistle": {
+   "effect": "Puts the target to sleep.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "grassy-glide": {
+   "effect": "If Grassy Terrain is active and the user is grounded, this move has has its priority increased by 1.",
+   "flavor": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain."
+  },
+  "grassy-terrain": {
+   "effect": "For five turns, heals all Pokémon on the ground for 1/16 their max HP each turn and strengthens their Grass moves to 1.5× their power.\n\nChanges Nature Power to Energy Ball.",
+   "flavor": "The user turns the ground into Grassy Terrain for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves."
+  },
+  "grav-apple": {
+   "effect": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+   "flavor": "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense stat."
+  },
+  "gravity": {
+   "effect": "For five turns (including this one), all immunities to Ground moves are disabled.  For the duration of this effect, the evasion of every Pokémon on the field is lowered by two stages.  Cancels the effects of Bounce, Fly, and Sky Drop.\n\nSpecifically, Flying Pokémon and those with Levitate or that have used Magnet Rise are no longer immune to Ground attacks, Arena Trap, Spikes, or Toxic Spikes.\n\nBounce, Fly, Sky Drop, High Jump Kick, Jump Kick, and Splash cannot be used while this move is in effect.\n\n*Bug*: If this move is used during a double or triple battle while Pokémon are under the effect of Sky Drop, Sky Drop’s effect is not correctly canceled on its target, and it remains high in the air indefinitely.  As Sky Drop prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
+   "flavor": "Enables Flying types or Pokémon with the Levitate Ability to be hit by Ground-type moves for five turns. Moves that involve flying can't be used."
+  },
+  "growl": {
+   "effect": "Lowers the target’s Attack by one stage.",
+   "flavor": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats."
+  },
+  "growth": {
+   "effect": "Raises the user’s Attack and Special Attack by one stage each.  During Sunny Day, raises both stats by two stages.",
+   "flavor": "The user's body grows all at once, boosting the Attack and Sp. Atk stats."
+  },
+  "grudge": {
+   "effect": "If the user faints before it next acts, the move that fainted it will have its PP dropped to 0.  End-of-turn damage does not trigger this effect.",
+   "flavor": "If the user faints, the user’s grudge fully depletes\nthe PP of the opponent’s move that knocked it out."
+  },
+  "guard-split": {
+   "effect": "Averages the user’s unmodified Defense with the target’s unmodified Defense; the value becomes the unmodified Defense for both Pokémon. Unmodified Special Defense is averaged the same way.",
+   "flavor": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target."
+  },
+  "guard-swap": {
+   "effect": "User swaps its Defense and Special Defense modifiers with the target.",
+   "flavor": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target."
+  },
+  "guardian-of-alola": {
+   "effect": "Inflicts direct damage equal to ¾ of the target’s remaining HP.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "guillotine": {
+   "effect": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting.\n\nThe effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+   "flavor": "A vicious tearing attack with big pincers. The target faints instantly if this attack hits."
+  },
+  "gunk-shot": {
+   "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+   "flavor": "The user shoots filthy garbage at the target to attack. This may also poison the target."
+  },
+  "gust": {
+   "effect": "Inflicts regular damage.\n\nIf the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power.",
+   "flavor": "A gust of wind is whipped up by wings and launched at the target to inflict damage."
+  },
+  "gyro-ball": {
+   "effect": "Inflicts regular damage.  Power increases with the target’s current Speed compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150.",
+   "flavor": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move's power."
+  },
+  "hail": {
+   "effect": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding Icy Rock, this effect lasts for eight turns.\n\nBlizzard has 100% accuracy.  If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection.\n\nMoonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP.\n\nPokémon with Snow Cloak are exempt from this effect’s damage.",
+   "flavor": "The user summons a hailstorm lasting five turns.\nIt damages all Pokémon except Ice types."
+  },
+  "hammer-arm": {
+   "effect": "Inflicts regular damage, then lowers the user’s Speed by one stage.",
+   "flavor": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat."
+  },
+  "happy-hour": {
+   "effect": "Doubles prize money.\n\nStacks with a held item.  Only works once per battle.",
+   "flavor": "Using Happy Hour doubles the amount of prize\nmoney received after battle."
+  },
+  "hard-press": {
+   "effect": "",
+   "flavor": "The target is crushed with an arm, a claw, or the like to inflict damage. The more HP the target has left, the greater the move's power."
+  },
+  "harden": {
+   "effect": "Raises the user’s Defense by one stage.",
+   "flavor": "The user stiffens all the muscles in its body to boost its Defense stat."
+  },
+  "haze": {
+   "effect": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of Clear Body or White Smoke.",
+   "flavor": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
+  },
+  "head-charge": {
+   "effect": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+   "flavor": "The user charges its head into its target, using its\npowerful guard hair. This also damages the user\na little."
+  },
+  "head-smash": {
+   "effect": "Inflicts regular damage.  User takes 1/2 the damage it inflicts in recoil.",
+   "flavor": "The user attacks the target with a hazardous full-power headbutt. This also damages the user terribly."
+  },
+  "headbutt": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch."
+  },
+  "headlong-rush": {
+   "effect": "",
+   "flavor": "The user smashes into the target in a full-body tackle. This also lowers the user’s Defense and Sp. Def stats."
+  },
+  "heal-bell": {
+   "effect": "Removes major status effects and confusion from every Pokémon in the user’s party.",
+   "flavor": "The user makes a soothing bell chime to cure the status conditions of all its fellow party Pokémon and allies."
+  },
+  "heal-block": {
+   "effect": "For the next five turns, the target may not use any moves that only restore HP, and move effects that heal the target are disabled.  Moves that steal HP may still be used, but will only inflict damage and not heal the target.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "heal-order": {
+   "effect": "Heals the user for half its max HP.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "heal-pulse": {
+   "effect": "Heals the target for half its max HP.",
+   "flavor": "The user emits a healing pulse that restores the target's HP by up to half its max HP."
+  },
+  "healing-wish": {
+   "effect": "User faints.  Its replacement’s HP is fully restored, and any major status effect is removed.  If the replacement Pokémon is immediately fainted by a switch-in effect, the next replacement is healed by this move instead.",
+   "flavor": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured."
+  },
+  "heart-stamp": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "heart-swap": {
+   "effect": "User swaps its stat modifiers with the target.",
+   "flavor": "The user employs its psychic power to switch stat changes with the target."
+  },
+  "heat-crash": {
+   "effect": "Inflicts regular damage.  The greater the user’s weight compared to the target’s, the higher power this move has, to a maximum of 120.\n\nUser’s weight                    | Power\n-------------------------------- | ----:\nUp to 2× the target’s weight     |    40\nUp to 3× the target’s weight     |    60\nUp to 4× the target’s weight     |    80\nUp to 5× the target’s weight     |   100\nMore than 5× the target’s weight |   120\n",
+   "flavor": "The user slams into the target with its flame-covered body. The more the user outweighs the target, the greater the move's power."
+  },
+  "heat-wave": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn."
+  },
+  "heavy-slam": {
+   "effect": "Inflicts regular damage.  The greater the user’s weight compared to the target’s, the higher power this move has, to a maximum of 120.\n\nUser’s weight                    | Power\n-------------------------------- | ----:\nUp to 2× the target’s weight     |    40\nUp to 3× the target’s weight     |    60\nUp to 4× the target’s weight     |    80\nUp to 5× the target’s weight     |   100\nMore than 5× the target’s weight |   120\n",
+   "flavor": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power."
+  },
+  "helping-hand": {
+   "effect": "Boosts the power of the target’s moves by 50% until the end of this turn.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+   "flavor": "The user assists an ally by boosting the power of that ally's attack."
+  },
+  "hex": {
+   "effect": "Inflicts regular damage.  If the target has a major status ailment, this move has double power.",
+   "flavor": "This relentless attack does massive damage to a target affected by status conditions."
+  },
+  "hidden-power": {
+   "effect": "Inflicts regular damage.  Power and type are determined by the user’s IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | Fighting\n    1 | Flying\n    2 | Poison\n    3 | Ground\n    4 | Rock\n    5 | Bug\n    6 | Ghost\n    7 | Steel\n    8 | Fire\n    9 | Water\n   10 | Grass\n   11 | Electric\n   12 | Psychic\n   13 | Ice\n   14 | Dragon\n   15 | Dark\n\nThis move thus cannot be Normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, Bug, Fighting, and Grass appear 5/64 of the time, and Dark only 1/64 of the time.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "high-horsepower": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user fiercely attacks the target using its entire body."
+  },
+  "high-jump-kick": {
+   "effect": "Inflicts regular damage. If this move misses, is blocked by Protect or Detect, or has no effect, the user takes damage equal to half of its max HP rounded down.\n\nThis move cannot be used while Gravity is in effect.",
+   "flavor": "The target is attacked with a knee kick from a jump. If this move misses, the user takes damage instead."
+  },
+  "hold-back": {
+   "effect": "Inflicts regular damage.  Will not reduce the target’s HP below 1.",
+   "flavor": "The user holds back when it attacks, and the target\nis left with at least 1 HP."
+  },
+  "hold-hands": {
+   "effect": "Does nothing.",
+   "flavor": "The user and an ally hold hands. This makes them\nvery happy."
+  },
+  "hone-claws": {
+   "effect": "Raises the user’s Attack and accuracy by one stage.",
+   "flavor": "The user sharpens its claws to boost its Attack stat and accuracy."
+  },
+  "horn-attack": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The target is jabbed with a sharply pointed horn to inflict damage."
+  },
+  "horn-drill": {
+   "effect": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting.\n\nThe effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+   "flavor": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits."
+  },
+  "horn-leech": {
+   "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+   "flavor": "The user drains the target's energy with its horns. The user's HP is restored by up to half the damage taken by the target."
+  },
+  "howl": {
+   "effect": "Raises the user’s Attack by one stage.",
+   "flavor": "The user howls loudly to rouse itself and its allies. This boosts their Attack stats."
+  },
+  "hurricane": {
+   "effect": "Inflicts regular damage.  Has a chance to confuse the target.\n\nThis move can hit Pokémon under the effect of Bounce, Fly, or Sky Drop.\n\nDuring Rain Dance, this move has 100% accuracy.  During Sunny Day, this move has 50% accuracy.",
+   "flavor": "The user attacks by wrapping its opponent in a fierce wind. This may also confuse the target."
+  },
+  "hydro-cannon": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The target is hit with a watery blast. The user can't move on the next turn."
+  },
+  "hydro-pump": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The target is blasted by a huge volume of water launched under great pressure."
+  },
+  "hydro-steam": {
+   "effect": "",
+   "flavor": "The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent."
+  },
+  "hydro-vortex--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "hydro-vortex--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "hyper-beam": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The target is attacked with a powerful beam. The user can't move on the next turn."
+  },
+  "hyper-drill": {
+   "effect": "",
+   "flavor": "The user spins the pointed part of its body at high speed to pierce the target. This attack can hit a target using a move such as Protect or Detect."
+  },
+  "hyper-fang": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user bites hard on the target with its sharp\nfront fangs. This may also make the target flinch."
+  },
+  "hyper-voice": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks by letting loose a horribly loud, resounding cry."
+  },
+  "hyperspace-fury": {
+   "effect": "Inflicts regular damage.  Bypasses and removes any protection effect on the target.",
+   "flavor": "Using its many arms, the user unleashes a barrage of attacks that ignore the effects of moves like Protect and Detect. This also lowers the user's Defense stat."
+  },
+  "hyperspace-hole": {
+   "effect": "Inflicts regular damage.  Bypasses and removes any protection effect on the target.",
+   "flavor": "Using a hyperspace hole, the user appears right next to the target and strikes. This attack can hit a target using a move such as Protect or Detect."
+  },
+  "hypnosis": {
+   "effect": "Puts the target to sleep.",
+   "flavor": "The user employs hypnotic suggestion to make the target fall asleep."
+  },
+  "ice-ball": {
+   "effect": "Inflicts regular damage.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.\n\nIf the user has used Defense Curl since entering the field, this move has double power.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "ice-beam": {
+   "effect": "Inflicts regular damage.  Has a chance to freeze the target.",
+   "flavor": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
+  },
+  "ice-burn": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.  User charges for one turn before attacking.",
+   "flavor": "The turn after using this move, the user surrounds the target with an ultracold, freezing wind to inflict damage. This may also leave the target with a burn."
+  },
+  "ice-fang": {
+   "effect": "Inflicts regular damage.  Has a chance to freeze the target and a separate chance to make the target flinch.",
+   "flavor": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen."
+  },
+  "ice-hammer": {
+   "effect": "Inflicts regular damage, then lowers the user’s Speed by one stage.",
+   "flavor": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat."
+  },
+  "ice-punch": {
+   "effect": "Inflicts regular damage.  Has a chance to freeze the target.",
+   "flavor": "The target is attacked with an icy punch. This may also leave the target frozen."
+  },
+  "ice-shard": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first."
+  },
+  "ice-spinner": {
+   "effect": "",
+   "flavor": "The user covers its feet in thin ice and twirls around, slamming into the target. This move's spinning motion also destroys the terrain."
+  },
+  "icicle-crash": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user attacks by crashing large icicles onto the target. This may also make the target flinch."
+  },
+  "icicle-spear": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "The user attacks by launching sharp icicles at the target. This move hits two to five times in a row."
+  },
+  "icy-wind": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+   "flavor": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats."
+  },
+  "imprison": {
+   "effect": "Prevents any Pokémon on the opposing side of the field from using any move the user knows until the user leaves the field.  This effect is live; if the user obtains new moves while on the field, these moves become restricted.  If no opposing Pokémon knows any of the user’s moves when this move is used, this move will fail.",
+   "flavor": "If opposing Pokémon know any move also known by the user, they are prevented from using it."
+  },
+  "incinerate": {
+   "effect": "Inflicts regular damage.  If the target is holding a berry, it’s destroyed and cannot be used in response to this move.",
+   "flavor": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable."
+  },
+  "infernal-parade": {
+   "effect": "",
+   "flavor": "The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition."
+  },
+  "inferno": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn."
+  },
+  "inferno-overdrive--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "inferno-overdrive--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "infestation": {
+   "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+   "flavor": "The target is infested and attacked for four to five turns. The target can't flee during this time."
+  }
+ }
+}

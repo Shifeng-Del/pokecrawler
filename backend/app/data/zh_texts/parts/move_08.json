@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 8,
+ "_count": 80,
+ "items": {
+  "petal-blizzard": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user stirs up a violent petal blizzard and damages everything around it."
+  },
+  "petal-dance": {
+   "effect": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nSafeguard does not protect against the confusion from this move.",
+   "flavor": "The user attacks the target by scattering petals for two to three turns. The user then becomes confused."
+  },
+  "phantom-force": {
+   "effect": "Inflicts regular damage.  User vanishes for one turn, becoming immune to attack, and hits on the second turn.\n\nThis move ignores the effects of Detect and Protect.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself."
+  },
+  "photon-geyser": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks the target with a pillar of light. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+  },
+  "pika-papow": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "pin-missile": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "The user attacks by shooting sharp spikes at the target. This move hits two to five times in a row."
+  },
+  "plasma-fists": {
+   "effect": "After inflicting damage, all Normal-type moves become Electric-type for the remainder of the turn, including status moves. This effect is applied after move type-changing abilities, such as Pixilate and Normalize.",
+   "flavor": "The user attacks with electrically charged fists.\nThis move changes Normal-type moves to\nElectric-type moves."
+  },
+  "play-nice": {
+   "effect": "Lowers the target’s Attack by one stage.",
+   "flavor": "The user and the target become friends, and the target loses its will to fight. This lowers the target's Attack stat."
+  },
+  "play-rough": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Attack by one stage.",
+   "flavor": "The user attacks by playing rough with the target. This may also lower the target's Attack stat."
+  },
+  "pluck": {
+   "effect": "Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.\n\nIf the target is holding a Jaboca Berry or Rowap Berry, the berry is still removed, but has no effect.\n\nIf this move is super effective and the target is holding a berry that can reduce this move’s damage, it will do so, and will not be stolen.",
+   "flavor": "The user attacks by pecking the target. If the target is holding a Berry, the user eats it and gains its effect."
+  },
+  "poison-fang": {
+   "effect": "Inflicts regular damage.  Has a chance to badly poison the target.",
+   "flavor": "The user bites the target with toxic fangs. This may also leave the target badly poisoned."
+  },
+  "poison-gas": {
+   "effect": "Poisons the target.",
+   "flavor": "A cloud of poison gas is sprayed in the faces of opposing Pokémon, poisoning those it hits."
+  },
+  "poison-jab": {
+   "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+   "flavor": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target."
+  },
+  "poison-powder": {
+   "effect": "Poisons the target.",
+   "flavor": "The user scatters a cloud of poisonous dust that poisons the target."
+  },
+  "poison-sting": {
+   "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+   "flavor": "The user stabs the target with a poisonous stinger to inflict damage. This may also poison the target."
+  },
+  "poison-tail": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move. Has a chance to poison the target.",
+   "flavor": "The user hits the target with its tail. This move has a heightened chance of landing a critical hit and may also poison the target."
+  },
+  "pollen-puff": {
+   "effect": "If the target is an opponent, inflicts regular damage.  If the target is an ally, heals the target for 50% of its max HP.",
+   "flavor": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead."
+  },
+  "poltergeist": {
+   "effect": "Fails if the target has no held item.",
+   "flavor": "The user attacks by controlling the target's item. This move fails if the target isn't holding an item."
+  },
+  "population-bomb": {
+   "effect": "",
+   "flavor": "The user’s fellows gather in droves to perform a combo attack that hits the target one to ten times in a row."
+  },
+  "pounce": {
+   "effect": "",
+   "flavor": "The user attacks by pouncing on the target. This also lowers the target's Speed stat."
+  },
+  "pound": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The target is physically pounded with a long tail, a foreleg, or the like."
+  },
+  "powder": {
+   "effect": "Explodes if the target uses a Fire move this turn, damaging it for 1/4 its max HP and preventing the move.",
+   "flavor": "The user covers the target in a combustible powder.\nIf the target uses a Fire-type move, the powder\nexplodes and damages the target."
+  },
+  "powder-snow": {
+   "effect": "Inflicts regular damage.  Has a chance to freeze the target.",
+   "flavor": "The user attacks with a chilling gust of powdery snow. This may also leave opposing Pokémon frozen."
+  },
+  "power-gem": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks with a ray of light that sparkles as if it were made of gemstones."
+  },
+  "power-shift": {
+   "effect": "",
+   "flavor": "The user swaps its Attack and Defense stats."
+  },
+  "power-split": {
+   "effect": "Averages the user’s unmodified Attack with the target’s unmodified Attack; the value becomes the unmodified Attack for both Pokémon. Unmodified Special Attack is averaged the same way.\n\nThis effect applies before any other persistent changes to unmodified Attack or Special Attack, such as Flower Gift during Sunny Day.",
+   "flavor": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target."
+  },
+  "power-swap": {
+   "effect": "User swaps its Attack and Special Attack stat modifiers modifiers with the target.",
+   "flavor": "The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target."
+  },
+  "power-trick": {
+   "effect": "The user’s original Attack and Defense are swapped.\n\nThis effect is passed on by Baton Pass.",
+   "flavor": "The user employs its psychic power to switch its Attack stat with its Defense stat."
+  },
+  "power-trip": {
+   "effect": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user’s stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move’s power.  For a Pokémon with all five stats modified to +6, this move’s power is 31×.",
+   "flavor": "The user boasts its strength and attacks the target. The more the user's stats are boosted, the greater the move's power."
+  },
+  "power-up-punch": {
+   "effect": "Inflicts regular damage.  Raises the user’s Attack by one stage.",
+   "flavor": "Striking opponents over and over makes the user’s\nfists harder. Hitting a target raises the Attack stat."
+  },
+  "power-whip": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user violently whirls its vines, tentacles, or the like to lash the target."
+  },
+  "precipice-blades": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks opposing Pokémon by manifesting the power of the land in fearsome blades of stone."
+  },
+  "present": {
+   "effect": "Randomly uses one of the following effects.\n\nEffect                                             | Chance\n-------------------------------------------------- | -----:\nInflicts regular damage with 40 power  |    40%\nInflicts regular damage with 80 power  |    30%\nInflicts regular damage with 120 power |    10%\nHeals the target for 1/4 its max HP    |    20%\n\nOn average, this move inflicts regular damage with 52 power and heals the target for 1/20 its max HP.",
+   "flavor": "The user attacks by giving the target a gift with a hidden trap. The gift restores HP sometimes, however."
+  },
+  "prismatic-laser": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn."
+  },
+  "protect": {
+   "effect": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail.\n\nLock-On, Mind Reader, and No Guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold); those are always blocked by this move.\n\nThunder during Rain Dance and Blizzard during Hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* Acupressure from an ally\n* Curse’s curse effect\n* Delayed damage from Doom Desire and Future Sight; however, these moves will be prevented if they are used this turn\n* Feint, which will also end this move’s protection after it hits\n* Imprison\n* Perish Song\n* Shadow Force\n* Moves that merely copy the user, such as Transform or Psych Up\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
+  },
+  "psybeam": {
+   "effect": "Inflicts regular damage.  Has a chance to confuse the target.",
+   "flavor": "The target is attacked with a peculiar ray. This may also confuse the target."
+  },
+  "psyblade": {
+   "effect": "",
+   "flavor": "The user rends the target with an ethereal blade. This move's power is boosted by 50 percent if the user is on Electric Terrain."
+  },
+  "psych-up": {
+   "effect": "Discards the user’s stat changes and copies the target’s.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "The user hypnotizes itself into copying any stat change made by the target."
+  },
+  "psychic": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat."
+  },
+  "psychic-fangs": {
+   "effect": "Destroys any Light Screen or Reflect on the target’s side of the field, then inflicts regular damage.",
+   "flavor": "The user attacks by biting the target with its psychic capabilities. This move can also break barriers, such as Light Screen and Reflect."
+  },
+  "psychic-noise": {
+   "effect": "",
+   "flavor": "The user attacks the target with unpleasant sound waves. For two turns, the target is prevented from recovering HP through moves, Abilities, or held items."
+  },
+  "psychic-terrain": {
+   "effect": "Changes the terrain to Psychic Terrain for 5 turns.  Overrides Electric Terrain, Grassy Terrain, and Misty Terrain.\n\nAll Pokémon on the ground are immune to moves with priority greater than 0.  (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.)  Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×.\n\nIf a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+   "flavor": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns."
+  },
+  "psycho-boost": {
+   "effect": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+   "flavor": "The user attacks the target with all its might. The recoil from this move harshly lowers the user's Sp. Atk stat."
+  },
+  "psycho-cut": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user tears at the target with blades formed by psychic power. This move has a heightened chance of landing a critical hit."
+  },
+  "psycho-shift": {
+   "effect": "If the user has a major status effect and the target does not, the user’s status is transferred to the target.",
+   "flavor": "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target."
+  },
+  "psyshield-bash": {
+   "effect": "",
+   "flavor": "Cloaking itself in psychic energy, the user slams into the target. This also boosts the user’s Defense stat."
+  },
+  "psyshock": {
+   "effect": "Inflicts regular damage.  Damage calculation always uses the target’s Defense, regardless of this move’s damage class.",
+   "flavor": "The user materializes an odd psychic wave to attack the target. This move deals physical damage."
+  },
+  "psystrike": {
+   "effect": "Inflicts regular damage.  Damage calculation always uses the target’s Defense, regardless of this move’s damage class.",
+   "flavor": "The user materializes an odd psychic wave to attack the target. This move deals physical damage."
+  },
+  "psywave": {
+   "effect": "Inflicts typeless damage between 50% and 150% of the user’s level, selected at random in increments of 10%.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "pulverizing-pancake": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "punishment": {
+   "effect": "Inflicts regular damage.  Power starts at 60 and is increased by 20 for every stage any of the target’s stats has been raised, capping at 200.  Accuracy and evasion modifiers do not increase this move’s power.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "purify": {
+   "effect": "Cures the target of its major status ailment and heals the user for 50% of its max HP.  If the target has no major status ailment, this move will fail.",
+   "flavor": "The user heals the target’s status condition. If the\nmove succeeds, it also restores the user’s own HP."
+  },
+  "pursuit": {
+   "effect": "Inflicts regular damage.  If the target attempts to switch out this turn before the user acts, this move hits the target before it leaves and has double power.\n\nThis effect can still hit a Pokémon that switches out when it has a Substitute up or when an ally has used Follow Me.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "pyro-ball": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn."
+  },
+  "quash": {
+   "effect": "Forces the target to act last this turn, regardless of Speed or move priority.  If the target has already acted this turn, this move will fail.",
+   "flavor": "The user suppresses the target and makes its move go last."
+  },
+  "quick-attack": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first."
+  },
+  "quick-guard": {
+   "effect": "Moves with priority greater than 0 will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "The user protects itself and its allies from priority moves."
+  },
+  "quiver-dance": {
+   "effect": "Raises the user’s Special Attack, Special Defense, and Speed by one stage each.",
+   "flavor": "The user lightly performs a beautiful, mystic dance. This boosts the user's Sp. Atk, Sp. Def, and Speed stats."
+  },
+  "rage": {
+   "effect": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "rage-fist": {
+   "effect": "",
+   "flavor": "The user converts its rage into energy to attack. The more times the user has been hit by attacks, the greater the move's power."
+  },
+  "rage-powder": {
+   "effect": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user.  If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target.\n\nThis effect takes priority over Lightning Rod and Storm Drain.\n\nIf the user’s ally switches out, opposing Pokémon may still hit it with Pursuit.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "The user scatters a cloud of irritating powder to draw attention to itself. Opposing Pokémon aim only at the user."
+  },
+  "raging-bull": {
+   "effect": "",
+   "flavor": "The user performs a tackle like a raging bull. This move's type depends on the user's form. It can also break barriers, such as Light Screen and Reflect."
+  },
+  "raging-fury": {
+   "effect": "",
+   "flavor": "The user rampages around spewing flames for two to three turns. The user then becomes confused."
+  },
+  "rain-dance": {
+   "effect": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage.\n\nIf the user is holding Damp Rock, this effect lasts for eight turns.\n\nThunder has 100% accuracy.  If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection.\n\nSolar Beam has half power.\n\nMoonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP.\n\nPokémon with Swift Swim have doubled original Speed.\n\nPokémon with Forecast become Water.\n\nPokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+   "flavor": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks."
+  },
+  "rapid-spin": {
+   "effect": "Inflicts regular damage.  Removes Leech Seed from the user, frees the user from Bind, Clamp, Fire Spin, Magma Storm, Sand Tomb, Whirlpool, and Wrap, and clears Spikes, Stealth Rock, and Toxic Spikes from the user’s side of the field.  If this move misses or has no effect, its effect doesn’t activate.",
+   "flavor": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also boosts the user's Speed stat."
+  },
+  "razor-leaf": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "Sharp-edged leaves are launched to slash at opposing Pokémon. This move has a heightened chance of landing a critical hit."
+  },
+  "razor-shell": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+   "flavor": "The user cuts the target with sharp shells to inflict damage. This may also lower the target's Defense stat."
+  },
+  "razor-wind": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.  User charges for one turn before attacking.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "recover": {
+   "effect": "Heals the user for half its max HP.",
+   "flavor": "The user regenerates its cells, restoring its own HP by up to half its max HP."
+  },
+  "recycle": {
+   "effect": "User recovers the last item consumed by the user or a Pokémon in its position on the field.  The item must be used again before it can be recovered by this move again.  If the user is holding an item, this move fails.\n\nItems taken or given away by Covet, Knock Off, Switcheroo, Thief, or Trick may not be recovered.",
+   "flavor": "The user recycles a held item that has been used in battle so it can be used again."
+  },
+  "reflect": {
+   "effect": "Erects a barrier around the user’s side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding Light Clay, the barrier lasts for eight turns.\n\nBrick Break or Defog used by an opponent will destroy the barrier.",
+   "flavor": "A wondrous wall of light is put up to reduce damage from physical moves for five turns."
+  },
+  "reflect-type": {
+   "effect": "User’s type changes to match the target’s.",
+   "flavor": "The user reflects the target's type to become the same type as the target."
+  },
+  "refresh": {
+   "effect": "Removes a burn, paralysis, or poison from the user.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "relic-song": {
+   "effect": "Inflicts regular damage.  Has a chance to put the target to sleep.\nIf the user is a Meloetta, it will toggle between Aria and Pirouette Forme.",
+   "flavor": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep."
+  },
+  "rest": {
+   "effect": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with Early Bird.\n\nThis move fails if the Pokémon cannot fall asleep due to Uproar, Insomnia, or Vital Spirit.  It also fails if the Pokémon is at full health or is already asleep.",
+   "flavor": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions."
+  },
+  "retaliate": {
+   "effect": "Inflicts regular damage.  If a friendly Pokémon fainted on the previous turn, this move has double power.",
+   "flavor": "The user takes revenge for a fainted ally. This move's power is boosted if an ally fainted in the previous turn."
+  },
+  "return": {
+   "effect": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "revelation-dance": {
+   "effect": "Inflicts regular damage.  This move’s type matches the user’s first type, if any; otherwise, it’s typeless.",
+   "flavor": "The user attacks the target by dancing with all its might. This move becomes the same type as the user's type."
+  },
+  "revenge": {
+   "effect": "Inflicts regular damage.  If the target damaged the user this turn and was the last to do so, this move has double power.\n\nPain Split does not count as damaging the user.",
+   "flavor": "This attack move’s power is doubled if the user has\nbeen hurt by the opponent in the same turn."
+  },
+  "reversal": {
+   "effect": "Inflicts regular damage.  Power varies inversely with the user’s proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n",
+   "flavor": "An all-out attack that becomes more powerful the less HP the user has."
+  }
+ }
+}

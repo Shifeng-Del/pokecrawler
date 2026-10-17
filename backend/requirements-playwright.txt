@@ -1,0 +1,4 @@
+# 动态渲染抓取器（可选）
+# 安装后还需下载浏览器内核：python -m playwright install chromium
+# 国内加速：set PLAYWRIGHT_DOWNLOAD_HOST=https://cdn.npmmirror.com/binaries/playwright
+playwright==1.47.*

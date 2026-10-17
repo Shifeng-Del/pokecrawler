@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 1,
+ "_count": 80,
+ "items": {
+  "10-000-000-volt-thunderbolt": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "absorb": {
+   "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+   "flavor": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target."
+  },
+  "accelerock": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user smashes into the target at high speed. This move always goes first."
+  },
+  "acid": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats."
+  },
+  "acid-armor": {
+   "effect": "Raises the user’s Defense by two stages.",
+   "flavor": "The user alters its cellular structure to liquefy itself, sharply boosting its Defense stat."
+  },
+  "acid-downpour--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "acid-downpour--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "acid-spray": {
+   "effect": "Inflicts regular damage.  Lowers the target’s Special Defense by two stages.",
+   "flavor": "The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat."
+  },
+  "acrobatics": {
+   "effect": "Inflicts regular damage.  If the user has no held item, this move has double power.",
+   "flavor": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item."
+  },
+  "acupressure": {
+   "effect": "Raises one of the target’s stats by two stages.  The raised stat is chosen at random from any stats that can be raised by two stages.  If no stat is eligible, this move will fail.\n\nIf the target has a Substitute, this move will have no effect, even if the user is the target.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "The user applies pressure to stress points, sharply boosting one of its or its allies' stats."
+  },
+  "aerial-ace": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "The user confounds the target with speed, then slashes. This attack never misses."
+  },
+  "aeroblast": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "A vortex of air is shot at the target to inflict damage. This move has a heightened chance of landing a critical hit."
+  },
+  "after-you": {
+   "effect": "The target will act next this turn, regardless of Speed or move priority.\nIf the target has already acted this turn, this move will fail.",
+   "flavor": "The user helps the target and makes it use its move right after the user."
+  },
+  "agility": {
+   "effect": "Raises the user’s Speed by two stages.",
+   "flavor": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat."
+  },
+  "air-cutter": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user launches razor-like wind to slash opposing Pokémon. This move has a heightened chance of landing a critical hit."
+  },
+  "air-slash": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch."
+  },
+  "all-out-pummeling--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "all-out-pummeling--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "alluring-voice": {
+   "effect": "",
+   "flavor": "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn."
+  },
+  "ally-switch": {
+   "effect": "User switches position on the field with the friendly Pokémon opposite it.  If the user is in the middle position in a triple battle, or there are no other friendly Pokémon, this move will fail.",
+   "flavor": "The user teleports using a strange power and switches places with one of its allies. This move's chance of failing rises if it is used in succession."
+  },
+  "amnesia": {
+   "effect": "Raises the user’s Special Defense by two stages.",
+   "flavor": "The user temporarily empties its mind to forget its concerns. This sharply boosts the user's Sp. Def stat."
+  },
+  "anchor-shot": {
+   "effect": "Inflicts regular damage.  Traps the target.",
+   "flavor": "The user entangles the target with its anchor chain\nwhile attacking. The target becomes unable to flee."
+  },
+  "ancient-power": {
+   "effect": "Inflicts regular damage. Has a chance to raise all of the user’s stats one stage.",
+   "flavor": "The user attacks with a prehistoric power. This may also boost all the user's stats at once."
+  },
+  "apple-acid": {
+   "effect": "Lower the targets Special Defense by 1 stage.",
+   "flavor": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target's Sp. Def stat."
+  },
+  "aqua-cutter": {
+   "effect": "",
+   "flavor": "The user expels pressurized water to cut at the target like a blade. This move has a heightened chance of landing a critical hit."
+  },
+  "aqua-jet": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first."
+  },
+  "aqua-ring": {
+   "effect": "Restores 1/16 of the user’s max HP at the end of each turn.  If the user leaves the field, this effect ends.\n\nThis effect is passed on by Baton Pass.",
+   "flavor": "The user envelops itself in a veil made of water. It regains some HP every turn."
+  },
+  "aqua-step": {
+   "effect": "",
+   "flavor": "The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user's Speed stat."
+  },
+  "aqua-tail": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm."
+  },
+  "arm-thrust": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "The user attacks the target with open-palmed arm thrusts. This move hits two to five times in a row."
+  },
+  "armor-cannon": {
+   "effect": "",
+   "flavor": "The user shoots its own armor out as blazing projectiles. This also lowers the user’s Defense and Sp. Def stats."
+  },
+  "aromatherapy": {
+   "effect": "Removes major status effects and confusion from every Pokémon in the user’s party.",
+   "flavor": "This move can't be used. It's recommended that this move is forgotten. Once forgotten, this move can't be remembered."
+  },
+  "aromatic-mist": {
+   "effect": "Raises a selected ally’s Special Defense by one stage.",
+   "flavor": "The user boosts the Sp. Def stat of an ally Pokémon by using a mysterious aroma."
+  },
+  "assist": {
+   "effect": "Uses a move from another Pokémon in the user’s party, both selected at random.  Moves from fainted Pokémon can be used.  If there are no eligible Pokémon or moves, this move will fail.\n\nThis move will not select Assist, Chatter, Circle Throw, Copycat, Counter, Covet, Destiny Bond, Detect, Dig, Dive, Dragon Tail, Endure, Feint, Fly Focus Punch, Follow Me, Helping Hand, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Phantom Force Protect, Quick Guard, Roar Shadow Force, Sketch, Sleep Talk, Snatch, Struggle, Switcheroo, Thief, Trick, Whirlwind, or Wide Guard.\n\nThis move cannot be copied by Mirror Move, nor selected by Metronome or Sleep Talk.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "assurance": {
+   "effect": "Inflicts regular damage.  If the target takes damage this turn for any reason before this move is used, this move has double power.",
+   "flavor": "This move's power is doubled if the target has already taken some damage in the same turn."
+  },
+  "astonish": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch."
+  },
+  "astral-barrage": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks by sending a frightful amount of small ghosts at opposing Pokémon."
+  },
+  "attack-order": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user calls out its underlings to pummel the target. This move has a heightened chance of landing a critical hit."
+  },
+  "attract": {
+   "effect": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pokémon leaves the field, this effect ends.",
+   "flavor": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves."
+  },
+  "aura-sphere": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "The user lets loose a pulse of aura power from deep within its body at the target. This attack never misses."
+  },
+  "aura-wheel": {
+   "effect": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+   "flavor": "Morpeko attacks and boosts its Speed stat with the energy stored in its cheeks. This move's type changes depending on the user's form."
+  },
+  "aurora-beam": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Attack by one stage.",
+   "flavor": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat."
+  },
+  "aurora-veil": {
+   "effect": "Places the Aurora Veil effect on the user’s side of the field for the next 5 turns.  If the weather is not Hail, or the weather is disabled by the effects of Cloud Nine or Air Lock, this move will fail. Any regular damage dealt to an affected Pokémon is reduced by ½.  (If there are multiple Pokémon on the affected field, the reduction is ⅓.)",
+   "flavor": "This move reduces damage from physical and special moves for five turns. This can be used only when it is snowing."
+  },
+  "autotomize": {
+   "effect": "Raises the user’s Speed by two stages.  Halves the user’s weight; this effect does not stack.",
+   "flavor": "The user sheds part of its body to make itself lighter\nand sharply raise its Speed stat."
+  },
+  "avalanche": {
+   "effect": "Inflicts regular damage.  If the target damaged the user this turn and was the last to do so, this move has double power.\n\nPain Split does not count as damaging the user.",
+   "flavor": "This move's power is doubled if the target has inflicted damage on the user in the same turn."
+  },
+  "axe-kick": {
+   "effect": "",
+   "flavor": "The user attacks by kicking up into the air and slamming its heel down upon the target. This may also confuse the target. If it misses, the user takes damage instead."
+  },
+  "baby-doll-eyes": {
+   "effect": "Lowers the target’s Attack by one stage.",
+   "flavor": "The user stares at the target with its baby-doll eyes, which lowers the target's Attack stat. This move always goes first."
+  },
+  "baddy-bad": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "baneful-bunker": {
+   "effect": "Grants the user protection for the rest of the turn.  If a Pokémon attempts to use a move that makes contact with the user, that Pokémon will be poisoned.  This move’s chance of success halves every time it’s used consecutively with any other protection move.",
+   "flavor": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact."
+  },
+  "barb-barrage": {
+   "effect": "",
+   "flavor": "The user launches countless toxic barbs to inflict damage. This may also poison the target. This move’s power is doubled if the target is already poisoned."
+  },
+  "barrage": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "barrier": {
+   "effect": "Raises the user’s Defense by two stages.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "baton-pass": {
+   "effect": "User switches out, and the trainer selects a replacement Pokémon from the party.  Stat changes, confusion, and persistent move effects are passed along to the replacement Pokémon.\n\nThe following move effects are passed:\n\n* Aqua Ring\n* both the user’s and target’s effect of Block, Mean Look, and Spider Web\n* the curse effect of Curse\n* Embargo\n* Focus Energy or an activated Lansat Berry\n* Gastro Acid\n* Ingrain\n* being sapped by Leech Seed\n* being targeted by Lock-On or Mind Reader\n* Magnet Rise\n* Perish Song’s counter\n* Power Trick\n* Substitute; the doll’s HP is unchanged\n\nThe replacement Pokémon does not trigger effects that respond to Pokémon switching in.",
+   "flavor": "The user switches places with a party Pokémon in waiting and passes along any stat changes."
+  },
+  "beak-blast": {
+   "effect": "Begins charging at the start of the turn, then attacks as normal.  Any Pokémon that makes contact with the user while charging is burned.  The charging is not affected by accuracy, sleep, paralysis, or any other effect that would interfere with a move.",
+   "flavor": "The user first heats up its beak, and then it attacks the target. Making direct contact with the user while it's heating up its beak results in a burn."
+  },
+  "beat-up": {
+   "effect": "Inflicts typeless regular damage.  Every Pokémon in the user’s party, excepting those that have fainted or have a major status effect, attacks the target.  Calculated stats are ignored; the base stats for the target and assorted attackers are used instead.  The random factor in the damage formula is not used.  Dark Pokémon still get STAB.\n\nThis effect breaks through Wonder Guard.",
+   "flavor": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks."
+  },
+  "behemoth-bash": {
+   "effect": "This move deals twice the damage if the target is Dynamaxed.",
+   "flavor": "The user becomes a gigantic shield and slams into\nthe target. This move deals twice the damage if the\ntarget is Dynamaxed."
+  },
+  "behemoth-blade": {
+   "effect": "This move deals twice the damage if the target is Dynamaxed.",
+   "flavor": "The user becomes a gigantic sword and cuts the target.\nThis move deals twice the damage if the target\nis Dynamaxed."
+  },
+  "belch": {
+   "effect": "Inflicts regular damage.  Can only be used if the user has eaten a berry since the beginning of the battle.\n\nAfter the user eats a berry, it may use this move any number of times until the end of the battle, even if it switches out.  Eating a held berry, eating a berry via Bug Bite or Pluck, or being the target of a Flung berry will enable this move.  Feeding a Pokémon a berry from the bag or using Natural Gift will not.\n\nIf the trainer chooses this move when it cannot be used, the choice is rejected outright and the trainer must choose another move.",
+   "flavor": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
+  },
+  "belly-drum": {
+   "effect": "User pays half its max HP to raise its Attack to +6 stages.  If the user cannot pay the HP cost, this move will fail.",
+   "flavor": "The user maximizes its Attack stat but loses HP equal to half its max HP."
+  },
+  "bestow": {
+   "effect": "Transfers the user’s held item to the target.  If the user has no held item, or the target already has a held item, this move will fail.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "bide": {
+   "effect": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "bind": {
+   "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+   "flavor": "A long body, tentacles, or the like are used to bind and squeeze the target for four to five turns."
+  },
+  "bite": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The target is bitten with viciously sharp fangs. This may also make the target flinch."
+  },
+  "bitter-blade": {
+   "effect": "",
+   "flavor": "The user focuses its bitter feelings toward the world of the living into a slashing attack. The user's HP is restored by up to half the damage taken by the target."
+  },
+  "bitter-malice": {
+   "effect": "",
+   "flavor": "The user attacks the target with spine-chilling resentment. This also lowers the target’s Attack stat."
+  },
+  "black-hole-eclipse--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "black-hole-eclipse--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "blast-burn": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The target is razed by a fiery explosion. The user can't move on the next turn."
+  },
+  "blaze-kick": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move. Has a chance to burn the target.",
+   "flavor": "The user launches a kick that has a heightened chance of landing a critical hit. This may also leave the target with a burn."
+  },
+  "blazing-torque": {
+   "effect": "",
+   "flavor": ""
+  },
+  "bleakwind-storm": {
+   "effect": "",
+   "flavor": "The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also lower the Speed stats of opposing Pokémon."
+  },
+  "blizzard": {
+   "effect": "Inflicts regular damage.  Has a chance to freeze the target.\n\nDuring Hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.",
+   "flavor": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
+  },
+  "block": {
+   "effect": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.\n\nThe target may still escape by using Baton Pass, U-turn, or a Shed Shell.\n\nBoth the user and the target pass on this effect with Baton Pass.",
+   "flavor": "The user blocks the target's way with arms spread wide to prevent the target from fleeing."
+  },
+  "blood-moon": {
+   "effect": "",
+   "flavor": "The user unleashes the full brunt of its spirit from a full moon that shines as red as blood. This move can't be used twice in a row."
+  },
+  "bloom-doom--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "bloom-doom--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "blue-flare": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn."
+  },
+  "body-press": {
+   "effect": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. ",
+   "flavor": "The user attacks by slamming its body into the target. The higher the user's Defense stat, the greater the damage this move deals."
+  },
+  "body-slam": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis."
+  },
+  "bolt-beak": {
+   "effect": "Power doubles if the user moves before the target.",
+   "flavor": "The user stabs the target with its electrified beak.\nIf the user attacks before the target, the power of this\nmove is doubled."
+  }
+ }
+}

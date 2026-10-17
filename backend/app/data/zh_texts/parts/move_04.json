@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 4,
+ "_count": 80,
+ "items": {
+  "extreme-speed": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user charges the target at blinding speed. This move always goes first."
+  },
+  "facade": {
+   "effect": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power.",
+   "flavor": "This move's power is doubled if the user is poisoned, burned, or paralyzed."
+  },
+  "fairy-lock": {
+   "effect": "Prevents all Pokémon from fleeing or switching out during the next turn.",
+   "flavor": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
+  },
+  "fairy-wind": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks by stirring up a fairy wind to strike the target."
+  },
+  "fake-out": {
+   "effect": "Inflicts regular damage.  Causes the target to flinch.  Can only be used on the user’s first turn after entering the field.",
+   "flavor": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle."
+  },
+  "fake-tears": {
+   "effect": "Lowers the target’s Special Defense by two stages.",
+   "flavor": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat."
+  },
+  "false-surrender": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "The user pretends to bow its head, but then it stabs the target with its disheveled hair. This attack never misses."
+  },
+  "false-swipe": {
+   "effect": "Inflicts regular damage.  Will not reduce the target’s HP below 1.",
+   "flavor": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
+  },
+  "feather-dance": {
+   "effect": "Lowers the target’s Attack by two stages.",
+   "flavor": "The user covers the target's body with a mass of down that harshly lowers its Attack stat."
+  },
+  "feint": {
+   "effect": "Inflicts regular damage.  Removes the effects of Detect or Protect from the target before hitting.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+   "flavor": "This attack can hit a target using a move such as Protect or Detect. This also lifts the effects of those moves."
+  },
+  "feint-attack": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "fell-stinger": {
+   "effect": "Inflicts regular damage.  Raises the user’s Attack by two stages if it KOs the target.",
+   "flavor": "When the user knocks out a target with this move, the user's Attack stat is boosted drastically."
+  },
+  "fickle-beam": {
+   "effect": "",
+   "flavor": "The user shoots a beam of light to inflict damage. Sometimes all the user's heads shoot beams in unison, doubling the move's power."
+  },
+  "fiery-dance": {
+   "effect": "Inflicts regular damage.  Has a chance to raise the user’s Special Attack by one stage.",
+   "flavor": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also boost the user's Sp. Atk stat."
+  },
+  "fiery-wrath": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "The user transforms its wrath into a fire-like aura to attack. This may also make opposing Pokémon flinch."
+  },
+  "fillet-away": {
+   "effect": "",
+   "flavor": "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
+  },
+  "final-gambit": {
+   "effect": "Inflicts damage equal to the user’s remaining HP.  User faints.",
+   "flavor": "The user risks everything to attack the target. The user faints but inflicts damage equal to its own HP."
+  },
+  "fire-blast": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn."
+  },
+  "fire-fang": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target and a separate chance to make the target flinch.",
+   "flavor": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn."
+  },
+  "fire-lash": {
+   "effect": "Inflicts regular damage.  Lowers the target’s Defense by one stage.",
+   "flavor": "The user strikes the target with a burning lash. This also lowers the target's Defense stat."
+  },
+  "fire-pledge": {
+   "effect": "Inflicts regular damage.  If a friendly Pokémon used Water Pledge earlier this turn, moves used by any friendly Pokémon have doubled effect chance for four turns (including this one).",
+   "flavor": "A column of fire hits the target. When used with its grass counterpart, this move's power is boosted and a vast sea of fire appears."
+  },
+  "fire-punch": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The target is attacked with a fiery punch. This may also leave the target with a burn."
+  },
+  "fire-spin": {
+   "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+   "flavor": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns."
+  },
+  "first-impression": {
+   "effect": "Inflicts regular damage. Can only be used on the user’s first turn after entering the field.",
+   "flavor": "Although this move has great power, it works only on the first turn each time the user enters battle."
+  },
+  "fishious-rend": {
+   "effect": "Power doubles if the user moves before the target.",
+   "flavor": "The user rends the target with its hard gills.\nIf the user attacks before the target, the power of this\nmove is doubled."
+  },
+  "fissure": {
+   "effect": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting.\n\nThe effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+   "flavor": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits."
+  },
+  "flail": {
+   "effect": "Inflicts regular damage.  Power varies inversely with the user’s proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n",
+   "flavor": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power."
+  },
+  "flame-burst": {
+   "effect": "Inflicts regular damage.  If this move successfully hits the target, any Pokémon adjacent to the target are damaged for 1/16 their max HP.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "flame-charge": {
+   "effect": "Inflicts regular damage.  Raises the user’s Speed by one stage.",
+   "flavor": "Cloaking itself in flame, the user attacks the target. Then, building up momentum, the user boosts its Speed stat."
+  },
+  "flame-wheel": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.  Frozen Pokémon may use this move, in which case they will thaw.",
+   "flavor": "The user attacks by cloaking itself in fire and charging at the target. This may also leave the target with a burn."
+  },
+  "flamethrower": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
+  },
+  "flare-blitz": {
+   "effect": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.  Has a chance to burn the target.  Frozen Pokémon may use this move, in which case they will thaw.",
+   "flavor": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn."
+  },
+  "flash": {
+   "effect": "Lowers the target’s accuracy by one stage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "flash-cannon": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "The user gathers all its light energy and releases it at once. This may also lower the target's Sp. Def stat."
+  },
+  "flatter": {
+   "effect": "Raises the target’s Special Attack by one stage, then confuses it.",
+   "flavor": "Flattery is used to confuse the target. However, this also boosts the target's Sp. Atk stat."
+  },
+  "fleur-cannon": {
+   "effect": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+   "flavor": "The user unleashes a strong beam. The recoil from this move harshly lowers the user's Sp. Atk stat."
+  },
+  "fling": {
+   "effect": "Inflicts regular damage.  Power and type are determined by the user’s held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail.\n\nThis move ignores Sticky Hold.\n\nIf the user is under the effect of Embargo, this move will fail.",
+   "flavor": "The user flings its held item at the target to attack. This move's power and effects depend on the item."
+  },
+  "flip-turn": {
+   "effect": "Inflicts regular damage, then the user immediately switches out, and the trainer selects a replacement Pokémon from the party.  If the target faints from this attack, the user’s trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not switch out.\n\nThe user may be hit by Pursuit when it switches out, if it has been targeted and Pursuit has not yet been used.\n\nThis move may be used even if the user is under the effect of Ingrain.  Ingrain’s effect will end.",
+   "flavor": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+  },
+  "floaty-fall": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "floral-healing": {
+   "effect": "Heals the target for ½ its max HP.  If Grassy Terrain is in effect, heals for ⅔ instead.",
+   "flavor": "The user restores the target's HP by up to half its max HP. More HP is restored when the ground is Grassy Terrain."
+  },
+  "flower-shield": {
+   "effect": "Raises the Defense of all Grass Pokémon in battle.",
+   "flavor": "The user raises the Defense stats of all Grass-type\nPokémon in battle with a mysterious power."
+  },
+  "flower-trick": {
+   "effect": "",
+   "flavor": "The user throws a rigged bouquet of flowers at the target. This attack never misses and always lands a critical hit."
+  },
+  "fly": {
+   "effect": "Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, Gust, Hurricane, Sky Uppercut, Smack Down, Thunder, Twister, and Whirlwind still hit the user normally.  Gust and Twister also have double power against the user.\n\nThe damage from Hail and Sandstorm still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard.\n\nThis move cannot be used while Gravity is in effect.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user flies up into the sky on the first turn, then attacks on the next turn."
+  },
+  "flying-press": {
+   "effect": "Inflicts regular damage.  For the purposes of type effectiveness, this move is both Fighting- and Flying-type: its final effectiveness is determined by multiplying the effectiveness of each type against each of the target’s types.\n\nFor all other purposes, this move is pure Fighting-type.  If this move’s type is changed, its Fighting typing is overwritten, and its secondary type remains Flying.\n\nIf the target has used Minimize since entering battle, this move has double power and will never miss.",
+   "flavor": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously."
+  },
+  "focus-blast": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat."
+  },
+  "focus-energy": {
+   "effect": "User’s critical hit rate is two levels higher until it leaves the field.  If the user has already used Focus Energy since entering the field, this move will fail.\n\nThis effect is passed on by Baton Pass.",
+   "flavor": "The user takes a deep breath and focuses so that its future attacks have a heightened chance of landing critical hits."
+  },
+  "focus-punch": {
+   "effect": "Inflicts regular damage.  If the user takes damage this turn before hitting, this move will fail.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
+   "flavor": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move."
+  },
+  "follow-me": {
+   "effect": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user.  If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target.\n\nThis effect takes priority over Lightning Rod and Storm Drain.\n\nIf the user’s ally switches out, opposing Pokémon may still hit it with Pursuit.\n\nThis move cannot be selected by Assist or Metronome.",
+   "flavor": "The user draws attention to itself, making all opposing Pokémon take aim only at the user."
+  },
+  "force-palm": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The target is attacked with a shock wave. This may also leave the target with paralysis."
+  },
+  "foresight": {
+   "effect": "Resets the target’s evasion to normal and prevents any further boosting until the target leaves the field.  A Ghost under this effect takes normal damage from Normal and Fighting moves.  This move itself ignores accuracy and evasion modifiers.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "forests-curse": {
+   "effect": "Adds Grass to the target’s types.",
+   "flavor": "The user puts a forest curse on the target. This adds Grass type to the target's type."
+  },
+  "foul-play": {
+   "effect": "Inflicts regular damage.  Damage is calculated using the target’s attacking stat rather than the user’s.",
+   "flavor": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts."
+  },
+  "freeze-dry": {
+   "effect": "Inflicts regular damage.  This move is super-effective against the Water type.\n\nThe target’s other type will affect damage as usual.  If this move’s type is changed, it remains super-effective against Water regardless of its type.",
+   "flavor": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types."
+  },
+  "freeze-shock": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.  User charges for one turn before attacking.",
+   "flavor": "The turn after using this move, the user hits the target with electrically charged ice to inflict damage. This may also leave the target with paralysis."
+  },
+  "freezing-glare": {
+   "effect": "Inflicts regular damage.  Has a chance to freeze the target.\n\nDuring Hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.",
+   "flavor": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen."
+  },
+  "freezy-frost": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "frenzy-plant": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The user slams the target with the roots of an enormous tree. The user can't move on the next turn."
+  },
+  "frost-breath": {
+   "effect": "Inflicts regular damage.  Always scores a critical hit.",
+   "flavor": "The user attacks by blowing its cold breath on the target. This move always lands a critical hit."
+  },
+  "frustration": {
+   "effect": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "fury-attack": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "The user attacks by jabbing the target with a horn, a beak, or the like. This move hits two to five times in a row."
+  },
+  "fury-cutter": {
+   "effect": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets.",
+   "flavor": "The user attacks by slashing the target with scythes, claws, or the like. This attack becomes more powerful if it hits in succession."
+  },
+  "fury-swipes": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "The user attacks by raking the target with claws, scythes, or the like. This move hits two to five times in a row."
+  },
+  "fusion-bolt": {
+   "effect": "Inflicts regular damage.  If a friendly Pokémon used Fusion Flare earlier this turn, this move has double power.",
+   "flavor": "The user throws down a giant lightning bolt. This move's power is boosted when influenced by an enormous flame."
+  },
+  "fusion-flare": {
+   "effect": "Inflicts regular damage.  If a friendly Pokémon used Fusion Bolt earlier this turn, this move has double power.",
+   "flavor": "The user brings down a giant flame. This move's power is boosted when influenced by an enormous lightning bolt."
+  },
+  "future-sight": {
+   "effect": "Inflicts typeless regular damage at the end of the third turn, starting with this one.  This move cannot score a critical hit.  If the target switches out, its replacement will be hit instead.  Damage is calculated at the time this move is used; stat changes and switching out during the delay won’t change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.\n\nThis effect breaks through Wonder Guard.\n\nIf the target is protected by Protect or Detect on the turn this move is used, this move will fail.  However, the damage on the third turn will break through protection.\n\nThe damage is applied at the end of the turn, so it ignores Endure and Focus Sash.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "Two turns after this move is used, a hunk of psychic energy attacks the target."
+  },
+  "gastro-acid": {
+   "effect": "The target’s ability is disabled as long as it remains on the field.\n\nThis effect is passed on by Baton Pass.",
+   "flavor": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability."
+  },
+  "gear-grind": {
+   "effect": "Inflicts regular damage.  Hits twice in one turn.",
+   "flavor": "The user attacks by throwing steel gears at its\ntarget twice."
+  },
+  "gear-up": {
+   "effect": "Raises the Attack and Special Attack of all friendly Pokémon with Plus or Minus by one stage.",
+   "flavor": "The user engages its gears to raise the Attack and\nSp. Atk stats of ally Pokémon with the Plus or\nMinus Ability."
+  },
+  "genesis-supernova": {
+   "effect": "Inflicts regular damage, then (if successful) changes the terrain to Psychic Terrain.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "geomancy": {
+   "effect": "Takes one turn to charge, then raises the user’s Special Attack, Special Defense, and Speed by two stages.",
+   "flavor": "The user absorbs energy and sharply raises its\nSp. Atk, Sp. Def, and Speed stats on the next turn."
+  },
+  "giga-drain": {
+   "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+   "flavor": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target."
+  },
+  "giga-impact": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The user charges at the target using every bit of its power. The user can't move on the next turn."
+  },
+  "gigaton-hammer": {
+   "effect": "",
+   "flavor": "The user swings its whole body around to attack with its huge hammer. This move can't be used twice in a row."
+  },
+  "gigavolt-havoc--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "gigavolt-havoc--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "glacial-lance": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon."
+  },
+  "glaciate": {
+   "effect": "Inflicts regular damage.  Lowers the target’s Speed by one stage.",
+   "flavor": "The user attacks by blowing freezing cold air at opposing Pokémon. This also lowers their Speed stats."
+  },
+  "glaive-rush": {
+   "effect": "",
+   "flavor": "The user throws its entire body into a reckless charge. After this move is used, attacks on the user cannot miss and will inflict double damage until the user’s next turn."
+  },
+  "glare": {
+   "effect": "Paralyzes the target.",
+   "flavor": "The user intimidates the target with the pattern on its belly to cause paralysis."
+  },
+  "glitzy-glow": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  }
+ }
+}

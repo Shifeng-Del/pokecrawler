@@ -1,0 +1,327 @@
+{
+ "_kind": "ability",
+ "_batch": 4,
+ "_count": 80,
+ "items": {
+  "quick-feet": {
+   "effect": "Whenever this Pokémon has a major status ailment, it has 1.5× its Speed.  This Pokémon is not affected by the usual Speed cut from paralysis.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved.",
+   "flavor": "Boosts the Speed stat if the Pokémon has a status condition."
+  },
+  "rain-dish": {
+   "effect": "This Pokémon heals for 1/16 of its maximum HP after each turn during rain.",
+   "flavor": "The Pokémon gradually regains HP in rain."
+  },
+  "rattled": {
+   "effect": "This Pokémon's Speed rises one stage with each hit from a damaging Dark-, Ghost-, or Bug-type move.",
+   "flavor": "The Pokémon gets scared when hit by a Dark-, Ghost-, or Bug-type attack or if intimidated, which boosts its Speed stat."
+  },
+  "receiver": {
+   "effect": "When an ally faints, this Pokémon gains its Ability.",
+   "flavor": "The Pokémon copies the Ability of a defeated ally."
+  },
+  "reckless": {
+   "effect": "This Pokémon's recoil moves and crash moves have 1.2× their base power.\n\nStruggle is unaffected.\n\nThe \"crash moves\" are the moves that damage the user upon missing: Jump Kick and High Jump Kick.",
+   "flavor": "Powers up moves that have recoil damage."
+  },
+  "refrigerate": {
+   "effect": "Turns the bearer's Normal-type moves into Ice-type moves.  Moves changed by this ability have 1.3× their power.",
+   "flavor": "Normal-type moves become Ice-type moves.\nThe power of those moves is boosted a little."
+  },
+  "regenerator": {
+   "effect": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted.\n\nThis ability does not take effect when a battle ends.",
+   "flavor": "The Pokémon has a little of its HP restored when withdrawn from battle."
+  },
+  "ripen": {
+   "effect": "Ripens Berries and doubles their effect.",
+   "flavor": "Ripens Berries and doubles their effect."
+  },
+  "rivalry": {
+   "effect": "This Pokémon inflicts 1.25× as much regular damage against Pokémon of the same gender and 0.75× as much regular damage against Pokémon of the opposite gender.\n\nIf either Pokémon is genderless, damage is unaffected.",
+   "flavor": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender."
+  },
+  "rks-system": {
+   "effect": "Changes this Pokémon's type to match its held Memory.\n\nThis ability cannot be copied, replaced, or nullified.  This ability only takes effect for Silvally.",
+   "flavor": "Changes the Pokémon’s type to match the\nmemory disc it holds."
+  },
+  "rock-head": {
+   "effect": "This Pokémon does not receive recoil damage from its recoil moves.\n\nStruggle's recoil is unaffected.  This ability does not prevent crash damage from missing with Jump Kick or High Jump Kick.",
+   "flavor": "Protects the Pokémon from recoil damage."
+  },
+  "rocky-payload": {
+   "effect": "Increases the power of Rock-type moves used by this Pokémon by 50%.",
+   "flavor": "Powers up Rock-type moves."
+  },
+  "rough-skin": {
+   "effect": "Whenever a move makes contact with this Pokémon, the move's user takes 1/8 of its maximum HP in damage.\n\nThis ability functions identically to Iron Barbs.",
+   "flavor": "The Pokémon's rough skin damages attackers that make direct contact with it."
+  },
+  "run-away": {
+   "effect": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability.",
+   "flavor": "Enables a sure getaway from wild Pokémon."
+  },
+  "run-up": {
+   "effect": "",
+   "flavor": ""
+  },
+  "sand-force": {
+   "effect": "During a sandstorm, this Pokémon's Rock-, Ground-, and Steel-type moves have 1.3× their base power.  This Pokémon does not take sandstorm damage, regardless of type.",
+   "flavor": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm. "
+  },
+  "sand-rush": {
+   "effect": "This Pokémon's Speed is doubled during a sandstorm, and it does not take sandstorm damage, regardless of type.",
+   "flavor": "Boosts the Pokémon's Speed stat in a sandstorm."
+  },
+  "sand-spit": {
+   "effect": "The Pokémon creates a sandstorm when it’s hit by an attack.",
+   "flavor": "The Pokémon creates a sandstorm when it's hit by an attack."
+  },
+  "sand-stream": {
+   "effect": "The weather changes to a sandstorm when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Drought, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
+   "flavor": "The Pokémon summons a sandstorm when it enters a battle."
+  },
+  "sand-veil": {
+   "effect": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
+   "flavor": "Boosts the Pokémon's evasiveness in a sandstorm."
+  },
+  "sandpit": {
+   "effect": "",
+   "flavor": ""
+  },
+  "sap-sipper": {
+   "effect": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it.",
+   "flavor": "The Pokémon takes no damage when hit by Grass-type moves. Instead, its Attack stat is boosted."
+  },
+  "schooling": {
+   "effect": "If this Pokémon is a Wishiwashi and level 20 or above, then when it enters battle and at the start of each turn, it becomes Schooling Form if its HP is 25% or higher and Solo Form otherwise.\n\nThis ability cannot be replaced, copied, or nullified.",
+   "flavor": "When it has a lot of HP, the Pokémon forms a\npowerful school. It stops schooling when its HP\nis low."
+  },
+  "scrappy": {
+   "effect": "This Pokémon ignores Ghost-type Pokémon's immunity to Normal- and Fighting-type moves.\n\nGhost Pokémon's other types affect damage as usual.",
+   "flavor": "The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves. It is also unaffected by Intimidate."
+  },
+  "screen-cleaner": {
+   "effect": "When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon.",
+   "flavor": "When the Pokémon enters a battle, the effects of\nLight Screen, Reflect, and Aurora Veil are nullified for\nboth opposing and ally Pokémon."
+  },
+  "seed-sower": {
+   "effect": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
+   "flavor": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack."
+  },
+  "sequence": {
+   "effect": "",
+   "flavor": ""
+  },
+  "serene-grace": {
+   "effect": "This Pokémon's moves have twice their usual effect chance.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected.\n\nSecret Power is unaffected.",
+   "flavor": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves."
+  },
+  "shackle": {
+   "effect": "",
+   "flavor": ""
+  },
+  "shadow-dash": {
+   "effect": "",
+   "flavor": ""
+  },
+  "shadow-shield": {
+   "effect": "When this Pokémon has full HP, regular damage (not fixed damage!) from moves is halved.\n\nThis ability cannot be nullified.",
+   "flavor": "Reduces the amount of damage the Pokémon takes\nwhile its HP is full."
+  },
+  "shadow-tag": {
+   "effect": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out.\n\nOther Pokémon with this ability are unaffected.  Pokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.",
+   "flavor": "The Pokémon steps on the opposing Pokémon's shadows to prevent them from fleeing or switching out."
+  },
+  "share": {
+   "effect": "",
+   "flavor": ""
+  },
+  "sharpness": {
+   "effect": "Increases the power of all 'slicing' moves by 50%.",
+   "flavor": "Powers up slicing moves."
+  },
+  "shed-skin": {
+   "effect": "After each turn, this Pokémon has a 33% of being cured of any major status ailment.",
+   "flavor": "The Pokémon may cure its own status conditions by shedding its skin."
+  },
+  "sheer-force": {
+   "effect": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.\n\nMoves that lower the user's stats are unaffected.",
+   "flavor": "Removes any additional effects from the Pokémon's moves, but increases the moves' power."
+  },
+  "shell-armor": {
+   "effect": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor.",
+   "flavor": "A hard shell protects the Pokémon from critical hits."
+  },
+  "shield": {
+   "effect": "",
+   "flavor": ""
+  },
+  "shield-dust": {
+   "effect": "This Pokémon is immune to the extra effects of moves used against it.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.",
+   "flavor": "Protective dust shields the Pokémon from the additional effects of moves."
+  },
+  "shields-down": {
+   "effect": "When this Pokémon enters battle and at the end of each turn, if its HP is 50% or above, it changes into Meteor Form; otherwise, it changes into Core Form.  In Meteor Form, it cannot be given a major status ailment (though existing ones are not cured), cannot become drowsy from Yawn, and cannot use Rest (which will simply fail).\n\nThis ability cannot be copied, replaced, or nullified.  This ability only takes effect for Minior.",
+   "flavor": "When its HP drops to half or less, the Pokémon's shell breaks and it becomes aggressive."
+  },
+  "simple": {
+   "effect": "Each stage of this Pokémon's stat modifiers acts as two stages.  These doubled stages are still limited to a minimum of -6 and a maximum of 6.\n\nThis Pokémon can still accumulate less than -3 or more than 3 stages of stat modifiers, even though the extra ones have no effect after doubling.",
+   "flavor": "Doubles the effects of the Pokémon's stat changes."
+  },
+  "skater": {
+   "effect": "",
+   "flavor": ""
+  },
+  "skill-link": {
+   "effect": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear.  It also bypasses the accuracy checks on Triple Kick's second and third hits.",
+   "flavor": "Maximizes the number of times multistrike moves hit."
+  },
+  "slow-start": {
+   "effect": "This Pokémon's Attack and Speed are halved for five turns upon entering battle.\n\nThis ability also takes effect when acquired during battle.  If this Pokémon loses its ability before the five turns are up, its Attack and Speed return to normal; if it then regains this ability without leaving battle, its Attack and Speed are halved again, but the counter keeps counting from where it was.",
+   "flavor": "For five turns, the Pokémon's Attack and Speed stats are halved."
+  },
+  "slush-rush": {
+   "effect": "During Hail, this Pokémon has double Speed.",
+   "flavor": "Boosts the Pokémon's Speed stat in snow."
+  },
+  "sniper": {
+   "effect": "This Pokémon inflicts triple damage with critical hits, rather than the usual double damage.",
+   "flavor": "If the Pokémon's attack lands a critical hit, the attack is powered up even further."
+  },
+  "snow-cloak": {
+   "effect": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow.",
+   "flavor": "Boosts the Pokémon's evasiveness in snow."
+  },
+  "snow-warning": {
+   "effect": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+   "flavor": "The Pokémon makes it snow when it enters a battle."
+  },
+  "solar-power": {
+   "effect": "During strong sunlight, this Pokémon has 1.5× its Special Attack but takes 1/8 of its maximum HP in damage after each turn.",
+   "flavor": "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn."
+  },
+  "solid-rock": {
+   "effect": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.\n\nThis ability functions identically to Filter.",
+   "flavor": "Reduces the power of supereffective attacks that hit the Pokémon."
+  },
+  "soul-heart": {
+   "effect": "This Pokémon's Special Attack rises by one stage every time any Pokémon faints.",
+   "flavor": "Boosts the Pokémon's Sp. Atk stat every time another Pokémon faints."
+  },
+  "soundproof": {
+   "effect": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based.",
+   "flavor": "Soundproofing gives the Pokémon full immunity to all sound-based moves."
+  },
+  "speed-boost": {
+   "effect": "This Pokémon's Speed rises one stage after each turn.",
+   "flavor": "The Pokémon's Speed stat is boosted every turn."
+  },
+  "spicy-spray": {
+   "effect": "When the Pokémon takes damage from a move, it burns the attacker.",
+   "flavor": "When the Pokémon takes damage from a move, it burns the attacker."
+  },
+  "spirit": {
+   "effect": "",
+   "flavor": ""
+  },
+  "sponge": {
+   "effect": "",
+   "flavor": ""
+  },
+  "sprint": {
+   "effect": "",
+   "flavor": ""
+  },
+  "stakeout": {
+   "effect": "This Pokémon's moves have double power against Pokémon that switched in this turn.",
+   "flavor": "Doubles the damage dealt to a target that has just switched into battle."
+  },
+  "stall": {
+   "effect": "This Pokémon moves last within its priority bracket.\n\nMultiple Pokémon with this ability move in order of Speed amongst themselves.\n\nThe Full Incense and Lagging Tail take precedence over this ability; that is, Pokémon with these items move after Pokémon with this ability.  Pokémon with both this ability and one of these items are delayed as much as if they had only the item.\n\nThis ability works as usual during Trick Room: Pokémon with this ability will move in reverse order of Speed after Pokémon without it.",
+   "flavor": "The Pokémon is always the last to use its moves."
+  },
+  "stalwart": {
+   "effect": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.",
+   "flavor": "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves."
+  },
+  "stamina": {
+   "effect": "Raises this Pokémon's Defense by one stage when it takes damage from a move.",
+   "flavor": "Boosts the Defense stat when the Pokémon is hit by an attack."
+  },
+  "stance-change": {
+   "effect": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King’s Shield.",
+   "flavor": "The Pokémon changes its form to Blade Forme when\nit uses an attack move and changes to Shield Forme\nwhen it uses King’s Shield."
+  },
+  "static": {
+   "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.\n\nPokémon that are immune to Electric-type moves can still be paralyzed by this ability.\n\nOverworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable.",
+   "flavor": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+  },
+  "steadfast": {
+   "effect": "Whenever this Pokémon flinches, its Speed rises one stage.",
+   "flavor": "The Pokémon's determination boosts its Speed stat every time it flinches."
+  },
+  "stealth": {
+   "effect": "",
+   "flavor": ""
+  },
+  "steam-engine": {
+   "effect": "Raises the user's Speed by three stages when it is hit by a Fire- or Water-type attack. The attack still deals damage.",
+   "flavor": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move."
+  },
+  "steelworker": {
+   "effect": "This Pokémon's Steel moves have 1.5× power.",
+   "flavor": "Powers up Steel-type moves."
+  },
+  "steely-spirit": {
+   "effect": "Powers up the Steel-type moves of the Pokémon and its allies.",
+   "flavor": "Powers up the Steel-type moves of the Pokémon and its allies."
+  },
+  "stench": {
+   "effect": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party.",
+   "flavor": "By releasing a stench when attacking, the Pokémon may cause the target to flinch."
+  },
+  "sticky-hold": {
+   "effect": "This Pokémon's hold item cannot be removed by other Pokémon.\n\nDamaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck.  This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick.\n\nOverworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased.",
+   "flavor": "The Pokémon's held items cling to its sticky body and cannot be removed by other Pokémon."
+  },
+  "storm-drain": {
+   "effect": "All other Pokémon's single-target Water-type moves are redirected to this Pokémon, if it is an eligible target.  Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability.",
+   "flavor": "The Pokémon draws in all Water-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+  },
+  "strong-jaw": {
+   "effect": "Strengthens biting moves to 1.5× their power.",
+   "flavor": "The Pokémon's strong jaw boosts the power of its biting moves."
+  },
+  "sturdy": {
+   "effect": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed.",
+   "flavor": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+  },
+  "suction-cups": {
+   "effect": "This Pokémon cannot be forced out of battle by moves such as Whirlwind.\n\nDragon Tail and Circle Throw still inflict damage against this Pokémon.\n\nOverworld: If the lead Pokémon has this ability, the success rate while fishing is increased.",
+   "flavor": "The Pokémon uses suction cups to stay in one spot. This protects it from moves and items that would force it to switch out."
+  },
+  "super-luck": {
+   "effect": "This Pokémon's moves have critical hit rates one stage higher than normal.",
+   "flavor": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted."
+  },
+  "supersweet-syrup": {
+   "effect": "A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon.",
+   "flavor": "Lowers the evasion of opposing Pokémon by 1 stage when first sent into battle"
+  },
+  "supreme-overlord": {
+   "effect": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.",
+   "flavor": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated."
+  },
+  "surge-surfer": {
+   "effect": "Doubles this Pokémon's Speed on Electric Terrain.",
+   "flavor": "Doubles the Pokémon's Speed stat on Electric Terrain."
+  },
+  "swarm": {
+   "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is increased.",
+   "flavor": "Powers up Bug-type moves when the Pokémon's HP is low."
+  },
+  "sweet-veil": {
+   "effect": "Prevents friendly Pokémon from sleeping.",
+   "flavor": "Prevents the Pokémon and its allies from falling asleep."
+  }
+ }
+}

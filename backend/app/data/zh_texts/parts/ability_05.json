@@ -1,0 +1,223 @@
+{
+ "_kind": "ability",
+ "_batch": 5,
+ "_count": 54,
+ "items": {
+  "swift-swim": {
+   "effect": "This Pokémon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier.",
+   "flavor": "Boosts the Pokémon's Speed stat in rain."
+  },
+  "sword-of-ruin": {
+   "effect": "The power of the Pokémon’s ruinous sword lowers the Defense stats of all Pokémon except itself.",
+   "flavor": "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself."
+  },
+  "symbiosis": {
+   "effect": "Passes the bearer's held item to an ally when the ally uses up its item.",
+   "flavor": "The Pokémon passes its held item to an ally that has used up an item."
+  },
+  "synchronize": {
+   "effect": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment.\n\nThis ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb.\n\nOverworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries.",
+   "flavor": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition."
+  },
+  "tablets-of-ruin": {
+   "effect": "The power of the Pokémon’s ruinous wooden tablets lowers the Attack stats of all Pokémon except itself.",
+   "flavor": "The power of the Pokémon's ruinous wooden tablets lowers the Attack stats of all Pokémon except itself."
+  },
+  "tangled-feet": {
+   "effect": "When this Pokémon is confused, it has twice its evasion.",
+   "flavor": "Boosts the Pokémon's evasiveness if it is confused."
+  },
+  "tangling-hair": {
+   "effect": "When this Pokémon takes regular damage from a contact move, the attacking Pokémon's Speed lowers by one stage.",
+   "flavor": "Contact with the Pokémon lowers the attacker's Speed stat."
+  },
+  "technician": {
+   "effect": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout.",
+   "flavor": "Powers up weak moves so the Pokémon can deal more damage with them."
+  },
+  "telepathy": {
+   "effect": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it.",
+   "flavor": "The Pokémon anticipates and dodges the attacks of its allies."
+  },
+  "tenacity": {
+   "effect": "",
+   "flavor": ""
+  },
+  "tera-shell": {
+   "effect": "The Pokémon’s shell contains the powers of each type. All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.",
+   "flavor": "The Pokémon's shell contains the powers of each type. All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective."
+  },
+  "tera-shift": {
+   "effect": "When the Pokémon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form.",
+   "flavor": "When the Pokémon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form."
+  },
+  "teraform-zero": {
+   "effect": "When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero.",
+   "flavor": "When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero."
+  },
+  "teravolt": {
+   "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat.  If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle.  This ability cannot ignore Multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed.\n\nWhen this Pokémon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to Mold Breaker and Turboblaze.",
+   "flavor": "The Pokémon's moves are unimpeded by the Ability of the target."
+  },
+  "thermal-exchange": {
+   "effect": "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned.",
+   "flavor": "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned."
+  },
+  "thick-fat": {
+   "effect": "This Pokémon takes half as much damage from Fire- and Ice-type moves.",
+   "flavor": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves."
+  },
+  "thrust": {
+   "effect": "",
+   "flavor": ""
+  },
+  "tinted-lens": {
+   "effect": "This Pokémon deals twice as much damage with moves that are not very effective against the target.",
+   "flavor": "The Pokémon can use “not very effective” moves to deal regular damage."
+  },
+  "torrent": {
+   "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Water-type moves inflict 1.5× as much regular damage.",
+   "flavor": "Powers up Water-type moves when the Pokémon's HP is low."
+  },
+  "tough-claws": {
+   "effect": "Strengthens moves that make contact to 1.33× their power.",
+   "flavor": "Powers up moves that make direct contact."
+  },
+  "toxic-boost": {
+   "effect": "This Pokémon has 1.5× its Attack when poisoned.",
+   "flavor": "Powers up physical moves when the Pokémon is poisoned."
+  },
+  "toxic-chain": {
+   "effect": "The power of the Pokémon's toxic chain may badly poison any target the Pokémon hits with a move.",
+   "flavor": "The power of the Pokémon's toxic chain may badly poison any target the Pokémon hits with a move"
+  },
+  "toxic-debris": {
+   "effect": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+   "flavor": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves."
+  },
+  "trace": {
+   "effect": "When this Pokémon enters battle, it copies a random opponent's ability.\n\nThis ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode.",
+   "flavor": "When it enters a battle, the Pokémon copies an opposing Pokémon's Ability."
+  },
+  "transistor": {
+   "effect": "Increases the power of Electric-type moves used by this Pokémon by 50%.",
+   "flavor": "Powers up Electric-type moves."
+  },
+  "triage": {
+   "effect": "This Pokémon's healing moves have their priority increased by 3.",
+   "flavor": "Gives priority to the Pokémon's healing moves."
+  },
+  "truant": {
+   "effect": "Every second turn on which this Pokémon should attempt to use a move, it will instead do nothing (\"loaf around\").\n\nLoafing around interrupts moves that take multiple turns the same way paralysis, flinching, etc do.  Most such moves, for example Bide or Rollout, are simply cut off upon loafing around.  Attacks with a recharge turn, such as Hyper Beam, do not have to recharge; attacks with a preparation turn, such as Fly, do not end up being used.  Moves that are forced over multiple turns and keep going through failure, such as Outrage, Uproar, or any move forced by Encore, keep going as usual.\n\nIf this Pokémon is confused, its confusion is not checked when loafing around; the Pokémon cannot hurt itself, and its confusion does not end or come closer to ending.\n\nIf this Pokémon attempts to move but fails, e.g. because of paralysis or Gravity, it still counts as having moved and will loaf around the next turn.  If it does not attempt to move, e.g. because it is asleep or frozen, whatever it would have done will be postponed until its next attempt; that is, it will either loaf around or move as usual, depending on what it last did.\n\nThis ability cannot be changed with Worry Seed, but it can be disabled with Gastro Acid, changed with Role Play, or traded away with Skill Swap.",
+   "flavor": "Each time the Pokémon uses a move, it spends the next turn loafing around."
+  },
+  "turboblaze": {
+   "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat.  If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle.  This ability cannot ignore Multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed.\n\nWhen this Pokémon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to Mold Breaker and Teravolt.",
+   "flavor": "The Pokémon's moves are unimpeded by the Ability of the target."
+  },
+  "unaware": {
+   "effect": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual.",
+   "flavor": "When attacking, the Pokémon ignores the target's stat changes."
+  },
+  "unburden": {
+   "effect": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect.",
+   "flavor": "Boosts the Speed stat if the Pokémon's held item is used or lost."
+  },
+  "unnerve": {
+   "effect": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle.\n\nAffected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.",
+   "flavor": "Unnerves opposing Pokémon and makes them unable to eat Berries."
+  },
+  "unseen-fist": {
+   "effect": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself.",
+   "flavor": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself."
+  },
+  "vanguard": {
+   "effect": "",
+   "flavor": ""
+  },
+  "vessel-of-ruin": {
+   "effect": "The power of the Pokémon’s ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.",
+   "flavor": "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself."
+  },
+  "victory-star": {
+   "effect": "All friendly Pokémon's moves, including this Pokémon's own moves, have 1.1× their usual accuracy while this Pokémon is in battle.",
+   "flavor": "Boosts the accuracy of its allies and itself."
+  },
+  "vital-spirit": {
+   "effect": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Insomnia in battle.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+   "flavor": "The Pokémon is full of vitality, and that prevents it from falling asleep."
+  },
+  "volt-absorb": {
+   "effect": "Whenever an Electric-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nThis ability will not take effect if this Pokémon is Ground-type and thus immune to Electric moves.  Electric moves will ignore this Pokémon's Substitute.\n\nThis effect includes non-damaging moves, i.e. Thunder Wave.",
+   "flavor": "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage."
+  },
+  "wandering-spirit": {
+   "effect": "The Pokémon exchanges Abilities with a Pokémon that hits it with a move that makes direct contact.",
+   "flavor": "The Pokémon exchanges Abilities with a Pokémon\nthat hits it with a move that makes direct contact."
+  },
+  "warm-blanket": {
+   "effect": "",
+   "flavor": ""
+  },
+  "water-absorb": {
+   "effect": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute.",
+   "flavor": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+  },
+  "water-bubble": {
+   "effect": "When this Pokémon is hit by a Fire move, the damage is halved.  When this Pokémon uses a Water move, the power is doubled. This Pokémon cannot be burned, and if it becomes burned, the burn is immediately cured.",
+   "flavor": "Lowers the power of Fire-type moves that hit the Pokémon and prevents it from being burned."
+  },
+  "water-compaction": {
+   "effect": "Raises this Pokémon's Defense by two stages when it's hit by a Water move.",
+   "flavor": "Boosts the Defense stat sharply when the Pokémon is hit by a Water-type move."
+  },
+  "water-veil": {
+   "effect": "This Pokémon cannot be burned.\n\nIf a Pokémon is burned and acquires this ability, its burn is healed; this includes when regaining a lost ability upon leaving battle.",
+   "flavor": "The Pokémon's water veil prevents it from being burned."
+  },
+  "wave-rider": {
+   "effect": "",
+   "flavor": ""
+  },
+  "weak-armor": {
+   "effect": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move.",
+   "flavor": "The Pokémon's Defense stat is lowered when it takes damage from physical moves, but its Speed stat is sharply boosted."
+  },
+  "well-baked-body": {
+   "effect": "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted.",
+   "flavor": "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted."
+  },
+  "white-smoke": {
+   "effect": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis; nor self-inflicted stat drops, such as the Special Attack drop from Overheat; nor opponent-triggered stat boosts, such as the Attack boost from Swagger.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to Clear Body in battle.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved.",
+   "flavor": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats."
+  },
+  "wimp-out": {
+   "effect": "After this Pokémon is hit by a move, if that move caused this Pokémon's HP to drop below half, it switches out.",
+   "flavor": "The Pokémon cowardly switches out when its HP\nbecomes half or less."
+  },
+  "wind-power": {
+   "effect": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses.",
+   "flavor": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses."
+  },
+  "wind-rider": {
+   "effect": "Boosts the Pokémon’s Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves.",
+   "flavor": "Boosts the Pokémon's Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves."
+  },
+  "wonder-guard": {
+   "effect": "This Pokémon is immune to damaging moves that are not super effective against it.\n\nMoves that inflict fixed damage, such as Night Shade or Seismic Toss, are considered super effective if their types are.  Damage not directly dealt by moves, such as damage from weather, a status ailment, or Spikes, is not prevented.\n\nThis ability cannot be copied with Role Play or traded away with Skill Swap, but it can be copied with Trace, disabled with Gastro Acid, or changed with Worry Seed.  This Pokémon can still use Role Play itself to lose this ability, but not Skill Swap.\n\nIf this Pokémon has a Substitute, this ability will block moves as usual and any moves not blocked will react to the Substitute as usual.",
+   "flavor": "Its mysterious power only lets supereffective moves\nhit the Pokémon."
+  },
+  "wonder-skin": {
+   "effect": "Non-damaging moves have exactly 50% base accuracy against this Pokémon.",
+   "flavor": "Makes status moves more likely to miss the Pokémon."
+  },
+  "zen-mode": {
+   "effect": "This Pokémon switches between Standard Mode and Zen Mode after each turn depending on its HP.  Below 50% of its maximum HP, it switches to Zen Mode, and at 50% or above, it switches to Standard Mode.\n\nThis Pokémon returns to Standard Mode upon leaving battle or losing this ability.  This ability has no effect if this Pokémon is not a Darmanitan.",
+   "flavor": "Changes the Pokémon’s shape when HP is half\nor less."
+  },
+  "zero-to-hero": {
+   "effect": "The Pokémon transforms into its Hero Form when it switches out.",
+   "flavor": "The Pokémon transforms into its Hero Form when it switches out."
+  }
+ }
+}

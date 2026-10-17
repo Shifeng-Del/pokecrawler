@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 9,
+ "_count": 80,
+ "items": {
+  "revival-blessing": {
+   "effect": "",
+   "flavor": "The user bestows a loving blessing, reviving a party Pokémon that has fainted and restoring half that Pokémon's max HP."
+  },
+  "rising-voltage": {
+   "effect": "If Electric Terrain is active and the user is grounded, this move has has its power doubled.",
+   "flavor": "The user attacks with electricity rising from the ground. This move's power is doubled if the target is on Electric Terrain."
+  },
+  "roar": {
+   "effect": "Switches the target out for another of its trainer’s Pokémon selected at random.  Wild battles end immediately.\n\nDoesn’t affect Pokémon with Suction Cups or under the effect of Ingrain.",
+   "flavor": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+  },
+  "roar-of-time": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The user blasts the target with power that distorts even time. The user can't move on the next turn."
+  },
+  "rock-blast": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "The user attacks by hurling hard rocks at the target. This move hits two to five times in a row."
+  },
+  "rock-climb": {
+   "effect": "Inflicts regular damage.  Has a chance to confuse the target.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "rock-polish": {
+   "effect": "Raises the user’s Speed by two stages.",
+   "flavor": "The user polishes its body to reduce drag. This sharply boosts the user's Speed stat."
+  },
+  "rock-slide": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
+  },
+  "rock-smash": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+   "flavor": "The user attacks with a punch. This may also lower the target's Defense stat."
+  },
+  "rock-throw": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user picks up and throws a small rock at the target to inflict damage."
+  },
+  "rock-tomb": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+   "flavor": "The user hurls boulders at the target to inflict damage. This also lowers the target's Speed stat by cutting off its movement."
+  },
+  "rock-wrecker": {
+   "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": "The user launches a huge boulder at the target to attack. The user can't move on the next turn."
+  },
+  "role-play": {
+   "effect": "User’s ability is replaced with the target’s until the user leaves the field.  Ignores accuracy and evasion modifiers.\n\nIf the target has Flower Gift, Forecast, Illusion, Imposter, Multitype, Stance Change, Trace, Wonder Guard, or Zen Mode, this move will fail.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "The user mimics the target completely, copying the target's Ability."
+  },
+  "rolling-kick": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "rollout": {
+   "effect": "Inflicts regular damage.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.\n\nIf the user has used Defense Curl since entering the field, this move has double power.",
+   "flavor": "The user continually rolls into the target over five turns. This attack becomes more powerful each time it hits."
+  },
+  "roost": {
+   "effect": "Heals the user for half its max HP.  If the user is Flying, its Flying type is ignored until the end of this turn.",
+   "flavor": "The user lands and rests its body. This move restores the user's HP by up to half its max HP."
+  },
+  "rototiller": {
+   "effect": "Raises the Attack and Special Attack of all Grass Pokémon in battle.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "round": {
+   "effect": "Inflicts regular damage.  If Round has already been used this turn, this move’s power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pokémon using other moves will then continue to act as usual.",
+   "flavor": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted."
+  },
+  "ruination": {
+   "effect": "",
+   "flavor": "The user summons a ruinous disaster. This cuts the target’s HP in half."
+  },
+  "sacred-fire": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.  Frozen Pokémon may use this move, in which case they will thaw.",
+   "flavor": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn."
+  },
+  "sacred-sword": {
+   "effect": "Inflicts regular damage.  Damage calculation ignores the target’s stat modifiers, including evasion.",
+   "flavor": "The user attacks by slicing with a sword. The target's stat changes don't affect the damage inflicted by this move."
+  },
+  "safeguard": {
+   "effect": "Protects Pokémon on the user’s side of the field from major status effects and confusion for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the field.\n\nIf Yawn is used while this move is in effect, it will immediately fail.\n\nDefog used by an opponent will end this effect.\n\nThis effect does not prevent the confusion caused by Outrage, Petal Dance, or Thrash.",
+   "flavor": "The user creates a protective field that prevents status conditions for five turns."
+  },
+  "salt-cure": {
+   "effect": "",
+   "flavor": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move."
+  },
+  "sand-attack": {
+   "effect": "Lowers the target’s accuracy by one stage.",
+   "flavor": "Sand is hurled in the target's face, lowering the target's accuracy."
+  },
+  "sand-tomb": {
+   "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+   "flavor": "The user traps the target inside a harshly raging sandstorm that inflicts damage for four to five turns."
+  },
+  "sandsear-storm": {
+   "effect": "",
+   "flavor": "The user attacks by wrapping opposing Pokémon in fierce winds and searingly hot sand. This may also leave them with a burn."
+  },
+  "sandstorm": {
+   "effect": "Changes the weather to a sandstorm for five turns.  Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn.  Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect.\n\nSolar Beam’s power is halved.\n\nMoonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+   "flavor": "A five-turn sandstorm is summoned to damage all Pokémon except Rock, Ground, and Steel types. The sandstorm also boosts the Sp. Def stats of Rock types."
+  },
+  "sappy-seed": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "savage-spin-out--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "savage-spin-out--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "scald": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user attacks by shooting boiling hot water at the target. This may also leave the target with a burn."
+  },
+  "scale-shot": {
+   "effect": "Inflicts regular damage two to five times in a row, raising the user’s Speed and lowering the user’s Defense by one stage each upon last hit.",
+   "flavor": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat."
+  },
+  "scary-face": {
+   "effect": "Lowers the target’s Speed by two stages.",
+   "flavor": "The user frightens the target with a scary face to harshly lower its Speed stat."
+  },
+  "scorching-sands": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user throws scorching sand at the target to attack. This may also leave the target with a burn."
+  },
+  "scratch": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "Hard, pointed, sharp claws rake the target to inflict damage."
+  },
+  "screech": {
+   "effect": "Lowers the target’s Defense by two stages.",
+   "flavor": "An earsplitting screech harshly lowers the target's Defense stat."
+  },
+  "searing-shot": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user torches everything around it in an inferno\nof scarlet flames. This may also leave those it hits\nwith a burn."
+  },
+  "searing-sunraze-smash": {
+   "effect": "Inflicts regular damage.  Other Pokémon’s abilities cannot activate in response to this move.  In particular, it hits through Disguise",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "secret-power": {
+   "effect": "Inflicts regular damage.  Has a chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyzes target\nCave           | Makes target flinch\nDeep water     | Lowers target’s Attack by one stage\nDesert         | Lowers target’s accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target’s accuracy by one stage\nShallow water  | Lowers target’s Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyzes target\nCrystal        | Makes target flinch\nGateway        | Lowers target’s Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyzes target\nNeon           | Paralyzes target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target’s accuracy by one stage\nWaterfall      | Puts target to sleep\n",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "secret-sword": {
+   "effect": "Inflicts regular damage.  Damage calculation always uses the target’s Defense, regardless of this move’s damage class.",
+   "flavor": "The user cuts with its long horn. The odd power contained in the horn deals physical damage to the target."
+  },
+  "seed-bomb": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above."
+  },
+  "seed-flare": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by two stages.",
+   "flavor": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target's Sp. Def stat."
+  },
+  "seismic-toss": {
+   "effect": "Inflicts damage equal to the user’s level.  Type immunity applies, but other type effects are ignored.",
+   "flavor": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level."
+  },
+  "self-destruct": {
+   "effect": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
+   "flavor": "The user attacks everything around it by causing an explosion. The user faints upon using this move."
+  },
+  "shadow-ball": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+   "flavor": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat."
+  },
+  "shadow-blast": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": ""
+  },
+  "shadow-blitz": {
+   "effect": "Inflicts regular damage.",
+   "flavor": ""
+  },
+  "shadow-bolt": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": ""
+  },
+  "shadow-bone": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+   "flavor": "The user attacks by beating the target with a\nbone that contains a spirit. This may also lower\nthe target’s Defense stat."
+  },
+  "shadow-break": {
+   "effect": "Inflicts regular damage.",
+   "flavor": ""
+  },
+  "shadow-chill": {
+   "effect": "Inflicts regular damage.  Has a chance to freeze the target.",
+   "flavor": ""
+  },
+  "shadow-claw": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user attacks by slashing the target with a sharp claw made from shadows. This move has a heightened chance of landing a critical hit."
+  },
+  "shadow-down": {
+   "effect": "Lowers the target’s Defense by two stages.",
+   "flavor": ""
+  },
+  "shadow-end": {
+   "effect": "Inflicts regular damage.  User takes 1/2 of its current HP in recoil.",
+   "flavor": ""
+  },
+  "shadow-fire": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": ""
+  },
+  "shadow-force": {
+   "effect": "Inflicts regular damage.  User vanishes for one turn, becoming immune to attack, and hits on the second turn.\n\nThis move ignores the effects of Detect and Protect.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user disappears on the first turn, then attacks on the next turn. This move hits even if the target protects itself."
+  },
+  "shadow-half": {
+   "effect": "Halves HP of all Pokémon on the field.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+   "flavor": ""
+  },
+  "shadow-hold": {
+   "effect": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.\n\nThe target may still escape by using Baton Pass, U-turn, or a Shed Shell.\n\nBoth the user and the target pass on this effect with Baton Pass.",
+   "flavor": ""
+  },
+  "shadow-mist": {
+   "effect": "Lowers the target’s evasion by two stages.",
+   "flavor": ""
+  },
+  "shadow-panic": {
+   "effect": "Confuses the target.",
+   "flavor": ""
+  },
+  "shadow-punch": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "The user throws a punch from the shadows. This attack never misses."
+  },
+  "shadow-rave": {
+   "effect": "Inflicts regular damage.",
+   "flavor": ""
+  },
+  "shadow-rush": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move while in hyper mode.",
+   "flavor": ""
+  },
+  "shadow-shed": {
+   "effect": "Removes the effects of Light Screen, Reflect, and Safeguard.",
+   "flavor": ""
+  },
+  "shadow-sky": {
+   "effect": "Changes the weather to Shadow Sky for five turns.  Pokémon other than Shadow Pokémon take 1/16 their max HP at the end of every turn.  This move is typeless for the purposes of Weather Ball.",
+   "flavor": ""
+  },
+  "shadow-sneak": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The user extends its shadow and attacks the target from behind. This move always goes first."
+  },
+  "shadow-storm": {
+   "effect": "Inflicts regular damage.",
+   "flavor": ""
+  },
+  "shadow-wave": {
+   "effect": "Inflicts regular damage.",
+   "flavor": ""
+  },
+  "sharpen": {
+   "effect": "Raises the user’s Attack by one stage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "shattered-psyche--physical": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "shattered-psyche--special": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "shed-tail": {
+   "effect": "",
+   "flavor": "The user creates a substitute for itself using its own HP before switching places with a party Pokémon in waiting."
+  },
+  "sheer-cold": {
+   "effect": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting.\n\nThe effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+   "flavor": "The target faints instantly. This move is less likely to hit the target if used by Pokémon other than Ice types."
+  },
+  "shell-side-arm": {
+   "effect": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages.",
+   "flavor": "This move is either physical or special—whichever will inflict more damage. This may also poison the target."
+  },
+  "shell-smash": {
+   "effect": "Raises the user’s Attack, Special Attack, and Speed by two stages each.  Lowers the user’s Defense and Special Defense by one stage each.",
+   "flavor": "The user breaks its shell, which lowers its Defense and Sp. Def stats but sharply boosts its Attack, Sp. Atk, and Speed stats."
+  },
+  "shell-trap": {
+   "effect": "Inflicts regular damage.  If the user was not yet hit by an opponent’s physical move this turn, this move will fail.",
+   "flavor": "The user sets a shell trap. If the user is hit by a\nphysical move, the trap will explode and inflict\ndamage on opposing Pokémon."
+  },
+  "shelter": {
+   "effect": "",
+   "flavor": "The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
+  },
+  "shift-gear": {
+   "effect": "Raises the user’s Attack by one stage and its Speed by two stages.",
+   "flavor": "The user rotates its gears, boosting its Attack stat and sharply boosting its Speed stat."
+  },
+  "shock-wave": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "The user strikes the target with a quick jolt of electricity. This attack never misses."
+  },
+  "shore-up": {
+   "effect": "Heals the user for ½ its max HP.  During a Sandstorm, the healing is increased to ⅔.",
+   "flavor": "The user restores its own HP by up to half its max HP. It regains more HP in a sandstorm."
+  }
+ }
+}

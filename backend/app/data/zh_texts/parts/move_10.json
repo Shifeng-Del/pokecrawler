@@ -1,0 +1,327 @@
+{
+ "_kind": "move",
+ "_batch": 10,
+ "_count": 80,
+ "items": {
+  "signal-beam": {
+   "effect": "Inflicts regular damage.  Has a chance to confuse the target.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "silk-trap": {
+   "effect": "",
+   "flavor": "The user spins a silken trap, protecting itself from damage while lowering the Speed stat of any attacker that makes direct contact."
+  },
+  "silver-wind": {
+   "effect": "Inflicts regular damage. Has a chance to raise all of the user’s stats one stage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "simple-beam": {
+   "effect": "Changes the target’s ability to Simple.",
+   "flavor": "The user emits a mysterious psychic wave that changes the target's Ability to Simple."
+  },
+  "sing": {
+   "effect": "Puts the target to sleep.",
+   "flavor": "A soothing lullaby is sung in a beautiful voice that puts the target to sleep."
+  },
+  "sinister-arrow-raid": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "sizzly-slide": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "sketch": {
+   "effect": "Permanently replaces itself with the target’s last used move.  If that move is Chatter or Struggle, this move will fail.\n\nThis move cannot be copied by Mimic or Mirror Move, nor selected by Assist or Metronome, nor forced by Encore.",
+   "flavor": "This move enables the user to permanently learn the move last used by the target. Once used, Sketch disappears."
+  },
+  "skill-swap": {
+   "effect": "User and target switch abilities.  Ignores accuracy and evasion modifiers.\n\nIf either Pokémon has Multitype or Wonder Guard, this move will fail.",
+   "flavor": "The user employs its psychic power to exchange Abilities with the target."
+  },
+  "skitter-smack": {
+   "effect": "Lowers the target’s Special Attack by one stage.",
+   "flavor": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat."
+  },
+  "skull-bash": {
+   "effect": "Inflicts regular damage.  Raises the user’s Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user tucks in its head to raise its Defense\nstat on the first turn, then rams the target on the\nnext turn."
+  },
+  "sky-attack": {
+   "effect": "Inflicts regular damage.  User charges for one turn before attacking.  Critical hit chance is one level higher than normal.  Has a chance to make the target flinch.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user attacks the turn after using this move. This move has a heightened chance of landing a critical hit and may also make the target flinch."
+  },
+  "sky-drop": {
+   "effect": "Inflicts regular damage.  User carries the target high into the air for one turn, during which no moves will hit either Pokémon and neither can act.  On the following turn, the user drops the target, inflicting damage and ending the effect.\n\nIf the target is Flying-type, this move will function as normal but inflict no damage.\n\nGust, Hurricane, Sky Uppercut, Smack Down, Thunder, Twister, and Whirlwind can hit both the user and the target during this effect.  Gust and Twister will additionally have double power.\n\nThe damage from Hail and Sandstorm still applies during this effect.\n\nEither Pokémon may be hit during this effect if also under the effect of Lock-On, Mind Reader, or No Guard.\n\nThis move cannot be used while Gravity is in effect.\n\nThis move cannot be selected by Sleep Talk.\n\n*Bug*: If Gravity is used during a double or triple battle while this move is in effect, this move is not correctly canceled on the target, and it remains high in the air indefinitely.  As this move prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "sky-uppercut": {
+   "effect": "Inflicts regular damage.\n\nThis move can hit Pokémon under the effect of Bounce, Fly, or Sky Drop.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "slack-off": {
+   "effect": "Heals the user for half its max HP.",
+   "flavor": "The user slacks off, restoring its own HP by up to half its max HP."
+  },
+  "slam": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The target is slammed with a long tail, vines, or the like to inflict damage."
+  },
+  "slash": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The target is attacked with a slash of claws, scythes, or the like. This move has a heightened chance of landing a critical hit."
+  },
+  "sleep-powder": {
+   "effect": "Puts the target to sleep.",
+   "flavor": "The user scatters a cloud of soporific dust that puts the target to sleep."
+  },
+  "sleep-talk": {
+   "effect": "Only usable if the user is sleeping.  Randomly selects and uses one of the user’s other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select Assist, Bide, Bounce, Chatter, Copycat, Dig, Dive, Fly, Focus Punch, Me First, Metronome, Mirror Move, Shadow Force, Skull Bash, Sky Attack, Sky Drop, Sleep Talk, Solar Beam, Razor Wind, or Uproar.\n\nIf the selected move requires a recharge turn—i.e., one of Blast Burn, Frenzy Plant, Giga Impact, Hydro Cannon, Hyper Beam, Roar of Time, or Rock Wrecker—and the user is still sleeping next turn, then it’s forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
+   "flavor": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep."
+  },
+  "sludge": {
+   "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+   "flavor": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target."
+  },
+  "sludge-bomb": {
+   "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+   "flavor": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target."
+  },
+  "sludge-wave": {
+   "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+   "flavor": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits."
+  },
+  "smack-down": {
+   "effect": "Inflicts regular damage.  Removes the target’s immunity to Ground-type damage.  This effect removes any existing Ground immunity due to Levitate, Magnet Rise, or Telekinesis, and causes the target’s Flying type to be ignored when it takes Ground damage.\n\nIf the target isn’t immune to Ground damage, this move will fail.\n\nThis move can hit Pokémon under the effect of Bounce, Fly, or Sky Drop, and ends the effect of Bounce or Fly.",
+   "flavor": "The user throws a stone or similar projectile to attack the target. If the target is in the air, it will be knocked down to the ground."
+  },
+  "smart-strike": {
+   "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+   "flavor": "The user stabs the target with a sharp horn. This attack never misses."
+  },
+  "smelling-salts": {
+   "effect": "Inflicts regular damage.  If the target is paralyzed, this move has double power, and the target is cured of its paralysis.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "smog": {
+   "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+   "flavor": "The target is attacked with a discharge of filthy gases. This may also poison the target."
+  },
+  "smokescreen": {
+   "effect": "Lowers the target’s accuracy by one stage.",
+   "flavor": "The user releases an obscuring cloud of smoke or ink. This lowers the target's accuracy."
+  },
+  "snap-trap": {
+   "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+   "flavor": "The user snares the target in a snap trap for four to\nfive turns."
+  },
+  "snarl": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+   "flavor": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon."
+  },
+  "snatch": {
+   "effect": "The next time a Pokémon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag.\n\nIf two Pokémon use this move on the same turn, the faster Pokémon will steal the first beneficial move, and the slower Pokémon will then steal it again—thus, only the slowest Pokémon using this move ultimately gains a stolen move’s effect.\n\nIf the user steals Psych Up, it will target the Pokémon that used Psych Up.  If the user was the original target of Psych Up, and the Pokémon that originally used it’s affected by Pressure, it will only lose 1 PP.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "snipe-shot": {
+   "effect": "The user ignores the effects of opposing Pokémon's moves and Abilities that draw in moves, allowing this move to hit the chosen target.",
+   "flavor": "The user ignores the effects of opposing Pokémon's moves and Abilities that draw in moves, allowing this move to hit the chosen target."
+  },
+  "snore": {
+   "effect": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a chance to make the target flinch.",
+   "flavor": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch."
+  },
+  "snowscape": {
+   "effect": "",
+   "flavor": "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types."
+  },
+  "soak": {
+   "effect": "Changes the target to pure Water-type until it leaves the field.  If the target has Multitype, this move will fail.",
+   "flavor": "The user shoots a torrent of water that changes the target's type to Water."
+  },
+  "soft-boiled": {
+   "effect": "Heals the user for half its max HP.",
+   "flavor": "The user restores its own HP by up to half its max HP."
+  },
+  "solar-beam": {
+   "effect": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring Sunny Day, the charge turn is skipped.\n\nDuring Hail, Rain Dance, or Sandstorm, power is halved.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user gathers light on the first turn, then blasts a bundled beam on the next turn."
+  },
+  "solar-blade": {
+   "effect": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring Sunny Day, the charge turn is skipped.\n\nDuring Hail, Rain Dance, or Sandstorm, power is halved.\n\nThis move cannot be selected by Sleep Talk.",
+   "flavor": "The user gathers light on the first turn, then fills a blade with the light's energy and attacks on the next turn."
+  },
+  "sonic-boom": {
+   "effect": "Inflicts exactly 20 damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "soul-stealing-7-star-strike": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "spacial-rend": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user tears the target along with the space around it. This move has a heightened chance of landing a critical hit."
+  },
+  "spark": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "The user attacks the target with an electrically charged tackle. This may also leave the target with paralysis."
+  },
+  "sparkling-aria": {
+   "effect": "Inflicts regular damage.  If the target has a burn and takes damage from this move, its burn is healed.",
+   "flavor": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be cured by the touch of these bubbles."
+  },
+  "sparkly-swirl": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "spectral-thief": {
+   "effect": "Steals the target’s stat increases, then inflicts regular damage.  Will not steal stat increases that would put any of the user’s stats at more than +6; any excess is left on the target.  Stolen increases are affected by abilities as normal.",
+   "flavor": "The user hides in the target’s shadow, steals\nthe target’s stat boosts, and then attacks."
+  },
+  "speed-swap": {
+   "effect": "Exchanges the original Speed stats of the user and target.",
+   "flavor": "The user exchanges Speed stats with the target."
+  },
+  "spicy-extract": {
+   "effect": "",
+   "flavor": "The user emits an incredibly spicy extract, sharply boosting the target's Attack stat and harshly lowering the target's Defense stat."
+  },
+  "spider-web": {
+   "effect": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.\n\nThe target may still escape by using Baton Pass, U-turn, or a Shed Shell.\n\nBoth the user and the target pass on this effect with Baton Pass.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "spike-cannon": {
+   "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "spikes": {
+   "effect": "Scatters spikes around the opposing field, which damage opposing Pokémon that enter the field for 1/8 of their max HP.  Pokémon immune to Ground moves are immune to this damage, except during Gravity.  Up to three layers of spikes may be laid down, adding 1/16 to the damage done: two layers of spikes damage for 3/16 max HP, and three layers damage for 1/4 max HP.\n\nWonder Guard does not block damage from this effect.\n\nRapid Spin removes this effect from its user’s side of the field.  Defog removes this effect from its target’s side of the field.",
+   "flavor": "The user lays a trap of spikes at the feet of the opposing team. The spikes will damage opposing Pokémon that switch into battle."
+  },
+  "spiky-shield": {
+   "effect": "Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.",
+   "flavor": "In addition to protecting the user from attacks, this move also damages any attacker that makes direct contact."
+  },
+  "spin-out": {
+   "effect": "",
+   "flavor": "The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user's Speed stat."
+  },
+  "spirit-break": {
+   "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+   "flavor": "The user attacks the target with so much force that it could break the target's spirit. This also lowers the target's Sp. Atk stat."
+  },
+  "spirit-shackle": {
+   "effect": "Inflicts regular damage.  Traps the target.",
+   "flavor": "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from fleeing."
+  },
+  "spit-up": {
+   "effect": "Inflicts regular damage.  Power is equal to 100 times the amount of energy stored by Stockpile.  Ignores the random factor in the damage formula.  Stored energy is consumed, and the user’s Defense and Special Defense are reset to what they would be if Stockpile had not been used.  If the user has no energy stored, this move will fail.\n\nThis move cannot be copied by Mirror Move.",
+   "flavor": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power."
+  },
+  "spite": {
+   "effect": "Lowers the PP of the target’s last used move by 4.  If the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed, or if its last used move has 0 PP remaining, this move will fail.",
+   "flavor": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it."
+  },
+  "splash": {
+   "effect": "Does nothing.\n\nThis move cannot be used while Gravity is in effect.",
+   "flavor": "The user just flops and splashes around to no effect at all..."
+  },
+  "splintered-stormshards": {
+   "effect": "Inflicts damage and removes any terrain present on the battlefield.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "splishy-splash": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "spore": {
+   "effect": "Puts the target to sleep.",
+   "flavor": "The user scatters bursts of spores that induce sleep."
+  },
+  "spotlight": {
+   "effect": "For the duration of the turn, if the target is also a valid target for a move used by one of its opponents, that move will target it instead.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "springtide-storm": {
+   "effect": "",
+   "flavor": "The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats."
+  },
+  "stealth-rock": {
+   "effect": "Spreads sharp rocks around the opposing field, damaging any Pokémon that enters the field for 1/8 its max HP.  This damage is affected by the entering Pokémon’s susceptibility to Rock moves.\n\nRapid Spin removes this effect from its user’s side of the field.",
+   "flavor": "The user lays a trap of levitating stones around the opposing team. The trap damages opposing Pokémon that switch into battle."
+  },
+  "steam-eruption": {
+   "effect": "Inflicts regular damage.  Has a chance to burn the target.",
+   "flavor": "The user immerses the target in superheated steam. This may also leave the target with a burn."
+  },
+  "steamroller": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.\n\nPower is doubled against Pokémon that have used Minimize since entering the field.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "steel-beam": {
+   "effect": "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up. The user still takes damage if the move is blocked by Protect or Substitute, misses, or if the target has Flash Fire.",
+   "flavor": "The user fires a beam of steel that it collected from its entire body. This also damages the user."
+  },
+  "steel-roller": {
+   "effect": "Ends the effect of Electric, Grassy, Misty, or Psychic Terrains. Fails if no Terrain is active. ",
+   "flavor": "The user attacks while destroying the terrain. This move fails if the ground hasn't turned into a terrain."
+  },
+  "steel-wing": {
+   "effect": "Inflicts regular damage. Has a chance to raise the user’s Defense one stage.",
+   "flavor": "The target is hit with wings of steel. This may also boost the user's Defense stat."
+  },
+  "sticky-web": {
+   "effect": "Shoots a web over the opponents’ side of the field, which lowers the Speed of any opposing Pokémon that enters the field by one stage.\n\nPokémon in the air, such as Flying-types and those with Levitate, are unaffected.  Rapid Spin removes Sticky Web from the user’s side of the field; Defog removes it from both sides.",
+   "flavor": "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle."
+  },
+  "stockpile": {
+   "effect": "Raises the user’s Defense and Special Defense by one stage each.  Stores energy for use with Spit Up and Swallow.  Up to three levels of energy can be stored, and all are lost if the user leaves the field.  Energy is still stored even if the stat boosts cannot be applied.\n\nIf the user uses Baton Pass, the stat boosts are passed as normal, but the stored energy is not.",
+   "flavor": "The user stores power and boosts its Defense and Sp. Def stats. This move can be used up to three times."
+  },
+  "stoked-sparksurfer": {
+   "effect": "Inflicts regular damage.  Has a chance to paralyze the target.",
+   "flavor": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
+  },
+  "stomp": {
+   "effect": "Inflicts regular damage.  Has a chance to make the target flinch.\n\nPower is doubled against Pokémon that have used Minimize since entering the field.",
+   "flavor": "The user attacks by stomping on the target with a big foot. This may also make the target flinch."
+  },
+  "stomping-tantrum": {
+   "effect": "Inflicts regular damage.  Power is doubled if the user’s last move failed for any reason (i.e., produced the message \"But it failed!\") or was ineffective due to types.",
+   "flavor": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed."
+  },
+  "stone-axe": {
+   "effect": "",
+   "flavor": "The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target."
+  },
+  "stone-edge": {
+   "effect": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+   "flavor": "The user stabs the target with sharpened stones. This move has a heightened chance of landing a critical hit."
+  },
+  "stored-power": {
+   "effect": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user’s stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move’s power.  For a Pokémon with all five stats modified to +6, this move’s power is 31×.",
+   "flavor": "The user attacks the target with stored power. The more the user's stats are boosted, the greater the move's power."
+  },
+  "storm-throw": {
+   "effect": "Inflicts regular damage.  Always scores a critical hit.",
+   "flavor": "The user strikes the target with a fierce blow. This\nattack always results in a critical hit."
+  },
+  "strange-steam": {
+   "effect": "Inflicts regular damage.  Has a chance to confuse the target.",
+   "flavor": "The user attacks the target by emitting steam. This may also confuse the target."
+  },
+  "strength": {
+   "effect": "Inflicts regular damage.",
+   "flavor": "The target is slugged with a punch thrown at maximum power."
+  },
+  "strength-sap": {
+   "effect": "Lowers the target’s Attack by one stage.  Heals the user by the target’s current Attack, including modifiers, but not including this move’s Attack-lowering effect.\n\nIf the target’s Attack is already at -6, this move will fail.  In any other situation that would prevent a stat modification, the healing will still succeed.",
+   "flavor": "The user restores its own HP by the same amount as the target's Attack stat. It then lowers the target's Attack stat."
+  },
+  "string-shot": {
+   "effect": "Lowers the target’s Speed by two stages.",
+   "flavor": "The user blows silk from its mouth that binds opposing Pokémon and harshly lowers their Speed stats."
+  }
+ }
+}

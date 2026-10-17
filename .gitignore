@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# 私有工作区数据（严禁入库）
+.workbuddy/
+
+# 运行时数据（poke.db 作为演示数据有意保留入库）
+backend/data/test.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+backend/data/logs/
+backend/data/shots/
+backend/data/exports/
+
+# 环境变量
+.env
+
+# Node（node_modules 为符号链接时带斜杠的规则不生效，两种形态都拦）
+node_modules
+node_modules/
+.npmrc
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store

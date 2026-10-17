@@ -1,0 +1,14 @@
+{
+ "_source": "AI 机翻补录：PokeAPI 上游 15 个 Gen 9 DLC 物种无官方 zh-hans，按英文 genus 机器翻译；key 为重音归一化小写形式",
+ "genera": {
+  "candy apple pokemon": "糖果苹果宝可梦",
+  "matcha pokemon": "抹茶宝可梦",
+  "retainer pokemon": "随从宝可梦",
+  "mask pokemon": "面具宝可梦",
+  "alloy pokemon": "合金宝可梦",
+  "apple hydra pokemon": "苹果巨龙宝可梦",
+  "paradox pokemon": "悖谬宝可梦",
+  "tera pokemon": "太晶宝可梦",
+  "subjugation pokemon": "降伏宝可梦"
+ }
+}
