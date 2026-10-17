@@ -351,17 +351,32 @@ npm run build        # 产物落到 frontend/dist/，后端无需改动
 
 ---
 
-## 部署上线（小组演示，免信用卡）
+## 部署上线（小组演示）
 
-三个免费档对比，按自己情况选：
+四个方案对比，按自己情况选（前三个都免信用卡）：
 
-| 平台                     | 信用卡 | 休眠策略       | 说明                                              |
-| ---------------------- | --- | ---------- | ----------------------------------------------- |
-| **PythonAnywhere**（推荐） | 不需要 | **不休眠**     | 免费 1 个web应用，100 CPU秒/天、512MB 磁盘，小组演示够用            |
-| Hugging Face Spaces    | 不需要 | 闲置 48 小时休眠 | Docker 部署，2 vCPU / 16GB 内存，仓库根已备 `Dockerfile`      |
-| Render                 | **需要绑定** | 15 分钟休眠    | 仓库已备 `render.yaml`，哪天有卡了可直接用（见下方备注）                  |
+| 平台                        | 信用卡 | 在线条件        | 特点                                       |
+| ------------------------- | --- | ----------- | ---------------------------------------- |
+| **cpolar 内网穿透（方案一，最简单）**   | 不需要 | 演示时电脑开着     | 本机运行 + 白嫖公网域名；国内节点低延迟，1Mbps 带宽，自动 HTTPS |
+| **PythonAnywhere（方案二）**    | 不需要 | 永久在线        | 免卡云端托管，100 CPU 秒/天、512MB 磁盘，小组演示够用    |
+| Hugging Face Spaces（方案三）  | 不需要 | 闲置 48 小时休眠 | Docker 部署，2 vCPU / 16GB 内存，仓库根已备 `Dockerfile` |
+| Render（备注）                | **需要绑卡** | 15 分钟休眠    | 仓库已备 `render.yaml`，哪天有卡了可直接用            |
 
-### 方案一：PythonAnywhere（推荐，无需信用卡，不休眠）
+### 方案一：cpolar 内网穿透（最简单，国内节点，3 步搞定）
+
+原理：网站还是跑在你电脑上（就是你现在 `python run.py` 的那个），cpolar 给一个公网域名转进来。
+**要求：演示时电脑开着、别睡眠。**
+
+1. **装客户端**：<https://www.cpolar.com/> 下载 Windows 版安装（免费档：4 条隧道、不限流量、1Mbps 带宽、自动签发 HTTPS）。
+2. **注册登录**：手机号注册，安装后打开客户端登录（或浏览器访问 <http://127.0.0.1:9200> 进管理面板）。
+3. **建隧道**：管理面板 → 隧道管理 → 创建隧道 → 协议选 `http`、本地地址填 `8000`、域名类型选 `随机域名`、地区选国内 → 创建。
+4. **启动网站**：`cd backend && python run.py`，把「在线隧道列表」里的公网地址（形如 `https://xxxx.cpolar.top`）发给小组。
+
+命令行等价玩法：客户端装好后，在任意目录执行 `cpolar http 8000`，终端直接打印公网地址。
+
+> 免费域名 24 小时会变、重启也变——演示当天现取现用即可；电脑关机/休眠隧道即断，演示前 5 分钟启动。
+
+### 方案二：PythonAnywhere（免卡云端托管，不休眠）
 
 **1. 注册**：打开 <https://www.pythonanywhere.com> → 点 **Start running Python online in less than a minute**（免费 Beginner 账号，不需要信用卡）→ 去邮箱点验证链接。
 
@@ -388,7 +403,7 @@ pa website create --domain USERNAME.pythonanywhere.com --command '/home/USERNAME
 
 **以后更新代码**：控制台里 `cd ~/pokecrawler && git pull`，再 `pa website reload --domain USERNAME.pythonanywhere.com`。
 
-### 方案二：Hugging Face Spaces（Docker，备选）
+### 方案三：Hugging Face Spaces（Docker，备选）
 
 **1. 注册**：<https://huggingface.co/join>（邮箱验证，无需信用卡）。
 
@@ -413,6 +428,7 @@ git push hf main
 
 ### 注意事项
 
+- **cpolar**：免费域名 24 小时自动更换（演示当天现取现用没影响）；1Mbps 带宽下首屏加载偏慢属正常（图片走 jsDelivr，不占隧道带宽）；电脑必须保持开机 + 不睡眠。
 - **CPU 配额**：PythonAnywhere 免费档每天 100 CPU 秒，小组几个人点页面足够；万一当天超额会提示"稍后再试"，第二天恢复，不影响数据。
 - **公开无鉴权**：当前接口全功能开放（含爬取/导出），链接仅限小组内传播；若要长期公开，建议加 token 或关闭 crawl 路由。
 - **数据说明**：云端数据库是 git 里的演示快照；PythonAnywhere 磁盘持久但重启/重建后以 git 版本为准，云端爬取结果不要当持久数据用。
