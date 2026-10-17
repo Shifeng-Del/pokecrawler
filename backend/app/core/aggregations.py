@@ -14,6 +14,7 @@ from app.core.models import (
     PokemonAbility,
     PokemonType,
 )
+from app.utils.media_url import to_cdn_url
 from app.utils.time import utcnow
 from app.utils.zh_glossary import glossary_zh
 
@@ -203,7 +204,7 @@ async def height_weight(
             "weight": r.weight,
             "type_primary": r.type_primary,
             "stat_total": r.stat_total,
-            "image_url": r.image_url,
+            "image_url": to_cdn_url(r.image_url),
         }
         for r in rows
     ]
@@ -233,7 +234,7 @@ async def ranking(
             "value": r.value,
             "type_primary": r.type_primary,
             "type_secondary": r.type_secondary,
-            "image_url": r.image_url,
+            "image_url": to_cdn_url(r.image_url),
             "stat_total": r.stat_total,
         }
         for r in rows
@@ -254,7 +255,7 @@ async def radar(session: AsyncSession, ids: list[int] | None = None, q: str | No
             "name": p.name,
             "name_zh": p.name_zh,
             "type_primary": p.type_primary,
-            "image_url": p.image_url,
+            "image_url": to_cdn_url(p.image_url),
             "stats": {
                 "hp": p.stat_hp,
                 "attack": p.stat_attack,

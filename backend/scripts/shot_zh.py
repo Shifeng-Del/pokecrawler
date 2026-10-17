@@ -37,6 +37,8 @@ async def main() -> int:
     )
     ctx = await browser.new_context(viewport={"width": 1440, "height": 1000})
     page = await ctx.new_page()
+    # 截图不依赖外网图片：拦截 CDN 镜像与 raw 源（PokemonAvatar 有占位降级）
+    await page.route("**cdn.jsdelivr.net/**", lambda r: r.abort())
     await page.route("**raw.githubusercontent.com/**", lambda r: r.abort())
 
     await page.goto(args.base + "/pokemon", wait_until="domcontentloaded", timeout=45000)

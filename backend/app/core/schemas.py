@@ -4,7 +4,9 @@ from __future__ import annotations
 
 from typing import Any
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
+
+from app.utils.media_url import to_cdn_url
 
 
 class AbilityOut(BaseModel):
@@ -43,6 +45,12 @@ class PokemonOut(BaseModel):
     cry_url: str | None = None
     is_default: bool = True
     updated_at: str | None = None
+
+    @field_validator("image_url", "cry_url", mode="before")
+    @classmethod
+    def _cdn_media(cls, v: str | None) -> str | None:
+        """读出口径统一改写：DB 存 raw 原值，API 输出 CDN 镜像（见 media_url）。"""
+        return to_cdn_url(v)
 
 
 class PagedPokemon(BaseModel):
@@ -93,6 +101,11 @@ class EvolutionNodeOut(BaseModel):
     image_url: str | None = None
     conditions: list[EvolutionConditionOut] = Field(default_factory=list)
     children: list["EvolutionNodeOut"] = Field(default_factory=list)
+
+    @field_validator("image_url", mode="before")
+    @classmethod
+    def _cdn_media(cls, v: str | None) -> str | None:
+        return to_cdn_url(v)
 
 
 class EvolutionOut(BaseModel):

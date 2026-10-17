@@ -9,6 +9,7 @@ import logging
 from collections.abc import AsyncIterator
 
 from app.core.database import get_session_factory
+from app.utils.media_url import to_cdn_url
 from app.utils.time import stamp
 from app.utils.zh_glossary import ability_out, glossary_zh
 
@@ -94,7 +95,7 @@ async def iter_csv(stmt) -> AsyncIterator[bytes]:
                     "height": p.height,
                     "weight": p.weight,
                     "base_experience": p.base_experience,
-                    "image_url": p.image_url,
+                    "image_url": to_cdn_url(p.image_url),
                     "updated_at": p.updated_at,
                 }
                 writer.writerow([row.get(c) for c in CSV_COLUMNS])
@@ -151,7 +152,7 @@ async def iter_json(stmt) -> AsyncIterator[bytes]:
                             "height": p.height,
                             "weight": p.weight,
                             "base_experience": p.base_experience,
-                            "image_url": p.image_url,
+                            "image_url": to_cdn_url(p.image_url),
                             "updated_at": p.updated_at,
                         },
                         ensure_ascii=False,

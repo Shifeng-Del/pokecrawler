@@ -22,14 +22,15 @@ from playwright.async_api import async_playwright  # noqa: E402
 
 ROUTES = ["/", "/pokemon", "/moves", "/charts", "/crawl"]
 
-# 图片来自 raw.githubusercontent.com，国内网络常不可达，属预期噪音
-IGNORED = ("ERR_CONNECTION_RESET", "ERR_NAME_NOT_RESOLVED", "raw.githubusercontent")
+# 图片走 jsDelivr CDN 镜像（cdn.jsdelivr.net），回退时也可能是 raw 源；均属预期噪音
+IGNORED = ("ERR_CONNECTION_RESET", "ERR_NAME_NOT_RESOLVED", "cdn.jsdelivr.net", "raw.githubusercontent")
 
 
 async def check(browser, base: str, route: str) -> tuple[bool, str]:
     ctx = await browser.new_context(viewport={"width": 1440, "height": 900})
     page = await ctx.new_page()
-    # 外链图鉴图片在国内网络不可达，直接 abort，避免等待拖垮检查
+    # 外链图鉴图片（CDN 镜像 / 回退时的 raw 源）直接 abort，冒烟不依赖外网
+    await page.route("**cdn.jsdelivr.net/**", lambda r: r.abort())
     await page.route("**raw.githubusercontent.com/**", lambda r: r.abort())
 
     errors: list[str] = []
@@ -55,6 +56,8 @@ async def check(browser, base: str, route: str) -> tuple[bool, str]:
 async def check_drawer(browser, base: str) -> tuple[bool, str]:
     ctx = await browser.new_context(viewport={"width": 1440, "height": 900})
     page = await ctx.new_page()
+    # 同 check()：拦截 CDN 镜像与 raw 源，抽屉冒烟不依赖外网
+    await page.route("**cdn.jsdelivr.net/**", lambda r: r.abort())
     await page.route("**raw.githubusercontent.com/**", lambda r: r.abort())
 
     errors: list[str] = []

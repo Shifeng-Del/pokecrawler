@@ -44,6 +44,13 @@ class Settings(BaseSettings):
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/"
         "sprites/pokemon/other/official-artwork"
     )
+    # ---- 媒体镜像（读出口径改写；DB 仍忠实保存 raw 原始值）----
+    # raw.githubusercontent.com 国内网络常不可达；模板须含 {owner}/{repo}/{ref}/{path}
+    # 四个占位符（改写逻辑见 app/utils/media_url.py）。留空 = 关闭改写（一键回退）。
+    # 备选镜像模板：
+    #   statically.io: https://cdn.statically.io/gh/{owner}/{repo}/{ref}/{path}
+    #   raw.githack:   https://raw.githack.com/{owner}/{repo}/{ref}/{path}
+    media_cdn_template: str = "https://cdn.jsdelivr.net/gh/{owner}/{repo}@{ref}/{path}"
 
     # ---- 礼貌爬取 ----
     user_agent: str = "PokeCrawler/1.0 (+https://example.com/contact; python-httpx)"
