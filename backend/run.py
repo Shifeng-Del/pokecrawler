@@ -6,6 +6,7 @@
 
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -25,10 +26,14 @@ from config.settings import get_settings  # noqa: E402
 def main() -> None:
     s = get_settings()
     setup_logging("DEBUG" if s.debug else "INFO")
+    # Render 等 PaaS 会注入 PORT 环境变量：存在时监听 0.0.0.0:$PORT
+    # （云端容器必须对外暴露）；本地无 PORT，仍走 settings 的 127.0.0.1:8000
+    port = int(os.environ.get("PORT") or s.api_port)
+    host = "0.0.0.0" if os.environ.get("PORT") else s.api_host
     uvicorn.run(
         "app.main:app",
-        host=s.api_host,
-        port=s.api_port,
+        host=host,
+        port=port,
         reload=False,  # reload 会导致定时调度重复注册
         log_level="debug" if s.debug else "info",
         access_log=False,
