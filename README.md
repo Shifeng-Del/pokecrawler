@@ -313,3 +313,36 @@ python scripts/check_glossary.py --strict                 # 4 覆盖率必须 10
 > 注：译名为 AI 生成、非官方授权数据，个别冷门招式可能与官方译名有出入；
 > 修正方式是把新的分片加入 `glossary_parts/` 后重跑 merge，不要手改 `zh_glossary.json`。
 
+---
+
+## 仓库留存说明
+
+本仓库为**全量快照**提交，有意包含以下通常不入库的大文件，保证 `git clone` 后可直接运行：
+
+| 资产 | 体积 | 说明 |
+|---|---|---|
+| `backend/data/poke.db` | ~9.7MB | SQLite 全量数据（1351 条：1025 图鉴物种 + 326 特殊形态） |
+| `frontend/dist/` | ~2.5MB | 前端生产构建产物，由后端直接托管，免去云端 `npm run build` |
+
+`.gitignore` 只排除私有/运行时内容：`.workbuddy/`（私有工作区）、`backend/data/{shots,logs,exports}/`、
+`backend/data/test.db`、`__pycache__`、`node_modules`、`.env`。
+
+### 克隆后运行
+
+```bash
+git clone https://github.com/Shifeng-Del/pokecrawler.git
+cd pokecrawler/backend
+pip install -r requirements.txt
+python run.py        # 默认监听 127.0.0.1:8000（见 config/settings.py 与 .env.example）
+```
+
+### 重新构建前端（修改 `frontend/src` 后）
+
+```bash
+cd frontend
+npm install
+npm run build        # 产物落到 frontend/dist/，后端无需改动
+```
+
+> 注意：`start.bat` 含作者本机 Python 路径，换机器请使用上面的命令启动。
+
