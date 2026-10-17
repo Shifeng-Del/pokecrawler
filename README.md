@@ -348,3 +348,36 @@ npm run build        # 产物落到 frontend/dist/，后端无需改动
 ```
 
 > 注意：`start.bat` 含作者本机 Python 路径，换机器请使用上面的命令启动。
+
+---
+
+## 部署上线（Render 免费档）
+
+仓库根目录的 `render.yaml` 是一份 **Render Blueprint**，小组成员拿到公网链接即可打开使用，
+无需在本机装任何环境。免费档额度（750 实例小时/月）对小组演示完全够用。
+
+### 一键部署（约 5 分钟）
+
+1. 打开 <https://dashboard.render.com>，点 **Sign in with GitHub** 完成授权（需本人操作）。
+2. 控制台右上 **New +** → **Blueprint**。
+3. 找到 `pokecrawler` 仓库点 **Connect**（看不到就先点 *Configure account* 开放仓库权限）。
+4. 预览页确认服务名 `pokecrawler` 与配置无误 → **Apply**，等构建日志跑完（约 2-3 分钟）。
+5. 出现 `https://pokecrawler-xxxx.onrender.com` 即上线，把链接发给小组即可。
+
+Blueprint 关键配置（`render.yaml`）：免费 Web Service、构建根目录 `backend`、
+`python run.py` 启动（自动读取 Render 注入的 `PORT`，监听 `0.0.0.0`）、
+健康检查 `/api/v1/health`、云端关闭定时调度（`SCHEDULER_ENABLED=false`）。
+
+### 演示地址
+
+> 待部署后回填：`https://<你的服务名>.onrender.com`
+
+### 注意事项
+
+- **冷启动**：免费实例 15 分钟无访问会休眠，再次唤醒约需 1 分钟——演示前 5 分钟先打开首页热身。
+- **公开无鉴权**：当前接口全功能开放（含爬取/导出），链接仅限小组内传播；
+  若要长期公开，建议加 token 或关闭 crawl 路由。
+- **磁盘临时**：免费档重启后运行期写入丢失，数据库回到 git 快照——
+  演示数据静态展示无影响，云端爬取结果不要当持久数据用。
+- **下线**：Render Dashboard 删除服务即彻底下线；本仓库两个部署相关提交可 `git revert` 回退，
+   revert 后本地开发行为不变（无 `PORT` 环境变量时仍监听 `127.0.0.1:8000`）。

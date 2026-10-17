@@ -1,0 +1,19 @@
+# Render Blueprint：一键部署 PokeCrawler（免费档）
+# 用法：Render 控制台 New + → Blueprint → 选择本仓库 → Apply
+services:
+  - type: web
+    name: pokecrawler
+    runtime: python
+    plan: free
+    region: singapore # 离国内观众最近；创建时若不可选就删掉此行走默认区域
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run.py # run.py 已适配 PORT 注入：有 PORT 时监听 0.0.0.0:$PORT
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.5" # 必须 x.y.z 完全限定；构建日志若报版本不存在，换已发布的 3.13.x 或退 3.12.x
+      - key: SCHEDULER_ENABLED
+        value: "false" # 云端绝不自动爬取（免费实例休眠唤醒也不触发定时任务）
+      - key: DEBUG
+        value: "false"
